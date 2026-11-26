@@ -1,0 +1,30 @@
+name: Prueba de conexión con SRA
+
+on:
+  push:
+    branches: [main]
+    paths: ["prueba/**", ".github/workflows/prueba-sra.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  prueba:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Consultar SRA
+        run: python prueba/prueba_sra.py
+      - name: Guardar el resultado en el repositorio
+        run: |
+          cat prueba/resultado.md >> "$GITHUB_STEP_SUMMARY"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add prueba/resultado.md
+          git commit -m "Resultado de la prueba de conexión con SRA" || echo "Sin cambios"
+          git push
