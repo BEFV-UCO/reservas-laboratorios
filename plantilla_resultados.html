@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reservas de laboratorios · SRA</title>
+<style>
+  :root{
+    --bg:#f4f4f8; --panel:#fff; --ink:#1e1b33; --muted:#6b6880; --line:#e3e2ec; --line2:#efeef5;
+    --accent:#221d51; --accent-soft:#eeedf5; --warn:#911f30; --warn-soft:#f8e9eb; --new:#2f5f9e; --new-soft:#e5eef8;
+    /* Colores corporativos (Manual de Identidad UCO 2020, ap. 04) */
+    --navy:#221d51; --red:#911f30; --yellow:#e8bc26;
+    --slot:22px;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font:14px/1.45 "Helvetica Neue",Helvetica,Arial,"Segoe UI",system-ui,sans-serif;color:var(--ink);background:var(--bg)}
+  .marca{background:#fff}
+  .marca-in{max-width:1200px;padding:12px 24px;display:flex;align-items:center;gap:18px}
+  .logo-uco{--h:58px;display:block;height:var(--h);flex:none}
+  .logo-uco img{height:100%;width:auto;display:block}
+  /* imagen de la web (tres logos juntos): solo se muestra el de la UCO */
+  .logo-uco.recorte{width:calc(var(--h) * 268 / 150);overflow:hidden;position:relative}
+  .logo-uco.recorte img{position:absolute;top:0;left:calc(var(--h) * -15 / 150);height:var(--h);max-width:none}
+  .marca .sep{width:1px;align-self:stretch;background:var(--line);margin:4px 0}
+  .marca .app{font-family:"Palatino Linotype",Palatino,"Book Antiqua","URW Palladio L",serif;font-weight:700;font-size:19px;color:var(--navy)}
+  .marca .dept{font-size:12px;color:var(--muted)}
+  .marca .esp{flex:1}
+  .nueva{font:inherit;font-weight:700;font-size:13.5px;background:var(--navy);color:#fff;border:none;border-radius:10px;padding:9px 16px;cursor:pointer;text-decoration:none}
+  .nueva:hover{background:#342d72}
+  .franja{display:flex;height:4px}.franja i{display:block}
+  .panel-ics{background:#fff;border-bottom:1px solid var(--line);padding:14px 24px;font-size:13.5px}
+  .panel-ics .fila{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:6px 0}
+  .panel-ics input{font:inherit;font-size:13px;flex:1;min-width:280px;max-width:640px;padding:7px 10px;border:1px solid var(--line);border-radius:8px;color:var(--ink);background:#fafafc}
+  .panel-ics button{font:inherit;font-size:13px;border:1px solid var(--line);background:#fff;border-radius:8px;padding:7px 12px;cursor:pointer}
+  .panel-ics button:hover{border-color:var(--navy);color:var(--navy)}
+  .panel-ics ol{margin:6px 0 0;padding-left:20px;color:var(--muted)}
+  header.cab{background:var(--panel);border-bottom:1px solid var(--line);padding:16px 24px 0}
+  .cab-in{max-width:1200px}
+  h1{font-family:"Palatino Linotype",Palatino,"Book Antiqua","URW Palladio L",serif;font-size:24px;margin:0 0 2px;font-weight:700;color:var(--navy)}
+  .sub{color:var(--muted);font-size:13px}
+  .labs{display:flex;gap:6px;flex-wrap:wrap;margin:12px 0 0}
+  .labs button,.tabs button,.nav button{font:inherit;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:8px;padding:6px 12px;cursor:pointer}
+  .labs button.on{background:var(--accent);border-color:var(--accent);color:#fff}
+  .labs button{font-weight:600}
+  .tabs{display:flex;gap:2px;margin-top:12px}
+  .tabs button{border:none;border-bottom:2px solid transparent;border-radius:0;padding:8px 14px;color:var(--muted);background:none}
+  .tabs button.on{color:var(--ink);border-bottom-color:var(--accent);font-weight:600}
+  main{padding:18px 24px 40px;max-width:1200px}
+  .cambios{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin-bottom:16px}
+  .cambios summary{cursor:pointer}
+  .cambios .n{color:var(--new);font-weight:600}.cambios .e{color:var(--warn);font-weight:600}
+  .cambios ul{margin:8px 0 2px;padding-left:20px}
+  .nav{display:flex;align-items:center;gap:8px;margin-bottom:12px}
+  .nav .titulo{font-weight:700;color:var(--navy);font-size:15px;margin:0 8px;min-width:250px;text-align:center}
+  .nav .esp{flex:1}
+  .grid{display:grid;background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+  .colhead{padding:8px 6px;border-bottom:1px solid var(--line);font-weight:600;text-align:center;font-size:13px;background:#fafbfa}
+  .colhead small{display:block;font-weight:400;color:var(--muted)}
+  .colhead.hoy{color:var(--accent)}
+  .horas{position:relative;border-right:1px solid var(--line)}
+  .horas div{position:absolute;right:6px;font-size:11px;color:var(--muted);transform:translateY(-7px)}
+  .dia{position:relative;border-right:1px solid var(--line2)}
+  .dia:last-child{border-right:none}
+  .dia.festivo{background:repeating-linear-gradient(135deg,#f3f4f2,#f3f4f2 6px,#eceeeb 6px,#eceeeb 12px)}
+  .dia .fest{position:absolute;top:8px;left:6px;right:6px;text-align:center;font-size:12px;color:var(--muted);font-style:italic}
+  .linea{position:absolute;left:0;right:0;border-top:1px solid var(--line2)}
+  .linea.h{border-top-color:var(--line)}
+  .res{position:absolute;border-radius:6px;padding:4px 6px;font-size:12px;line-height:1.25;overflow:hidden;border-left:3px solid rgba(0,0,0,.25)}
+  .res b{display:block;font-weight:600}
+  .res .hh{opacity:.8;font-size:11px}
+  .badge{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.03em;padding:1px 5px;border-radius:4px;background:var(--new);color:#fff;vertical-align:1px}
+  .vacia{padding:28px;text-align:center;color:var(--muted)}
+  table{width:100%;border-collapse:collapse;background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+  th,td{text-align:left;padding:7px 10px;border-bottom:1px solid var(--line2);vertical-align:top}
+  th{font-size:12px;color:var(--muted);font-weight:600;background:#fafbfa}
+  tr.sem td{background:var(--accent-soft);font-weight:600;color:var(--accent)}
+  tr.fe td{color:var(--muted);font-style:italic}
+  td.h{white-space:nowrap;font-variant-numeric:tabular-nums}
+  .pie{color:var(--muted);font-size:12px;margin-top:18px}
+  #impresion{display:none}
+  @page{margin:10mm}
+  @media print{
+    *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    body.imprime-semanas > *:not(main), body.imprime-semanas main > *:not(#impresion){display:none !important}
+    body.imprime-semanas #impresion{display:block}
+    .pagina{--alto:226mm;break-after:page;page-break-after:always;break-inside:avoid}
+    .pagina:last-child{break-after:auto;page-break-after:auto}
+    .pcab{display:flex;align-items:center;gap:14px;margin:0 0 8px;padding-bottom:6px;border-bottom:3px solid var(--navy)}
+    .pcab .logo-uco{--h:38px}
+    .plab{font-family:"Palatino Linotype",Palatino,"Book Antiqua",serif;font-weight:700;font-size:17px;color:var(--navy)}
+    .pmeta{font-size:10.5px;color:var(--muted)}
+    .pagina .grid{border-radius:6px}
+    .pagina .colhead{padding:5px 4px}
+    .pagina .res{font-size:10.5px;padding:3px 5px}
+    .pagina .vacia{padding:10px}
+    header .labs,.tabs,.nav button,.cambios,.nueva,.panel-ics{display:none !important}
+    .logo-uco{--h:36px}
+    body{background:#fff} main{padding:8px 0} .grid,table{border-color:#bbb}
+  }
+  /* Papel apaisado: menos altura disponible para la cuadrícula */
+  @media print and (orientation: landscape){
+    .pagina{--alto:152mm}
+  }
+</style>
+</head>
+<body>
+<div class="marca">
+  <div class="marca-in">
+    <span class="__LOGOCLASE__"><img src="__LOGO__" alt="Universidad de Córdoba"></span>
+    <div class="sep"></div>
+    <div><div class="app">Reservas de laboratorios</div><div class="dept">Departamento de Botánica, Ecología y Fisiología Vegetal</div></div>
+    <span class="esp"></span>
+    <button class="nueva" id="b-ics" hidden>📅 Suscribirse al calendario</button>
+    <a class="nueva" id="nueva" href="/" hidden>← Nueva consulta</a>
+  </div>
+  <div class="franja"><i style="flex:6;background:var(--navy)"></i><i style="flex:3;background:var(--red)"></i><i style="flex:1.5;background:var(--yellow)"></i></div>
+</div>
+<div class="panel-ics" id="panel-ics" hidden></div>
+<header class="cab"><div class="cab-in">
+  <h1 id="titulo"></h1>
+  <div class="sub" id="sub"></div>
+  <div class="labs" id="labs"></div>
+  <div class="tabs">
+    <button id="t-sem" class="on">Semana</button>
+    <button id="t-lis">Lista del periodo</button>
+  </div>
+</div></header>
+<main>
+  <div id="cambios"></div>
+  <section id="v-sem">
+    <div class="nav">
+      <button id="ant" title="Semana anterior">◀</button>
+      <span class="titulo" id="semtit"></span>
+      <button id="sig" title="Semana siguiente">▶</button>
+      <button id="hoy">Esta semana</button>
+      <span class="esp"></span>
+      <button onclick="imprimir('semana')" title="Imprime solo la semana que se está viendo">Imprimir semana</button>
+      <button onclick="imprimir('todo')" title="Imprime todas las semanas del periodo, una por página">Imprimir todo el periodo</button>
+    </div>
+    <div id="grid"></div>
+  </section>
+  <section id="v-lis" hidden>
+    <div class="nav"><span class="esp"></span><button onclick="window.print()">Imprimir</button></div>
+    <div id="lista"></div>
+  </section>
+  <div class="pie" id="pie"></div>
+  <div id="impresion"></div>
+</main>
+<script>
+const DATOS = __DATOS__;
+const SERVIDOR = __SERVIDOR__;
+if (DATOS.ics) {
+  const b = document.getElementById('b-ics'); b.hidden = false;
+  b.onclick = () => { const p = document.getElementById('panel-ics'); p.hidden = !p.hidden; };
+}
+if (SERVIDOR && location.protocol.startsWith('http')) {
+  document.getElementById('nueva').hidden = false;
+  setInterval(() => fetch('/api/ping').catch(() => {}), 20000);
+}
+
+const DIAS = ['Lunes','Martes','Miércoles','Jueves','Viernes','Sábado','Domingo'];
+const MESES = ['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
+const MESES_L = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+const H0 = 8*60, H1 = 21*60; // franja visible 08:00–21:00
+// 16 colores bien diferenciados [fondo, borde]; cada asignatura tiene asignado uno fijo (DATOS.colores)
+const PALETA = [['#dbe5f8','#3b6fd4'],['#fadadd','#c8324a'],['#fdf0c2','#d6a400'],['#d6f0df','#2e9a5c'],
+  ['#ebdff6','#8a4fc0'],['#fde3cc','#e07a1f'],['#d2eff2','#1e9aa8'],['#f8d9ea','#c8418a'],['#e6eccd','#7c8f22'],
+  ['#e1e0ea','#5f5c78'],['#cfe1f0','#1f6aa5'],['#f2e4d2','#a2713a'],['#dff3cc','#5aa522'],['#f4d8cf','#b9553a'],
+  ['#d9d7f2','#4b44b5'],['#f7ecd9','#b3893a']];
+
+const $ = s => document.querySelector(s);
+const fISO = d => d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
+const dISO = s => { const [a,m,d] = s.split('-').map(Number); return new Date(a, m-1, d); };
+const addD = (d,n) => { const x = new Date(d); x.setDate(x.getDate()+n); return x; };
+const lunes = d => addD(d, -((d.getDay()+6)%7));
+const min = h => { const [a,b] = h.split(':').map(Number); return a*60+b; };
+const corta = d => d.getDate()+' '+MESES[d.getMonth()];
+const larga = d => d.getDate()+' de '+MESES_L[d.getMonth()]+' de '+d.getFullYear();
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const color = s => { let i = (DATOS.colores || {})[s];
+  if (i === undefined){ i = 0; for (const c of s) i = (i*31 + c.charCodeAt(0)) >>> 0; }
+  return PALETA[i % PALETA.length]; };
+const fmtGen = s => { const d = new Date(s); return larga(d)+' a las '+String(d.getHours()).padStart(2,'0')+':'+String(d.getMinutes()).padStart(2,'0'); };
+const grupoTxt = g => g ? (/,| y /.test(g) ? 'Grupos ' : 'Grupo ') + g : '';
+const nombreRes = r => r.asignatura + (r.grupo ? ' · ' + grupoTxt(r.grupo) : '');
+const tipoTxt = t => t ? '('+t+') ' : '';
+
+let labIdx = 0, vista = 'sem';
+const HOY = (() => { const d = new Date(); d.setHours(0,0,0,0); return d; })();
+const hoyL = lunes(HOY);
+const primerL = lunes(dISO(DATOS.desde)), ultimoL = lunes(dISO(DATOS.hasta));
+let semana = (hoyL >= primerL && hoyL <= ultimoL) ? hoyL : primerL;
+
+function lab(){ return DATOS.laboratorios[labIdx]; }
+
+function cabecera(){
+  $('#titulo').textContent = lab().nombre;
+  $('#sub').textContent = 'Periodo consultado: del ' + larga(dISO(DATOS.desde)) + ' al ' + larga(dISO(DATOS.hasta)) +
+    ' · Datos de SRA del ' + fmtGen(DATOS.generado);
+  const cont = $('#labs'); cont.innerHTML = '';
+  if (DATOS.laboratorios.length > 1) DATOS.laboratorios.forEach((l,i) => {
+    const b = document.createElement('button'); b.textContent = l.nombre + ' (' + l.reservas.length + ')';
+    if (i === labIdx) b.className = 'on';
+    b.onclick = () => { labIdx = i; pintar(); }; cont.appendChild(b);
+  });
+  $('#pie').textContent = 'Fuente: consulta pública de ocupación del Sistema de Reserva de Aulas (SRA) de la Universidad de Córdoba. ' +
+    'Solo aparecen las reservas registradas en SRA. Código del espacio: ' + lab().codigo + '.';
+}
+
+// Suscripción a calendarios (solo en la versión web, si hay .ics)
+function panelIcs(){
+  const p = $('#panel-ics'); if (!DATOS.ics) return;
+  const url = c => new URL(DATOS.ics[c], location.href).href;
+  const fila = (txt, u) => '<div class="fila"><b style="min-width:210px">' + esc(txt) + '</b><input readonly value="' + esc(u) + '" onclick="this.select()">' +
+    '<button onclick="navigator.clipboard.writeText(\'' + u + '\').then(()=>{this.textContent=\'✓ Copiado\'})">Copiar enlace</button></div>';
+  p.innerHTML = fila(lab().nombre, url(lab().codigo)) + (DATOS.ics.todos ? fila('Todos los laboratorios', url('todos')) : '') +
+    '<ol><li>Copie el enlace del calendario que quiera.</li><li>En Outlook: <b>Agregar calendario → Suscribirse desde la web</b> (o «Desde Internet») y pegue el enlace.</li>' +
+    '<li>El calendario se actualiza solo. Outlook puede tardar unas horas en reflejar los cambios; esta página siempre tiene los datos más recientes.</li></ol>';
+}
+
+function cambios(){
+  const l = lab(), nuevas = l.reservas.filter(r => r.nuevo), el = l.eliminadas || [];
+  const c = $('#cambios');
+  if (!l.consulta_anterior){ c.innerHTML = ''; return; }
+  const N = DATOS.cambios_dias;
+  const desdeTxt = N ? 'en los últimos ' + N + ' días' : 'desde la consulta anterior (' + esc(fmtGen(l.consulta_anterior)) + ')';
+  if (!nuevas.length && !el.length){
+    c.innerHTML = '<div class="cambios">Sin cambios ' + desdeTxt + '.</div>'; return;
+  }
+  const det = r => r.detectado ? ' <span style="color:var(--muted)">— detectado el ' + corta(dISO(r.detectado)) + '</span>' : '';
+  const item = r => '<li>' + DIAS[(dISO(r.fecha).getDay()+6)%7] + ' ' + larga(dISO(r.fecha)) + ', ' + r.ini + '–' + r.fin + ': ' + esc(tipoTxt(r.tipo) + nombreRes(r)) + det(r) + '</li>';
+  c.innerHTML = '<details class="cambios"' + (nuevas.length + el.length <= 6 ? ' open' : '') + '><summary>Cambios ' + desdeTxt + ': ' +
+    '<span class="n">' + nuevas.length + ' nueva' + (nuevas.length===1?'':'s') + '</span> · ' +
+    '<span class="e">' + el.length + ' ya no aparece' + (el.length===1?'':'n') + '</span></summary>' +
+    (nuevas.length ? '<div><b>Nuevas</b> (marcadas con <span class="badge">NUEVA</span>):</div><ul>' + nuevas.map(item).join('') + '</ul>' : '') +
+    (el.length ? '<div><b>Ya no aparecen en SRA</b> (anuladas o movidas):</div><ul>' + el.map(item).join('') + '</ul>' : '') +
+    '</details>';
+}
+
+function tituloSemana(L){ const fin = addD(L, 6); return 'Semana del ' + corta(L) + ' al ' + corta(fin) + ' ' + fin.getFullYear(); }
+
+function pintarSemana(){
+  $('#semtit').textContent = tituloSemana(semana);
+  $('#ant').disabled = semana <= primerL; $('#sig').disabled = semana >= ultimoL;
+  const g = $('#grid'); g.innerHTML = '';
+  construirSemana(semana, 22, false).forEach(n => g.appendChild(n));
+}
+
+// Devuelve los nodos (cuadrícula + aviso si está vacía) de la semana que empieza el lunes L
+function construirSemana(L, SL, imprimir){
+  const semana = L, l = lab(), fin = addD(semana, 6), nodos = [];
+  const delaSemana = l.reservas.filter(r => { const d = dISO(r.fecha); return d >= semana && d <= fin; });
+  const fest = Object.fromEntries((l.festivos||[]).map(f => [f.fecha, f.nombre]));
+  const nDias = delaSemana.some(r => dISO(r.fecha).getDay() === 6) ? 6 : 5;
+  let h0 = H0, h1 = H1;
+  delaSemana.forEach(r => { h0 = Math.min(h0, Math.floor(min(r.ini)/60)*60); h1 = Math.max(h1, Math.ceil(min(r.fin)/60)*60); });
+  const slots = (h1-h0)/30, alto = slots * SL;
+  const pos = x => imprimir ? (x / slots * 100) + '%' : (x * SL) + 'px';   // x en medias horas
+  const altoCss = imprimir ? 'var(--alto)' : alto + 'px';
+  const grid = document.createElement('div'); grid.className = 'grid';
+  grid.style.gridTemplateColumns = '54px repeat(' + nDias + ', 1fr)';
+  grid.innerHTML = '<div class="colhead"></div>' + Array.from({length:nDias}, (_,i) => {
+    const d = addD(semana, i), hoy = !imprimir && fISO(d) === fISO(new Date());
+    return '<div class="colhead' + (hoy?' hoy':'') + '">' + DIAS[i] + '<small>' + corta(d) + (hoy?' · hoy':'') + '</small></div>';
+  }).join('');
+  const horas = document.createElement('div'); horas.className = 'horas'; horas.style.height = altoCss;
+  for (let m = h0; m < h1; m += 60){ const t = document.createElement('div'); t.style.top = pos((m-h0)/30); t.textContent = String(m/60).padStart(2,'0') + ':00'; horas.appendChild(t); }
+  grid.appendChild(horas);
+  for (let i = 0; i < nDias; i++){
+    const d = addD(semana, i), iso = fISO(d), col = document.createElement('div');
+    col.className = 'dia' + (fest[iso] ? ' festivo' : ''); col.style.height = altoCss;
+    for (let s = 0; s < slots; s++){ const ln = document.createElement('div'); ln.className = 'linea' + (s%2===0?' h':''); ln.style.top = pos(s); col.appendChild(ln); }
+    if (fest[iso]) col.innerHTML += '<div class="fest">' + esc(fest[iso]) + '</div>';
+    // reservas del día, repartidas en columnas si se solapan
+    const rs = delaSemana.filter(r => r.fecha === iso).sort((a,b) => min(a.ini) - min(b.ini));
+    const finCol = [];
+    rs.forEach(r => { let k = finCol.findIndex(f => f <= min(r.ini)); if (k < 0){ k = finCol.length; finCol.push(0); } finCol[k] = min(r.fin); r._col = k; });
+    const nc = Math.max(1, finCol.length);
+    rs.forEach(r => {
+      const b = document.createElement('div'); b.className = 'res';
+      b.style.top = 'calc(' + pos((min(r.ini)-h0)/30) + ' + 1px)';
+      b.style.height = 'calc(' + pos((min(r.fin)-min(r.ini))/30) + ' - 2px)';
+      b.style.left = 'calc(' + (r._col*100/nc) + '% + 3px)'; b.style.width = 'calc(' + (100/nc) + '% - 6px)';
+      const [fondo, borde] = color(r.asignatura); b.style.background = fondo; b.style.borderLeftColor = borde;
+      b.title = tipoTxt(r.tipo) + nombreRes(r) + '\n' + r.ini + '–' + r.fin;
+      b.innerHTML = (r.nuevo ? '<span class="badge">NUEVA</span> ' : '') + '<b>' + esc(r.asignatura) + '</b>' +
+        (r.grupo ? esc(grupoTxt(r.grupo)) + '<br>' : '') + '<span class="hh">' + r.ini + '–' + r.fin + (r.tipo ? ' · (' + esc(r.tipo) + ')' : '') + '</span>';
+      col.appendChild(b);
+    });
+    grid.appendChild(col);
+  }
+  nodos.push(grid);
+  if (!delaSemana.length){ const v = document.createElement('div'); v.className = 'vacia'; v.textContent = 'Sin reservas en SRA esta semana.'; nodos.push(v); }
+  return nodos;
+}
+
+// Impresión de la vista «Semana»: la semana visible o todas las del periodo, una por página
+let modoImpresion = 'todo';   // Ctrl+P imprime todo el periodo
+function imprimir(modo){ modoImpresion = modo; window.print(); }
+function prepararImpresion(){
+  const cont = $('#impresion'); cont.innerHTML = '';
+  if (vista !== 'sem') { document.body.classList.remove('imprime-semanas'); return; }
+  document.body.classList.add('imprime-semanas');
+  const l = lab(), logo = document.querySelector('.marca .logo-uco');
+  const ini = modoImpresion === 'semana' ? semana : primerL, finI = modoImpresion === 'semana' ? semana : ultimoL;
+  for (let L = new Date(ini); L <= finI; L = addD(L, 7)){
+    const pag = document.createElement('section'); pag.className = 'pagina';
+    const cab = document.createElement('div'); cab.className = 'pcab';
+    cab.innerHTML = (logo ? logo.outerHTML : '') + '<div class="ptxt"><div class="plab">' + esc(l.nombre) + ' · ' + tituloSemana(L) + '</div>' +
+      '<div class="pmeta">Departamento de Botánica, Ecología y Fisiología Vegetal · Reservas en SRA consultadas el ' + esc(fmtGen(DATOS.generado)) + '</div></div>';
+    pag.appendChild(cab);
+    construirSemana(L, 22, true).forEach(n => pag.appendChild(n));
+    cont.appendChild(pag);
+  }
+}
+window.addEventListener('beforeprint', prepararImpresion);
+window.addEventListener('afterprint', () => { $('#impresion').innerHTML = ''; document.body.classList.remove('imprime-semanas'); modoImpresion = 'todo'; });
+
+function pintarLista(){
+  const l = lab(), cont = $('#lista');
+  const fest = (l.festivos||[]).filter(f => f.fecha >= DATOS.desde && f.fecha <= DATOS.hasta && dISO(f.fecha).getDay() % 6 !== 0);
+  const filas = [...l.reservas.map(r => ({...r, t:'r'})), ...fest.map(f => ({fecha:f.fecha, ini:'', t:'f', nombre:f.nombre}))]
+    .sort((a,b) => a.fecha.localeCompare(b.fecha) || a.ini.localeCompare(b.ini));
+  if (!filas.length){ cont.innerHTML = '<div class="vacia">No hay reservas en SRA para este periodo.</div>'; return; }
+  let html = '<table><thead><tr><th>Día</th><th>Horario</th><th>Asignatura</th><th>Grupo</th><th>Tipo</th></tr></thead><tbody>', sem = '';
+  filas.forEach(r => {
+    const d = dISO(r.fecha), L = lunes(d), k = fISO(L);
+    if (k !== sem){ sem = k; html += '<tr class="sem"><td colspan="5">Semana del ' + corta(L) + ' al ' + corta(addD(L,6)) + '</td></tr>'; }
+    const dia = DIAS[(d.getDay()+6)%7] + ' ' + corta(d);
+    html += r.t === 'f'
+      ? '<tr class="fe"><td>' + dia + '</td><td colspan="4">No lectivo: '+ esc(r.nombre) + '</td></tr>'
+      : '<tr><td>' + dia + '</td><td class="h">' + r.ini + '–' + r.fin + '</td><td>' + (r.nuevo ? '<span class="badge">NUEVA</span> ' : '') +
+        esc(r.asignatura) + '</td><td>' + esc(r.grupo) + '</td><td>' + esc(r.tipo) + '</td></tr>';
+  });
+  cont.innerHTML = html + '</tbody></table>';
+}
+
+function pintar(){
+  cabecera(); cambios(); panelIcs();
+  $('#t-sem').className = vista === 'sem' ? 'on' : ''; $('#t-lis').className = vista === 'lis' ? 'on' : '';
+  $('#v-sem').hidden = vista !== 'sem'; $('#v-lis').hidden = vista !== 'lis';
+  vista === 'sem' ? pintarSemana() : pintarLista();
+}
+
+$('#t-sem').onclick = () => { vista = 'sem'; pintar(); };
+$('#t-lis').onclick = () => { vista = 'lis'; pintar(); };
+$('#ant').onclick = () => { semana = addD(semana, -7); pintarSemana(); };
+$('#sig').onclick = () => { semana = addD(semana, 7); pintarSemana(); };
+$('#hoy').onclick = () => { semana = (hoyL >= primerL && hoyL <= ultimoL) ? hoyL : primerL; pintarSemana(); };
+document.addEventListener('keydown', e => {
+  if (vista !== 'sem') return;
+  if (e.key === 'ArrowLeft' && semana > primerL){ semana = addD(semana, -7); pintarSemana(); }
+  if (e.key === 'ArrowRight' && semana < ultimoL){ semana = addD(semana, 7); pintarSemana(); }
+});
+pintar();
+</script>
+</body>
+</html>

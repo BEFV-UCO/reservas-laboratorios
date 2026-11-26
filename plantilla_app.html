@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reservas de laboratorios · UCO</title>
+<style>
+  :root{
+    /* Colores corporativos (Manual de Identidad UCO 2020, ap. 04) */
+    --navy:#221d51; --navy-2:#342d72; --navy-soft:#eeedf5; --red:#911f30; --red-soft:#f8e9eb;
+    --yellow:#e8bc26; --negro:#222221; --blue:#2f5f9e;
+    --bg:#f4f4f8; --panel:#fff; --ink:#1e1b33; --muted:#6b6880; --line:#e3e2ec;
+    --radius:14px;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{font:15px/1.5 "Helvetica Neue",Helvetica,Arial,"Segoe UI",system-ui,sans-serif;color:var(--ink);background:var(--bg);min-height:100vh;display:flex;flex-direction:column}
+  .top{background:#fff}
+  .top-in{max-width:880px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;gap:20px}
+  .logo-uco{--h:66px;display:block;height:var(--h);flex:none}
+  .logo-uco img{height:100%;width:auto;display:block}
+  /* imagen de la web (tres logos juntos): solo se muestra el de la UCO */
+  .logo-uco.recorte{width:calc(var(--h) * 268 / 150);overflow:hidden;position:relative}
+  .logo-uco.recorte img{position:absolute;top:0;left:calc(var(--h) * -15 / 150);height:var(--h);max-width:none}
+  .sep{width:1px;align-self:stretch;background:var(--line);margin:4px 0}
+  .app-name{font-family:"Palatino Linotype",Palatino,"Book Antiqua","URW Palladio L",serif;font-weight:700;font-size:21px;color:var(--navy)}
+  .dept{font-size:12.5px;color:var(--muted)}
+  .franja{display:flex;height:4px}
+  .franja i{display:block}
+  main{flex:1;width:100%;max-width:880px;margin:0 auto;padding:28px 24px 40px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);box-shadow:0 1px 2px rgba(34,29,81,.04),0 8px 24px rgba(34,29,81,.06);padding:26px 28px}
+  h1{font-family:"Palatino Linotype",Palatino,"Book Antiqua","URW Palladio L",serif;font-size:26px;font-weight:700;margin:0 0 4px;color:var(--navy)}
+  .lead{color:var(--muted);margin:0 0 22px;font-size:14px}
+  .sec{margin-top:22px}
+  .sec-h{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+  .num{width:24px;height:24px;border-radius:50%;background:var(--navy);color:#fff;font-size:12px;font-weight:700;display:grid;place-items:center;flex:none}
+  .sec-h h2{font-size:15px;margin:0;font-weight:700}
+  .sec-h .acc{margin-left:auto;font-size:13px}
+  .acc button{background:none;border:none;color:var(--blue);font:inherit;cursor:pointer;padding:2px 4px;border-radius:6px}
+  .acc button:hover{background:var(--navy-soft)}
+  .labs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  .lab{position:relative;display:flex;align-items:center;gap:12px;padding:13px 14px;border:1.5px solid var(--line);border-radius:12px;cursor:pointer;background:#fff;transition:border-color .15s,background .15s,box-shadow .15s;user-select:none}
+  .lab:hover{border-color:#c9c6dc}
+  .lab input{position:absolute;opacity:0;pointer-events:none}
+  .box{width:20px;height:20px;border-radius:6px;border:1.5px solid #bdb9d0;flex:none;display:grid;place-items:center;transition:all .15s;background:#fff}
+  .box svg{width:12px;height:12px;opacity:0;transition:opacity .1s}
+  .lab .t b{display:block;font-weight:600;font-size:14.5px;line-height:1.3}
+  .lab .t small{color:var(--muted);font-size:12px}
+  .lab:has(input:checked){border-color:var(--navy);background:var(--navy-soft);box-shadow:0 0 0 3px rgba(34,29,81,.08)}
+  .lab:has(input:checked) .box{background:var(--navy);border-color:var(--navy)}
+  .lab:has(input:checked) .box svg{opacity:1}
+  .lab:has(input:focus-visible){outline:2px solid var(--blue);outline-offset:2px}
+  .fechas{display:flex;gap:14px;flex-wrap:wrap;align-items:flex-end}
+  .campo label{display:block;font-size:12.5px;font-weight:600;color:var(--muted);margin:0 0 5px 2px}
+  .campo input{font:inherit;font-size:15px;color:var(--ink);padding:9px 12px;border:1.5px solid var(--line);border-radius:10px;background:#fff;min-width:190px}
+  .campo input:focus{outline:none;border-color:var(--navy);box-shadow:0 0 0 3px rgba(34,29,81,.1)}
+  .chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+  .chip{font:inherit;font-size:13px;border:1px solid var(--line);background:#fff;color:var(--ink);padding:6px 12px;border-radius:999px;cursor:pointer}
+  .chip:hover{border-color:var(--navy);color:var(--navy)}
+  .resumen{margin-top:22px;padding-top:18px;border-top:1px solid var(--line);display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+  .resumen .info{flex:1;min-width:220px;color:var(--muted);font-size:13.5px}
+  .btn{font:inherit;font-weight:700;font-size:15px;border:none;border-radius:12px;padding:13px 26px;cursor:pointer;display:inline-flex;align-items:center;gap:10px;transition:background .15s,transform .05s}
+  .btn-p{background:var(--navy);color:#fff;box-shadow:0 4px 14px rgba(34,29,81,.25)}
+  .btn-p:hover{background:var(--navy-2)}
+  .btn-p:active{transform:translateY(1px)}
+  .btn-p:disabled{background:#c9c6d8;box-shadow:none;cursor:not-allowed}
+  .btn-p.cargando:disabled{background:var(--navy);opacity:.9;cursor:progress}
+  .spin{width:16px;height:16px;border:2px solid rgba(255,255,255,.35);border-top-color:#fff;border-radius:50%;animation:g .8s linear infinite;display:none}
+  .cargando .spin{display:inline-block}
+  @keyframes g{to{transform:rotate(360deg)}}
+  .prog{margin-top:18px;display:none}
+  .prog.on{display:block}
+  .pista{height:8px;background:#ebeaf2;border-radius:99px;overflow:hidden}
+  .barra{height:100%;width:0;background:linear-gradient(90deg,var(--navy),var(--red));border-radius:99px;transition:width .3s}
+  .prog .txt{font-size:13px;color:var(--muted);margin-top:6px}
+  .aviso{display:none;margin-top:16px;padding:12px 14px;border-radius:10px;background:var(--red-soft);color:var(--red);font-size:14px}
+  .aviso.on{display:block}
+  .ultima{margin-top:14px;font-size:13.5px}
+  .ultima a{color:var(--blue)}
+  footer{text-align:center;color:var(--muted);font-size:12px;padding:0 24px 22px}
+  @media (max-width:640px){.labs{grid-template-columns:1fr}.top-in{gap:12px}.logo-uco{--h:50px}.card{padding:20px}}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="top-in">
+    <span class="__LOGOCLASE__"><img src="__LOGO__" alt="Universidad de Córdoba"></span>
+    <div class="sep"></div>
+    <div>
+      <div class="app-name">Reservas de laboratorios</div>
+      <div class="dept">Departamento de Botánica, Ecología y Fisiología Vegetal</div>
+    </div>
+  </div>
+  <div class="franja"><i style="flex:6;background:var(--navy)"></i><i style="flex:3;background:var(--red)"></i><i style="flex:1.5;background:var(--yellow)"></i></div>
+</header>
+
+<main>
+  <div class="card">
+    <h1>Consultar reservas en SRA</h1>
+    <p class="lead">Elija los laboratorios y el periodo. Los datos se obtienen en el momento del Sistema de Reserva de Aulas.</p>
+
+    <div class="sec">
+      <div class="sec-h"><span class="num">1</span><h2>Laboratorios</h2>
+        <span class="acc"><button type="button" id="todos">Todos</button> · <button type="button" id="ninguno">Ninguno</button></span></div>
+      <div class="labs" id="labs"></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-h"><span class="num">2</span><h2>Periodo</h2></div>
+      <div class="fechas">
+        <div class="campo"><label for="desde">Desde</label><input type="date" id="desde"></div>
+        <div class="campo"><label for="hasta">Hasta</label><input type="date" id="hasta"></div>
+      </div>
+      <div class="chips">
+        <button type="button" class="chip" data-r="semana">Esta semana</button>
+        <button type="button" class="chip" data-r="4">Próximas 4 semanas</button>
+        <button type="button" class="chip" data-r="fin">Hasta fin de cuatrimestre</button>
+      </div>
+    </div>
+
+    <div class="resumen">
+      <div class="info" id="info"></div>
+      <button class="btn btn-p" id="ir"><span class="spin"></span><span id="ir-t">Consultar reservas</span></button>
+    </div>
+    <div class="prog" id="prog"><div class="pista"><div class="barra" id="barra"></div></div><div class="txt" id="prog-t"></div></div>
+    <div class="aviso" id="aviso"></div>
+    <div class="ultima" id="ultima" hidden>↩ <a href="/resultado">Ver el resultado de la última consulta</a></div>
+  </div>
+</main>
+<footer>Datos: consulta pública del Sistema de Reserva de Aulas (SRA) · Universidad de Córdoba</footer>
+
+<script>
+const CONFIG = __CONFIG__;
+const $ = s => document.querySelector(s);
+const TICK = '<svg viewBox="0 0 12 12"><path d="M2.2 6.3l2.4 2.4 5-5.2" fill="none" stroke="#fff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+
+const esc = t => String(t).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const sel = new Set(CONFIG.seleccion.length ? CONFIG.seleccion : []);
+$('#labs').innerHTML = CONFIG.laboratorios.map(l =>
+  `<label class="lab"><input type="checkbox" value="${esc(l.codigo)}" ${sel.has(l.codigo) ? 'checked' : ''}>` +
+  `<span class="box">${TICK}</span><span class="t"><b>${esc(l.nombre)}</b><small>Código SRA ${esc(l.codigo)}</small></span></label>`).join('');
+$('#desde').value = CONFIG.desde; $('#hasta').value = CONFIG.hasta;
+
+if (CONFIG.hay_resultado) $('#ultima').hidden = false;
+
+const marcados = () => [...document.querySelectorAll('#labs input:checked')].map(i => i.value);
+const dISO = s => { const [a,m,d] = s.split('-').map(Number); return new Date(a, m-1, d); };
+const fISO = d => d.getFullYear() + '-' + String(d.getMonth()+1).padStart(2,'0') + '-' + String(d.getDate()).padStart(2,'0');
+const lunes = d => { const x = new Date(d); x.setDate(x.getDate() - (x.getDay()+6)%7); return x; };
+
+function resumen(){
+  const n = marcados().length, d = $('#desde').value, h = $('#hasta').value;
+  let ok = n > 0 && d && h && h >= d, txt;
+  if (!n) txt = 'Seleccione al menos un laboratorio.';
+  else if (!d || !h) txt = 'Indique las dos fechas.';
+  else if (h < d) txt = 'La fecha «Hasta» es anterior a «Desde».';
+  else {
+    const sem = Math.floor((lunes(dISO(h)) - lunes(dISO(d))) / 6048e5) + 1;
+    const seg = Math.max(2, Math.round(sem * n * 0.9 / 4));
+    const cf = x => { const f = dISO(x); return ['domingo','lunes','martes','miércoles','jueves','viernes','sábado'][f.getDay()] + ' ' + f.getDate() + ' ' + ['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'][f.getMonth()]; };
+    txt = `${n} laboratorio${n>1?'s':''} · ${sem} semana${sem>1?'s':''} completa${sem>1?'s':''} (del ${cf(d)} al ${cf(h)}) · tiempo estimado: ${seg < 60 ? seg + ' s' : Math.round(seg/60) + ' min'}`;
+  }
+  $('#info').textContent = txt; $('#ir').disabled = !ok || ocupado;
+}
+let ocupado = false;
+// Las fechas se ajustan a semanas completas: «Desde» al lunes y «Hasta» al domingo
+function ajustar(){
+  const d = $('#desde'), h = $('#hasta');
+  if (d.value) d.value = fISO(lunes(dISO(d.value)));
+  if (h.value){ const f = lunes(dISO(h.value)); f.setDate(f.getDate()+6); h.value = fISO(f); }
+}
+$('#desde').addEventListener('change', ajustar);
+$('#hasta').addEventListener('change', ajustar);
+document.addEventListener('change', resumen);
+document.addEventListener('input', resumen);
+$('#todos').onclick = () => { document.querySelectorAll('#labs input').forEach(i => i.checked = true); resumen(); };
+$('#ninguno').onclick = () => { document.querySelectorAll('#labs input').forEach(i => i.checked = false); resumen(); };
+document.querySelectorAll('.chip').forEach(b => b.onclick = () => {
+  const hoy = new Date(); hoy.setHours(0,0,0,0); const L = lunes(hoy);
+  $('#desde').value = fISO(L);
+  if (b.dataset.r === 'semana') { const f = new Date(L); f.setDate(f.getDate()+6); $('#hasta').value = fISO(f); }
+  else if (b.dataset.r === '4') { const f = new Date(L); f.setDate(f.getDate()+27); $('#hasta').value = fISO(f); }
+  else $('#hasta').value = CONFIG.hasta;
+  ajustar(); resumen();
+});
+
+function aviso(t){ $('#aviso').textContent = t; $('#aviso').classList.toggle('on', !!t); }
+function fin(){ ocupado = false; $('#ir').classList.remove('cargando'); $('#ir-t').textContent = 'Consultar reservas'; resumen(); }
+
+$('#ir').onclick = async () => {
+  aviso(''); ocupado = true; resumen();
+  $('#ir').classList.add('cargando'); $('#ir-t').textContent = 'Consultando…';
+  $('#prog').classList.add('on'); $('#barra').style.width = '2%'; $('#prog-t').textContent = 'Conectando con SRA…';
+  try {
+    const r = await fetch('/api/consultar', {method:'POST', headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({labs: marcados(), desde: $('#desde').value, hasta: $('#hasta').value})});
+    const j = await r.json();
+    if (!r.ok) throw new Error(j.error || 'Error en la consulta');
+    while (true) {
+      await new Promise(ok => setTimeout(ok, 400));
+      const e = await (await fetch('/api/estado?id=' + encodeURIComponent(j.id))).json();
+      if (e.error) throw new Error(e.error);
+      if (e.total) { $('#barra').style.width = Math.max(2, 100 * e.hechas / e.total) + '%'; $('#prog-t').textContent = `Consultando SRA… ${e.hechas} de ${e.total} semanas`; }
+      if (e.listo) { $('#barra').style.width = '100%'; $('#prog-t').textContent = 'Listo. Abriendo resultados…'; location.href = '/resultado'; return; }
+    }
+  } catch (err) {
+    $('#prog').classList.remove('on');
+    aviso(/Failed to fetch|NetworkError/.test(err.message)
+      ? 'La aplicación se ha cerrado. Vuelva a abrir «Reservas SRA».'
+      : 'No se pudo completar la consulta: ' + err.message + '. Compruebe la conexión a internet y vuelva a intentarlo.');
+    fin();
+  }
+};
+setInterval(() => fetch('/api/ping').catch(() => {}), 20000);  // mantiene viva la aplicación mientras la pestaña esté abierta
+ajustar(); resumen();
+</script>
+</body>
+</html>
