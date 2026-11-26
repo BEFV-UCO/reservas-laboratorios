@@ -28,6 +28,10 @@
   .nueva{font:inherit;font-weight:700;font-size:13.5px;background:var(--navy);color:#fff;border:none;border-radius:10px;padding:9px 16px;cursor:pointer;text-decoration:none}
   .nueva:hover{background:#342d72}
   .franja{display:flex;height:4px}.franja i{display:block}
+  .periodo{display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin:10px 0 2px;font-size:13px;font-weight:600;color:var(--muted)}
+  .periodo select{font:inherit;font-weight:600;font-size:14px;color:var(--navy);margin-left:6px;padding:6px 30px 6px 10px;border:1.5px solid var(--line);border-radius:8px;background:#fff;cursor:pointer}
+  .periodo select:focus{outline:none;border-color:var(--navy)}
+  #cargando{font-weight:400}
   .panel-ics{background:#fff;border-bottom:1px solid var(--line);padding:14px 24px;font-size:13.5px}
   .panel-ics .fila{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:6px 0}
   .panel-ics input{font:inherit;font-size:13px;flex:1;min-width:280px;max-width:640px;padding:7px 10px;border:1px solid var(--line);border-radius:8px;color:var(--ink);background:#fafafc}
@@ -119,6 +123,11 @@
 <header class="cab"><div class="cab-in">
   <h1 id="titulo"></h1>
   <div class="sub" id="sub"></div>
+  <div class="periodo" id="periodo" hidden>
+    <label>Curso <select id="sel-curso"></select></label>
+    <label>Cuatrimestre <select id="sel-cuatri"></select></label>
+    <span id="cargando"></span>
+  </div>
   <div class="labs" id="labs"></div>
   <div class="tabs">
     <button id="t-sem" class="on">Semana</button>
@@ -147,7 +156,8 @@
   <div id="impresion"></div>
 </main>
 <script>
-const DATOS = __DATOS__;
+let DATOS = __DATOS__;
+const PERIODOS = DATOS.periodos || null, ICS = DATOS.ics || null;
 const SERVIDOR = __SERVIDOR__;
 if (DATOS.ics) {
   const b = document.getElementById('b-ics'); b.hidden = false;
@@ -188,14 +198,14 @@ const tipoTxt = t => t ? '('+t+') ' : '';
 let labIdx = 0, vista = 'sem';
 const HOY = (() => { const d = new Date(); d.setHours(0,0,0,0); return d; })();
 const hoyL = lunes(HOY);
-const primerL = lunes(dISO(DATOS.desde)), ultimoL = lunes(dISO(DATOS.hasta));
+let primerL = lunes(dISO(DATOS.desde)), ultimoL = lunes(dISO(DATOS.hasta));
 let semana = (hoyL >= primerL && hoyL <= ultimoL) ? hoyL : primerL;
 
 function lab(){ return DATOS.laboratorios[labIdx]; }
 
 function cabecera(){
   $('#titulo').textContent = lab().nombre;
-  $('#sub').textContent = 'Periodo consultado: del ' + larga(dISO(DATOS.desde)) + ' al ' + larga(dISO(DATOS.hasta)) +
+  $('#sub').textContent = (DATOS.etiqueta ? DATOS.etiqueta + ': del ' : 'Periodo consultado: del ') + larga(dISO(DATOS.desde)) + ' al ' + larga(dISO(DATOS.hasta)) +
     ' · Datos de SRA del ' + fmtGen(DATOS.generado);
   const cont = $('#labs'); cont.innerHTML = '';
   if (DATOS.laboratorios.length > 1) DATOS.laboratorios.forEach((l,i) => {
@@ -216,6 +226,39 @@ function panelIcs(){
   p.innerHTML = fila(lab().nombre, url(lab().codigo)) + (DATOS.ics.todos ? fila('Todos los laboratorios', url('todos')) : '') +
     '<ol><li>Copie el enlace del calendario que quiera.</li><li>En Outlook: <b>Agregar calendario → Suscribirse desde la web</b> (o «Desde Internet») y pegue el enlace.</li>' +
     '<li>El calendario se actualiza solo. Outlook puede tardar unas horas en reflejar los cambios; esta página siempre tiene los datos más recientes.</li></ol>';
+}
+
+// Selección de curso académico y cuatrimestre (versión web)
+function iniciarSelectores(){
+  if (!PERIODOS || !PERIODOS.length) return;
+  $('#periodo').hidden = false;
+  const cursos = [...new Set(PERIODOS.map(p => p.curso))].sort().reverse();
+  $('#sel-curso').innerHTML = cursos.map(c => '<option value="' + c + '">' + c + (PERIODOS.some(p => p.curso === c && p.actual) ? ' (actual)' : '') + '</option>').join('');
+  $('#sel-curso').value = DATOS.curso;
+  llenarCuatris(DATOS.curso, DATOS.id);
+  $('#sel-curso').onchange = () => { llenarCuatris($('#sel-curso').value); cargarPeriodo($('#sel-cuatri').value); };
+  $('#sel-cuatri').onchange = () => cargarPeriodo($('#sel-cuatri').value);
+}
+function llenarCuatris(curso, idSel){
+  const ps = PERIODOS.filter(p => p.curso === curso).sort((a, b) => a.n - b.n);
+  $('#sel-cuatri').innerHTML = ps.map(p => '<option value="' + p.id + '">' + esc(p.nombre) + (p.actual ? ' · en curso' : '') + '</option>').join('');
+  $('#sel-cuatri').value = idSel && ps.some(p => p.id === idSel) ? idSel : (ps.find(p => p.actual) || ps[0]).id;
+}
+async function cargarPeriodo(id){
+  const p = PERIODOS.find(x => x.id === id);
+  if (!p || p.id === DATOS.id) return;
+  $('#cargando').textContent = 'Cargando…';
+  try {
+    const d = await (await fetch(p.url, {cache: 'no-cache'})).json();
+    const cod = lab().codigo;
+    DATOS = Object.assign(d, {periodos: PERIODOS, ics: ICS});
+    labIdx = Math.max(0, DATOS.laboratorios.findIndex(l => l.codigo === cod));
+    primerL = lunes(dISO(DATOS.desde)); ultimoL = lunes(dISO(DATOS.hasta));
+    semana = (hoyL >= primerL && hoyL <= ultimoL) ? hoyL : primerL;
+    pintar(); $('#cargando').textContent = '';
+  } catch (e) {
+    $('#cargando').textContent = 'No se pudo cargar ese periodo.';
+  }
 }
 
 function cambios(){
@@ -342,6 +385,7 @@ function pintar(){
   vista === 'sem' ? pintarSemana() : pintarLista();
 }
 
+iniciarSelectores();
 $('#t-sem').onclick = () => { vista = 'sem'; pintar(); };
 $('#t-lis').onclick = () => { vista = 'lis'; pintar(); };
 $('#ant').onclick = () => { semana = addD(semana, -7); pintarSemana(); };

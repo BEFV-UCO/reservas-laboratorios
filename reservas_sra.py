@@ -50,11 +50,7 @@ CONFIG_POR_DEFECTO = """\
 0108LEC = Laboratorio de Ecología
 0108LFV = Laboratorio de Fisiología Vegetal
 
-[cuatrimestres]
-; nombre = fecha de inicio, fecha de fin  (formato AAAA-MM-DD)
-; Se usan para proponer automáticamente la fecha "Hasta".
-primero_2026_27 = 2026-09-07, 2027-01-29
-segundo_2026_27 = 2027-02-08, 2027-06-11
+; Los cuatrimestres se calculan solos: 1.º de septiembre a enero, 2.º de febrero a julio.
 """
 
 
@@ -92,11 +88,52 @@ def leer_config():
     return labs, sorted(cuatris)
 
 
-def fecha_hasta_por_defecto(hoy: dt.date, cuatris) -> dt.date:
-    for a, b in cuatris:
-        if b >= hoy:
-            return b
-    return hoy + dt.timedelta(weeks=18)
+# Cuatrimestres automáticos: 1.º = septiembre-enero, 2.º = febrero-julio; agosto sin asignar.
+NOMBRES_CUATRI = {1: "1.er cuatrimestre (septiembre–enero)", 2: "2.º cuatrimestre (febrero–julio)"}
+
+
+def curso_de(anio_inicio: int) -> str:
+    return f"{anio_inicio}-{(anio_inicio + 1) % 100:02d}"
+
+
+def anio_inicio(curso: str) -> int:
+    return int(curso.split("-")[0])
+
+
+def limites_cuatrimestre(curso: str, n: int):
+    a = anio_inicio(curso)
+    if n == 1:
+        return dt.date(a, 9, 1), dt.date(a + 1, 1, 31)
+    return dt.date(a + 1, 2, 1), dt.date(a + 1, 7, 31)
+
+
+def cuatrimestre_de(fecha: dt.date):
+    """(curso, n) del cuatrimestre que contiene la fecha, o None en agosto."""
+    if fecha.month >= 9:
+        return curso_de(fecha.year), 1
+    if fecha.month == 1:
+        return curso_de(fecha.year - 1), 1
+    if 2 <= fecha.month <= 7:
+        return curso_de(fecha.year - 1), 2
+    return None
+
+
+def cuatrimestre_por_defecto(hoy: dt.date):
+    """El cuatrimestre en curso; en agosto, el 1.º del curso que empieza."""
+    return cuatrimestre_de(hoy) or (curso_de(hoy.year), 1)
+
+
+def cuatrimestre_siguiente(curso: str, n: int):
+    return (curso, 2) if n == 1 else (curso_de(anio_inicio(curso) + 1), 1)
+
+
+def cuatrimestre_anterior(curso: str, n: int):
+    return (curso, 1) if n == 2 else (curso_de(anio_inicio(curso) - 1), 2)
+
+
+def fecha_hasta_por_defecto(hoy: dt.date, cuatris=None) -> dt.date:
+    """Fin del cuatrimestre en curso (o del siguiente, en agosto)."""
+    return limites_cuatrimestre(*cuatrimestre_por_defecto(hoy))[1]
 
 
 # ---------------------------------------------------------------------------

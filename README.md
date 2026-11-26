@@ -7,6 +7,8 @@ de Reserva de Aulas (SRA) de la Universidad de Córdoba, a partir de su consulta
 pública de ocupación. Se actualiza **cada noche a las 23:59** (hora de Córdoba).
 
 - Vista semanal y lista de todo el cuatrimestre, por laboratorio.
+- Desplegables de **curso académico** y **cuatrimestre** para consultar otros periodos
+  (desde el curso 2021-22). Por defecto se muestra el cuatrimestre en curso.
 - Cambios detectados en los últimos 7 días (reservas nuevas y anuladas).
 - Impresión de la semana o de todo el periodo (una semana por página).
 - Calendarios para suscribirse desde Outlook (botón «Suscribirse al calendario»):
@@ -16,11 +18,16 @@ pública de ocupación. Se actualiza **cada noche a las 23:59** (hora de Córdob
   - `calendarios/0108LFV.ics` · Laboratorio de Fisiología Vegetal
   - `calendarios/todos.ics` · todos
 
-## Mantenimiento
+## Cuatrimestres (automáticos, no hay que editar nada)
 
-- **Cada curso:** actualizar las fechas de los cuatrimestres en `reservas_sra.ini`
-  (se puede editar desde la web de GitHub: abrir el archivo → icono del lápiz → «Commit changes»).
-  La web muestra el cuatrimestre en curso o, entre cuatrimestres, el siguiente.
+- **1.er cuatrimestre:** de septiembre a enero. **2.º cuatrimestre:** de febrero a julio.
+  Agosto no pertenece a ninguno: en agosto se muestra el 1.er cuatrimestre del curso que empieza.
+- Cada periodo se muestra en semanas completas (de lunes a domingo).
+- Cada noche se consultan el cuatrimestre en curso y el siguiente. Los cuatrimestres pasados se
+  descargan una sola vez y quedan guardados en `data/periodos/`.
+- Los calendarios `.ics` incluyen el cuatrimestre anterior, el actual y el siguiente.
+
+## Mantenimiento
 - **Añadir un laboratorio:** nueva línea en `[laboratorios]` de `reservas_sra.ini`
   (código SRA = nombre). De momento, espacios del edificio Celestino Mutis (Rabanales).
 - **Actualizar a mano:** pestaña *Actions* → «Actualizar reservas» → *Run workflow*.
@@ -34,6 +41,6 @@ pública de ocupación. Se actualiza **cada noche a las 23:59** (hora de Córdob
 | `generar_web.py` | Consulta SRA y genera la web y los calendarios (lo ejecuta GitHub cada noche) |
 | `reservas_sra.py` | Lectura del SRA y páginas; también es la aplicación de escritorio (`Reservas SRA.exe`) |
 | `plantilla_*.html`, `logo_oficial.png` | Diseño (identidad visual UCO, Manual de Identidad 2020) |
-| `reservas_sra.ini` | Laboratorios y fechas de los cuatrimestres |
-| `data/` | Historial de la última consulta y registro de cambios (lo actualiza GitHub) |
+| `reservas_sra.ini` | Laboratorios |
+| `data/` | Cuatrimestres guardados, historial y registro de cambios (lo actualiza GitHub) |
 | `.github/workflows/actualizar.yml` | Programación diaria y publicación en GitHub Pages |
