@@ -1,0 +1,1772 @@
+{
+ "id": "2025-26-1",
+ "curso": "2025-26",
+ "n": 1,
+ "desde": "2025-09-01",
+ "hasta": "2026-02-01",
+ "generado": "2026-11-26T11:24",
+ "laboratorios": [
+  {
+   "codigo": "0108LBO",
+   "nombre": "Laboratorio de Botánica",
+   "festivos": [
+    {
+     "fecha": "2025-09-08",
+     "nombre": "Virgen Fuensanta (Córdoba) y Remedios (Cabra)"
+    },
+    {
+     "fecha": "2025-09-29",
+     "nombre": "Acto oficial de apertura de curso"
+    },
+    {
+     "fecha": "2025-10-13",
+     "nombre": "Fiesta Nacional de España (por traslado)"
+    },
+    {
+     "fecha": "2025-10-24",
+     "nombre": "San Rafael"
+    },
+    {
+     "fecha": "2025-11-01",
+     "nombre": "Día de todos los Santos"
+    },
+    {
+     "fecha": "2025-12-06",
+     "nombre": "Día de la Constitución Española"
+    },
+    {
+     "fecha": "2025-12-08",
+     "nombre": "Día de la Inmaculada Concepción"
+    },
+    {
+     "fecha": "2025-12-20",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2025-12-21",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2025-12-22",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2025-12-23",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2025-12-24",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2025-12-25",
+     "nombre": "Natividad del Señor"
+    },
+    {
+     "fecha": "2025-12-26",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2025-12-27",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2025-12-28",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2025-12-29",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2025-12-30",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2025-12-31",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2026-01-01",
+     "nombre": "Año Nuevo"
+    },
+    {
+     "fecha": "2026-01-02",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2026-01-03",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2026-01-04",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2026-01-05",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2026-01-06",
+     "nombre": "Epifanía del Señor"
+    },
+    {
+     "fecha": "2026-01-30",
+     "nombre": "Santo Tomás de Aquino (Por traslado)"
+    }
+   ],
+   "reservas": [
+    {
+     "fecha": "2025-09-23",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2025-09-23",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2025-09-24",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 5 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "5 (GM)"
+    },
+    {
+     "fecha": "2025-09-25",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 3 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "3 (GM)"
+    },
+    {
+     "fecha": "2025-09-26",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "6 (GM)"
+    },
+    {
+     "fecha": "2025-09-26",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) BOTÁNICA I. Grupo : 4 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "4 (GM)"
+    },
+    {
+     "fecha": "2025-10-07",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2025-10-07",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2025-10-08",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) MICOLOGíA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Micología",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2025-10-08",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 5 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "5 (GM)"
+    },
+    {
+     "fecha": "2025-10-09",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) MICOLOGíA . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Micología",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2025-10-09",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 3 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "3 (GM)"
+    },
+    {
+     "fecha": "2025-10-10",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "6 (GM)"
+    },
+    {
+     "fecha": "2025-10-10",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) BOTÁNICA I. Grupo : 4 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "4 (GM)"
+    },
+    {
+     "fecha": "2025-10-15",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) MICOLOGíA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Micología",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2025-10-16",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) MICOLOGíA . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Micología",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2025-10-28",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2025-10-28",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2025-10-29",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) MICOLOGíA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Micología",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2025-10-29",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 5 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "5 (GM)"
+    },
+    {
+     "fecha": "2025-10-30",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) MICOLOGíA . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Micología",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2025-10-30",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 3 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "3 (GM)"
+    },
+    {
+     "fecha": "2025-10-31",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "6 (GM)"
+    },
+    {
+     "fecha": "2025-10-31",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) BOTÁNICA I. Grupo : 4 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "4 (GM)"
+    },
+    {
+     "fecha": "2025-11-04",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2025-11-04",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2025-11-05",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) MICOLOGíA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Micología",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2025-11-05",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 5 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "5 (GM)"
+    },
+    {
+     "fecha": "2025-11-06",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) MICOLOGíA . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Micología",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2025-11-06",
+     "ini": "15:30",
+     "fin": "17:30",
+     "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 3 (GP)",
+     "tipo": "P",
+     "asignatura": "Biología animal y vegetal",
+     "grupo": "3 (GP)"
+    },
+    {
+     "fecha": "2025-11-06",
+     "ini": "17:30",
+     "fin": "19:30",
+     "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 4 (GP)",
+     "tipo": "P",
+     "asignatura": "Biología animal y vegetal",
+     "grupo": "4 (GP)"
+    },
+    {
+     "fecha": "2025-11-07",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "6 (GM)"
+    },
+    {
+     "fecha": "2025-11-07",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) BOTÁNICA I. Grupo : 4 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "4 (GM)"
+    },
+    {
+     "fecha": "2025-11-07",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 3 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "3 (GM)"
+    },
+    {
+     "fecha": "2025-11-12",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) MICOLOGíA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Micología",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2025-11-13",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) MICOLOGíA . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Micología",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2025-11-18",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2025-11-18",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2025-11-19",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) MICOLOGíA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Micología",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2025-11-19",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 5 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "5 (GM)"
+    },
+    {
+     "fecha": "2025-11-20",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) MICOLOGíA . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Micología",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2025-11-20",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 3 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "3 (GM)"
+    },
+    {
+     "fecha": "2025-11-21",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "6 (GM)"
+    },
+    {
+     "fecha": "2025-11-21",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) BOTÁNICA I. Grupo : 4 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "4 (GM)"
+    },
+    {
+     "fecha": "2025-11-24",
+     "ini": "11:30",
+     "fin": "13:30",
+     "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 1 (GP)",
+     "tipo": "P",
+     "asignatura": "Biología animal y vegetal",
+     "grupo": "1 (GP)"
+    },
+    {
+     "fecha": "2025-11-24",
+     "ini": "13:30",
+     "fin": "15:30",
+     "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 2 (GP)",
+     "tipo": "P",
+     "asignatura": "Biología animal y vegetal",
+     "grupo": "2 (GP)"
+    },
+    {
+     "fecha": "2025-11-25",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2025-11-25",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2025-11-26",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 5 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "5 (GM)"
+    },
+    {
+     "fecha": "2025-11-27",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 3 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "3 (GM)"
+    },
+    {
+     "fecha": "2025-11-27",
+     "ini": "15:30",
+     "fin": "17:30",
+     "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 3 (GP)",
+     "tipo": "P",
+     "asignatura": "Biología animal y vegetal",
+     "grupo": "3 (GP)"
+    },
+    {
+     "fecha": "2025-11-27",
+     "ini": "17:30",
+     "fin": "19:30",
+     "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 4 (GP)",
+     "tipo": "P",
+     "asignatura": "Biología animal y vegetal",
+     "grupo": "4 (GP)"
+    },
+    {
+     "fecha": "2025-11-28",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "6 (GM)"
+    },
+    {
+     "fecha": "2025-11-28",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) BOTÁNICA I. Grupo : 4 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "4 (GM)"
+    },
+    {
+     "fecha": "2025-12-01",
+     "ini": "11:30",
+     "fin": "13:30",
+     "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 1 (GP)",
+     "tipo": "P",
+     "asignatura": "Biología animal y vegetal",
+     "grupo": "1 (GP)"
+    },
+    {
+     "fecha": "2025-12-01",
+     "ini": "13:30",
+     "fin": "15:30",
+     "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 2 (GP)",
+     "tipo": "P",
+     "asignatura": "Biología animal y vegetal",
+     "grupo": "2 (GP)"
+    },
+    {
+     "fecha": "2025-12-03",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) MICOLOGíA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Micología",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2025-12-04",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) MICOLOGíA . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Micología",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2025-12-16",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2025-12-16",
+     "ini": "12:30",
+     "fin": "14:30",
+     "texto": "Examen MICOLOGÍA",
+     "tipo": "",
+     "asignatura": "Examen MICOLOGÍA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2025-12-16",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2025-12-17",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 5 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "5 (GM)"
+    },
+    {
+     "fecha": "2025-12-18",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 3 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "3 (GM)"
+    },
+    {
+     "fecha": "2025-12-19",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "6 (GM)"
+    },
+    {
+     "fecha": "2025-12-19",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) BOTÁNICA I. Grupo : 4 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "4 (GM)"
+    }
+   ]
+  },
+  {
+   "codigo": "0108LCO",
+   "nombre": "Laboratorio de Botánica 2",
+   "festivos": [
+    {
+     "fecha": "2025-09-08",
+     "nombre": "Virgen Fuensanta (Córdoba) y Remedios (Cabra)"
+    },
+    {
+     "fecha": "2025-09-29",
+     "nombre": "Acto oficial de apertura de curso"
+    },
+    {
+     "fecha": "2025-10-13",
+     "nombre": "Fiesta Nacional de España (por traslado)"
+    },
+    {
+     "fecha": "2025-10-24",
+     "nombre": "San Rafael"
+    },
+    {
+     "fecha": "2025-11-01",
+     "nombre": "Día de todos los Santos"
+    },
+    {
+     "fecha": "2025-12-06",
+     "nombre": "Día de la Constitución Española"
+    },
+    {
+     "fecha": "2025-12-08",
+     "nombre": "Día de la Inmaculada Concepción"
+    },
+    {
+     "fecha": "2025-12-20",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2025-12-21",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2025-12-22",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2025-12-23",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2025-12-24",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2025-12-25",
+     "nombre": "Natividad del Señor"
+    },
+    {
+     "fecha": "2025-12-26",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2025-12-27",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2025-12-28",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2025-12-29",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2025-12-30",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2025-12-31",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2026-01-01",
+     "nombre": "Año Nuevo"
+    },
+    {
+     "fecha": "2026-01-02",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2026-01-03",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2026-01-04",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2026-01-05",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2026-01-06",
+     "nombre": "Epifanía del Señor"
+    },
+    {
+     "fecha": "2026-01-30",
+     "nombre": "Santo Tomás de Aquino (Por traslado)"
+    }
+   ],
+   "reservas": [
+    {
+     "fecha": "2025-09-25",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 7 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "7 (GM)"
+    },
+    {
+     "fecha": "2025-10-09",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 7 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "7 (GM)"
+    },
+    {
+     "fecha": "2025-10-30",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 7 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "7 (GM)"
+    },
+    {
+     "fecha": "2025-11-06",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 7 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "7 (GM)"
+    },
+    {
+     "fecha": "2025-11-07",
+     "ini": "11:30",
+     "fin": "13:30",
+     "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 1 (GP)",
+     "tipo": "P",
+     "asignatura": "Biología animal y vegetal",
+     "grupo": "1 (GP)"
+    },
+    {
+     "fecha": "2025-11-07",
+     "ini": "13:30",
+     "fin": "15:30",
+     "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 2 (GP)",
+     "tipo": "P",
+     "asignatura": "Biología animal y vegetal",
+     "grupo": "2 (GP)"
+    },
+    {
+     "fecha": "2025-11-10",
+     "ini": "11:30",
+     "fin": "13:30",
+     "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 1 (GP)",
+     "tipo": "P",
+     "asignatura": "Biología animal y vegetal",
+     "grupo": "1 (GP)"
+    },
+    {
+     "fecha": "2025-11-10",
+     "ini": "13:30",
+     "fin": "15:30",
+     "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 2 (GP)",
+     "tipo": "P",
+     "asignatura": "Biología animal y vegetal",
+     "grupo": "2 (GP)"
+    },
+    {
+     "fecha": "2025-11-13",
+     "ini": "15:30",
+     "fin": "17:30",
+     "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 3 (GP)",
+     "tipo": "P",
+     "asignatura": "Biología animal y vegetal",
+     "grupo": "3 (GP)"
+    },
+    {
+     "fecha": "2025-11-13",
+     "ini": "17:30",
+     "fin": "19:30",
+     "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 4 (GP)",
+     "tipo": "P",
+     "asignatura": "Biología animal y vegetal",
+     "grupo": "4 (GP)"
+    },
+    {
+     "fecha": "2025-11-20",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 7 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "7 (GM)"
+    },
+    {
+     "fecha": "2025-11-27",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 7 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "7 (GM)"
+    },
+    {
+     "fecha": "2025-11-28",
+     "ini": "11:30",
+     "fin": "13:30",
+     "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 1 (GP)",
+     "tipo": "P",
+     "asignatura": "Biología animal y vegetal",
+     "grupo": "1 (GP)"
+    },
+    {
+     "fecha": "2025-11-28",
+     "ini": "13:30",
+     "fin": "15:30",
+     "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 2 (GP)",
+     "tipo": "P",
+     "asignatura": "Biología animal y vegetal",
+     "grupo": "2 (GP)"
+    },
+    {
+     "fecha": "2025-12-04",
+     "ini": "15:30",
+     "fin": "17:30",
+     "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 3 (GP)",
+     "tipo": "P",
+     "asignatura": "Biología animal y vegetal",
+     "grupo": "3 (GP)"
+    },
+    {
+     "fecha": "2025-12-04",
+     "ini": "17:30",
+     "fin": "19:30",
+     "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 4 (GP)",
+     "tipo": "P",
+     "asignatura": "Biología animal y vegetal",
+     "grupo": "4 (GP)"
+    },
+    {
+     "fecha": "2025-12-05",
+     "ini": "11:30",
+     "fin": "15:30",
+     "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 1 (GP)",
+     "tipo": "P",
+     "asignatura": "Biología animal y vegetal",
+     "grupo": "1 (GP)"
+    },
+    {
+     "fecha": "2025-12-11",
+     "ini": "15:30",
+     "fin": "17:30",
+     "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 3 (GP)",
+     "tipo": "P",
+     "asignatura": "Biología animal y vegetal",
+     "grupo": "3 (GP)"
+    },
+    {
+     "fecha": "2025-12-11",
+     "ini": "17:30",
+     "fin": "19:30",
+     "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 4 (GP)",
+     "tipo": "P",
+     "asignatura": "Biología animal y vegetal",
+     "grupo": "4 (GP)"
+    },
+    {
+     "fecha": "2025-12-12",
+     "ini": "11:30",
+     "fin": "13:30",
+     "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 1 (GP)",
+     "tipo": "P",
+     "asignatura": "Biología animal y vegetal",
+     "grupo": "1 (GP)"
+    },
+    {
+     "fecha": "2025-12-12",
+     "ini": "13:30",
+     "fin": "15:30",
+     "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 2 (GP)",
+     "tipo": "P",
+     "asignatura": "Biología animal y vegetal",
+     "grupo": "2 (GP)"
+    },
+    {
+     "fecha": "2025-12-16",
+     "ini": "12:30",
+     "fin": "14:30",
+     "texto": "Examen MICOLOGÍA",
+     "tipo": "",
+     "asignatura": "Examen MICOLOGÍA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2025-12-18",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) BOTÁNICA I. Grupo : 7 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica I",
+     "grupo": "7 (GM)"
+    }
+   ]
+  },
+  {
+   "codigo": "0108LEC",
+   "nombre": "Laboratorio de Ecología",
+   "festivos": [
+    {
+     "fecha": "2025-09-08",
+     "nombre": "Virgen Fuensanta (Córdoba) y Remedios (Cabra)"
+    },
+    {
+     "fecha": "2025-09-29",
+     "nombre": "Acto oficial de apertura de curso"
+    },
+    {
+     "fecha": "2025-10-13",
+     "nombre": "Fiesta Nacional de España (por traslado)"
+    },
+    {
+     "fecha": "2025-10-24",
+     "nombre": "San Rafael"
+    },
+    {
+     "fecha": "2025-11-01",
+     "nombre": "Día de todos los Santos"
+    },
+    {
+     "fecha": "2025-12-06",
+     "nombre": "Día de la Constitución Española"
+    },
+    {
+     "fecha": "2025-12-08",
+     "nombre": "Día de la Inmaculada Concepción"
+    },
+    {
+     "fecha": "2025-12-20",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2025-12-21",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2025-12-22",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2025-12-23",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2025-12-24",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2025-12-25",
+     "nombre": "Natividad del Señor"
+    },
+    {
+     "fecha": "2025-12-26",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2025-12-27",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2025-12-28",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2025-12-29",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2025-12-30",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2025-12-31",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2026-01-01",
+     "nombre": "Año Nuevo"
+    },
+    {
+     "fecha": "2026-01-02",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2026-01-03",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2026-01-04",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2026-01-05",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2026-01-06",
+     "nombre": "Epifanía del Señor"
+    },
+    {
+     "fecha": "2026-01-30",
+     "nombre": "Santo Tomás de Aquino (Por traslado)"
+    }
+   ],
+   "reservas": [
+    {
+     "fecha": "2025-09-15",
+     "ini": "11:30",
+     "fin": "12:30",
+     "texto": "(P) ECOLOGíA I . Grupo : 5 (GM)",
+     "tipo": "P",
+     "asignatura": "Ecología I",
+     "grupo": "5 (GM)"
+    },
+    {
+     "fecha": "2025-09-15",
+     "ini": "16:00",
+     "fin": "17:00",
+     "texto": "(P) ECOLOGíA I . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Ecología I",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2025-09-16",
+     "ini": "10:00",
+     "fin": "11:00",
+     "texto": "(P) ECOLOGíA I . Grupo : 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Ecología I",
+     "grupo": "6 (GM)"
+    },
+    {
+     "fecha": "2025-09-16",
+     "ini": "16:00",
+     "fin": "17:00",
+     "texto": "(P) ECOLOGíA I . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Ecología I",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2025-09-17",
+     "ini": "11:30",
+     "fin": "12:30",
+     "texto": "(P) ECOLOGíA I . Grupo : 4 (GM)",
+     "tipo": "P",
+     "asignatura": "Ecología I",
+     "grupo": "4 (GM)"
+    },
+    {
+     "fecha": "2025-09-18",
+     "ini": "10:00",
+     "fin": "11:00",
+     "texto": "(P) ECOLOGíA I . Grupo : 3 (GM)",
+     "tipo": "P",
+     "asignatura": "Ecología I",
+     "grupo": "3 (GM)"
+    },
+    {
+     "fecha": "2025-11-17",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) ECOLOGíA I . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Ecología I",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2025-11-18",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) ECOLOGíA I . Grupo : 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Ecología I",
+     "grupo": "6 (GM)"
+    },
+    {
+     "fecha": "2025-11-18",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) ECOLOGíA I . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Ecología I",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2025-11-19",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "(P) ECOLOGíA I . Grupo : 4 (GM)",
+     "tipo": "P",
+     "asignatura": "Ecología I",
+     "grupo": "4 (GM)"
+    },
+    {
+     "fecha": "2025-11-19",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) ECOLOGíA I . Grupo : 5 (GM)",
+     "tipo": "P",
+     "asignatura": "Ecología I",
+     "grupo": "5 (GM)"
+    },
+    {
+     "fecha": "2025-11-20",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) ECOLOGíA I . Grupo : 3 (GM)",
+     "tipo": "P",
+     "asignatura": "Ecología I",
+     "grupo": "3 (GM)"
+    },
+    {
+     "fecha": "2025-11-24",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) ECOLOGíA I . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Ecología I",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2025-11-25",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) ECOLOGíA I . Grupo : 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Ecología I",
+     "grupo": "6 (GM)"
+    },
+    {
+     "fecha": "2025-11-25",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) ECOLOGíA I . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Ecología I",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2025-11-26",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "(P) ECOLOGíA I . Grupo : 4 (GM)",
+     "tipo": "P",
+     "asignatura": "Ecología I",
+     "grupo": "4 (GM)"
+    },
+    {
+     "fecha": "2025-11-26",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) ECOLOGíA I . Grupo : 5 (GM)",
+     "tipo": "P",
+     "asignatura": "Ecología I",
+     "grupo": "5 (GM)"
+    },
+    {
+     "fecha": "2025-11-27",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) ECOLOGíA I . Grupo : 3 (GM)",
+     "tipo": "P",
+     "asignatura": "Ecología I",
+     "grupo": "3 (GM)"
+    }
+   ]
+  },
+  {
+   "codigo": "0108LFV",
+   "nombre": "Laboratorio de Fisiología Vegetal",
+   "festivos": [
+    {
+     "fecha": "2025-09-08",
+     "nombre": "Virgen Fuensanta (Córdoba) y Remedios (Cabra)"
+    },
+    {
+     "fecha": "2025-09-29",
+     "nombre": "Acto oficial de apertura de curso"
+    },
+    {
+     "fecha": "2025-10-13",
+     "nombre": "Fiesta Nacional de España (por traslado)"
+    },
+    {
+     "fecha": "2025-10-24",
+     "nombre": "San Rafael"
+    },
+    {
+     "fecha": "2025-11-01",
+     "nombre": "Día de todos los Santos"
+    },
+    {
+     "fecha": "2025-12-06",
+     "nombre": "Día de la Constitución Española"
+    },
+    {
+     "fecha": "2025-12-08",
+     "nombre": "Día de la Inmaculada Concepción"
+    },
+    {
+     "fecha": "2025-12-20",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2025-12-21",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2025-12-22",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2025-12-23",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2025-12-24",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2025-12-25",
+     "nombre": "Natividad del Señor"
+    },
+    {
+     "fecha": "2025-12-26",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2025-12-27",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2025-12-28",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2025-12-29",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2025-12-30",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2025-12-31",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2026-01-01",
+     "nombre": "Año Nuevo"
+    },
+    {
+     "fecha": "2026-01-02",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2026-01-03",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2026-01-04",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2026-01-05",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2026-01-06",
+     "nombre": "Epifanía del Señor"
+    },
+    {
+     "fecha": "2026-01-30",
+     "nombre": "Santo Tomás de Aquino (Por traslado)"
+    }
+   ],
+   "reservas": [
+    {
+     "fecha": "2025-09-15",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL AMBIENTAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL AMBIENTAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2025-09-18",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) FISIOLOGíA VEGETAL AMBIENTAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL AMBIENTAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2025-09-22",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) PLANTAS COMO BIOFACTORíAS. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Plantas como biofactorías",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2025-10-03",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) PLANTAS COMO BIOFACTORíAS. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Plantas como biofactorías",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2025-10-06",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL I. Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal I",
+     "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+    },
+    {
+     "fecha": "2025-10-06",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA VEGETAL I. Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal I",
+     "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+    },
+    {
+     "fecha": "2025-10-07",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) FISIOLOGíA VEGETAL I. Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal I",
+     "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+    },
+    {
+     "fecha": "2025-10-07",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA VEGETAL I. Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal I",
+     "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+    },
+    {
+     "fecha": "2025-10-08",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL I. Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal I",
+     "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+    },
+    {
+     "fecha": "2025-10-08",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA VEGETAL I. Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal I",
+     "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+    },
+    {
+     "fecha": "2025-10-09",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) FISIOLOGíA VEGETAL AMBIENTAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL AMBIENTAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2025-10-10",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL AMBIENTAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL AMBIENTAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2025-10-14",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) FISIOLOGíA VEGETAL I. Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal I",
+     "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+    },
+    {
+     "fecha": "2025-10-14",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA VEGETAL I. Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal I",
+     "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+    },
+    {
+     "fecha": "2025-10-15",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL I. Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal I",
+     "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+    },
+    {
+     "fecha": "2025-10-15",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA VEGETAL I. Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal I",
+     "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+    },
+    {
+     "fecha": "2025-10-16",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA VEGETAL I. Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal I",
+     "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+    },
+    {
+     "fecha": "2025-10-17",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL I. Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal I",
+     "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+    },
+    {
+     "fecha": "2025-10-20",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL I. Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal I",
+     "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+    },
+    {
+     "fecha": "2025-10-20",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA VEGETAL I. Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal I",
+     "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+    },
+    {
+     "fecha": "2025-10-21",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) FISIOLOGíA VEGETAL I. Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal I",
+     "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+    },
+    {
+     "fecha": "2025-10-21",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA VEGETAL I. Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal I",
+     "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+    },
+    {
+     "fecha": "2025-10-22",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL I. Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal I",
+     "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+    },
+    {
+     "fecha": "2025-10-22",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA VEGETAL I. Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal I",
+     "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+    },
+    {
+     "fecha": "2025-11-05",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) CULTIVOS CELULARES. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Cultivos celulares",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2025-11-06",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) CULTIVOS CELULARES. Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Cultivos celulares",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2025-11-10",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL I. Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal I",
+     "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+    },
+    {
+     "fecha": "2025-11-10",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA VEGETAL I. Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal I",
+     "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+    },
+    {
+     "fecha": "2025-11-11",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) FISIOLOGíA VEGETAL I. Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal I",
+     "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+    },
+    {
+     "fecha": "2025-11-11",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA VEGETAL I. Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal I",
+     "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+    },
+    {
+     "fecha": "2025-11-12",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL I. Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal I",
+     "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+    },
+    {
+     "fecha": "2025-11-12",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA VEGETAL I. Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal I",
+     "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+    },
+    {
+     "fecha": "2025-11-19",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) CULTIVOS CELULARES. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Cultivos celulares",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2025-11-20",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) CULTIVOS CELULARES. Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Cultivos celulares",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2025-11-21",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) CULTIVOS CELULARES. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Cultivos celulares",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2025-11-26",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) CULTIVOS CELULARES. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Cultivos celulares",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2025-11-27",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) CULTIVOS CELULARES. Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Cultivos celulares",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2025-12-18",
+     "ini": "08:00",
+     "fin": "14:30",
+     "texto": "jornadas",
+     "tipo": "",
+     "asignatura": "jornadas",
+     "grupo": ""
+    },
+    {
+     "fecha": "2026-01-12",
+     "ini": "09:00",
+     "fin": "14:00",
+     "texto": "Jornadas",
+     "tipo": "",
+     "asignatura": "Jornadas",
+     "grupo": ""
+    },
+    {
+     "fecha": "2026-01-13",
+     "ini": "09:00",
+     "fin": "14:00",
+     "texto": "Jornadas",
+     "tipo": "",
+     "asignatura": "Jornadas",
+     "grupo": ""
+    }
+   ]
+  }
+ ]
+}

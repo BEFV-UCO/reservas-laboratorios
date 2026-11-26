@@ -1,0 +1,1678 @@
+{
+ "id": "2022-23-2",
+ "curso": "2022-23",
+ "n": 2,
+ "desde": "2023-01-30",
+ "hasta": "2023-08-06",
+ "generado": "2026-11-26T11:24",
+ "laboratorios": [
+  {
+   "codigo": "0108LBO",
+   "nombre": "Laboratorio de Botánica",
+   "festivos": [
+    {
+     "fecha": "2023-02-28",
+     "nombre": "Día de Andalucía"
+    },
+    {
+     "fecha": "2023-03-31",
+     "nombre": "Viernes de Dolores (Semana Santa)"
+    },
+    {
+     "fecha": "2023-04-03",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2023-04-04",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2023-04-05",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2023-04-06",
+     "nombre": "Jueves Santo"
+    },
+    {
+     "fecha": "2023-04-07",
+     "nombre": "Viernes Santo"
+    },
+    {
+     "fecha": "2023-05-01",
+     "nombre": "Fiesta del Trabajo"
+    },
+    {
+     "fecha": "2023-05-25",
+     "nombre": "Feria"
+    },
+    {
+     "fecha": "2023-05-26",
+     "nombre": "Feria"
+    }
+   ],
+   "reservas": [
+    {
+     "fecha": "2023-02-13",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 2 (GG)",
+     "tipo": "",
+     "asignatura": "PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-02-14",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 2 (GG)",
+     "tipo": "",
+     "asignatura": "PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-02-15",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 2 (GG)",
+     "tipo": "",
+     "asignatura": "PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-02-15",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 1 (GG)",
+     "tipo": "",
+     "asignatura": "PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 1 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-02-16",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 1 (GG)",
+     "tipo": "",
+     "asignatura": "PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 1 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-02-16",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 1 (GG)",
+     "tipo": "",
+     "asignatura": "PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 1 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-02-21",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 2 (GG)",
+     "tipo": "",
+     "asignatura": "PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-02-22",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 2 (GG)",
+     "tipo": "",
+     "asignatura": "PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-02-22",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 1 (GG)",
+     "tipo": "",
+     "asignatura": "PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 1 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-02-23",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 1 (GG)",
+     "tipo": "",
+     "asignatura": "PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 1 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-02-23",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 1 (GG)",
+     "tipo": "",
+     "asignatura": "PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 1 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-02-24",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "tipo": "",
+     "asignatura": "PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-02-27",
+     "ini": "09:00",
+     "fin": "11:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-02",
+     "ini": "12:00",
+     "fin": "14:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-06",
+     "ini": "09:00",
+     "fin": "11:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-06",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-07",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-07",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-08",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-09",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-09",
+     "ini": "12:00",
+     "fin": "14:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-09",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-13",
+     "ini": "09:00",
+     "fin": "11:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-13",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-14",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-14",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-15",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-16",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-16",
+     "ini": "12:00",
+     "fin": "14:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-16",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-20",
+     "ini": "09:00",
+     "fin": "11:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-20",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-21",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-21",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-22",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-23",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-23",
+     "ini": "12:00",
+     "fin": "14:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-23",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-27",
+     "ini": "09:00",
+     "fin": "11:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-27",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-28",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-28",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-29",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-30",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-30",
+     "ini": "12:00",
+     "fin": "14:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-30",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-04-10",
+     "ini": "09:00",
+     "fin": "11:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-04-10",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-04-11",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-04-11",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-04-12",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-04-13",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-04-13",
+     "ini": "12:00",
+     "fin": "14:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-04-13",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-04-17",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-04-18",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-04-18",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-04-19",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-04-20",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-04-20",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-04-24",
+     "ini": "09:00",
+     "fin": "11:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-04-24",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-04-25",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-04-25",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-04-26",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-04-27",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-04-27",
+     "ini": "12:00",
+     "fin": "14:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-04-27",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-05-15",
+     "ini": "09:00",
+     "fin": "11:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-05-15",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-05-16",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-05-16",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-05-17",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-05-18",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-05-18",
+     "ini": "12:00",
+     "fin": "14:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-05-18",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-06-29",
+     "ini": "11:00",
+     "fin": "15:00",
+     "texto": "Examen BOTÁNICA Examen de prácticas (Claves) de Botánica (2º Biología)",
+     "tipo": "",
+     "asignatura": "Examen BOTÁNICA Examen de prácticas (Claves) de Botánica (2º Biología)",
+     "grupo": ""
+    }
+   ]
+  },
+  {
+   "codigo": "0108LCO",
+   "nombre": "Laboratorio de Botánica 2",
+   "festivos": [
+    {
+     "fecha": "2023-02-28",
+     "nombre": "Día de Andalucía"
+    },
+    {
+     "fecha": "2023-03-31",
+     "nombre": "Viernes de Dolores (Semana Santa)"
+    },
+    {
+     "fecha": "2023-04-03",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2023-04-04",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2023-04-05",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2023-04-06",
+     "nombre": "Jueves Santo"
+    },
+    {
+     "fecha": "2023-04-07",
+     "nombre": "Viernes Santo"
+    },
+    {
+     "fecha": "2023-05-01",
+     "nombre": "Fiesta del Trabajo"
+    },
+    {
+     "fecha": "2023-05-25",
+     "nombre": "Feria"
+    },
+    {
+     "fecha": "2023-05-26",
+     "nombre": "Feria"
+    }
+   ],
+   "reservas": [
+    {
+     "fecha": "2023-03-03",
+     "ini": "09:00",
+     "fin": "11:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-10",
+     "ini": "09:00",
+     "fin": "11:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-17",
+     "ini": "09:00",
+     "fin": "11:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-24",
+     "ini": "09:00",
+     "fin": "11:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-28",
+     "ini": "15:30",
+     "fin": "17:30",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-04-14",
+     "ini": "09:00",
+     "fin": "11:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-04-28",
+     "ini": "09:00",
+     "fin": "11:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-05-19",
+     "ini": "09:00",
+     "fin": "11:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    }
+   ]
+  },
+  {
+   "codigo": "0108LEC",
+   "nombre": "Laboratorio de Ecología",
+   "festivos": [
+    {
+     "fecha": "2023-02-28",
+     "nombre": "Día de Andalucía"
+    },
+    {
+     "fecha": "2023-03-31",
+     "nombre": "Viernes de Dolores (Semana Santa)"
+    },
+    {
+     "fecha": "2023-04-03",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2023-04-04",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2023-04-05",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2023-04-06",
+     "nombre": "Jueves Santo"
+    },
+    {
+     "fecha": "2023-04-07",
+     "nombre": "Viernes Santo"
+    },
+    {
+     "fecha": "2023-05-01",
+     "nombre": "Fiesta del Trabajo"
+    },
+    {
+     "fecha": "2023-05-25",
+     "nombre": "Feria"
+    },
+    {
+     "fecha": "2023-05-26",
+     "nombre": "Feria"
+    }
+   ],
+   "reservas": [
+    {
+     "fecha": "2023-03-27",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "(P) ECOLOGíA II",
+     "tipo": "",
+     "asignatura": "(P) ECOLOGíA II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-28",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) ECOLOGíA II",
+     "tipo": "",
+     "asignatura": "(P) ECOLOGíA II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-28",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) ECOLOGíA II",
+     "tipo": "",
+     "asignatura": "(P) ECOLOGíA II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-29",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "(P) ECOLOGíA II",
+     "tipo": "",
+     "asignatura": "(P) ECOLOGíA II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-29",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) ECOLOGíA II",
+     "tipo": "",
+     "asignatura": "(P) ECOLOGíA II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-30",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) ECOLOGíA II . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Ecología II",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2023-04-26",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) ECOLOGíA APLICADA . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Ecología aplicada",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-04-27",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) ECOLOGíA APLICADA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Ecología aplicada",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2023-05-15",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "EXAMEN DE RECONOCIMIENTO DE BOTÁNICA. DIEGO NIETO.",
+     "tipo": "",
+     "asignatura": "EXAMEN DE RECONOCIMIENTO DE BOTÁNICA. DIEGO NIETO.",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-05-16",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "EXAMEN DE RECONOCIMIENTO DE BOTÁNICA. DIEGO NIETO.",
+     "tipo": "",
+     "asignatura": "EXAMEN DE RECONOCIMIENTO DE BOTÁNICA. DIEGO NIETO.",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-05-16",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "EXAMEN DE RECONOCIMIENTO DE BOTÁNICA. DIEGO NIETO.",
+     "tipo": "",
+     "asignatura": "EXAMEN DE RECONOCIMIENTO DE BOTÁNICA. DIEGO NIETO.",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-05-17",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "EXAMEN DE RECONOCIMIENTO DE BOTÁNICA. DIEGO NIETO.",
+     "tipo": "",
+     "asignatura": "EXAMEN DE RECONOCIMIENTO DE BOTÁNICA. DIEGO NIETO.",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-05-18",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "EXAMEN DE RECONOCIMIENTO DE BOTÁNICA. DIEGO NIETO.",
+     "tipo": "",
+     "asignatura": "EXAMEN DE RECONOCIMIENTO DE BOTÁNICA. DIEGO NIETO.",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-05-18",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "EXAMEN DE RECONOCIMIENTO DE BOTÁNICA. DIEGO NIETO.",
+     "tipo": "",
+     "asignatura": "EXAMEN DE RECONOCIMIENTO DE BOTÁNICA. DIEGO NIETO.",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-06-29",
+     "ini": "08:00",
+     "fin": "15:00",
+     "texto": "Examen final de prácticas (Visu) de Botánica (2º Biología)",
+     "tipo": "",
+     "asignatura": "Examen final de prácticas (Visu) de Botánica (2º Biología)",
+     "grupo": ""
+    }
+   ]
+  },
+  {
+   "codigo": "0108LFV",
+   "nombre": "Laboratorio de Fisiología Vegetal",
+   "festivos": [
+    {
+     "fecha": "2023-02-28",
+     "nombre": "Día de Andalucía"
+    },
+    {
+     "fecha": "2023-03-31",
+     "nombre": "Viernes de Dolores (Semana Santa)"
+    },
+    {
+     "fecha": "2023-04-03",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2023-04-04",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2023-04-05",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2023-04-06",
+     "nombre": "Jueves Santo"
+    },
+    {
+     "fecha": "2023-04-07",
+     "nombre": "Viernes Santo"
+    },
+    {
+     "fecha": "2023-05-01",
+     "nombre": "Fiesta del Trabajo"
+    },
+    {
+     "fecha": "2023-05-25",
+     "nombre": "Feria"
+    },
+    {
+     "fecha": "2023-05-26",
+     "nombre": "Feria"
+    }
+   ],
+   "reservas": [
+    {
+     "fecha": "2023-02-14",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2023-02-14",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2023-02-15",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2023-02-15",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2023-02-16",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2023-02-17",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2023-02-21",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2023-02-21",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2023-02-22",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2023-02-22",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2023-02-23",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2023-02-24",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2023-03-01",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2023-03-01",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2023-03-02",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2023-03-02",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2023-03-03",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2023-03-03",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2023-03-07",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2023-03-07",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2023-03-08",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2023-03-08",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2023-03-09",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2023-03-10",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2023-03-13",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-14",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-15",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-15",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-16",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-16",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) BASES MOLECULARES DEL ESTRÉS EN PLANTAS",
+     "tipo": "",
+     "asignatura": "(P) BASES MOLECULARES DEL ESTRÉS EN PLANTAS",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-17",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-20",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-21",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-22",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-22",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-23",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-23",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) BASES MOLECULARES DEL ESTRÉS EN PLANTAS",
+     "tipo": "",
+     "asignatura": "(P) BASES MOLECULARES DEL ESTRÉS EN PLANTAS",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-24",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-27",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-27",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-28",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-29",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-29",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-30",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-03-30",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) BASES MOLECULARES DEL ESTRÉS EN PLANTAS",
+     "tipo": "",
+     "asignatura": "(P) BASES MOLECULARES DEL ESTRÉS EN PLANTAS",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-04-13",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) BASES MOLECULARES DEL ESTRÉS EN PLANTAS",
+     "tipo": "",
+     "asignatura": "(P) BASES MOLECULARES DEL ESTRÉS EN PLANTAS",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-04-17",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA MOLECULAR DE PLANTAS",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA MOLECULAR DE PLANTAS",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-04-18",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) FISIOLOGíA MOLECULAR DE PLANTAS",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA MOLECULAR DE PLANTAS",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-04-24",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA MOLECULAR DE PLANTAS",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA MOLECULAR DE PLANTAS",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-04-25",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) FISIOLOGíA MOLECULAR DE PLANTAS",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA MOLECULAR DE PLANTAS",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-04-26",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) BIOTECNOLOGíA AGROALIMENTARíA",
+     "tipo": "",
+     "asignatura": "(P) BIOTECNOLOGíA AGROALIMENTARíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-04-27",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) BIOTECNOLOGíA AGROALIMENTARíA",
+     "tipo": "",
+     "asignatura": "(P) BIOTECNOLOGíA AGROALIMENTARíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-04-27",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) BIOTECNOLOGíA AGROALIMENTARíA",
+     "tipo": "",
+     "asignatura": "(P) BIOTECNOLOGíA AGROALIMENTARíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-05-03",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) BIOTECNOLOGíA AGROALIMENTARíA",
+     "tipo": "",
+     "asignatura": "(P) BIOTECNOLOGíA AGROALIMENTARíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-05-04",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) BIOTECNOLOGíA AGROALIMENTARíA",
+     "tipo": "",
+     "asignatura": "(P) BIOTECNOLOGíA AGROALIMENTARíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-05-05",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) BIOTECNOLOGíA AGROALIMENTARíA",
+     "tipo": "",
+     "asignatura": "(P) BIOTECNOLOGíA AGROALIMENTARíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-05-08",
+     "ini": "11:30",
+     "fin": "13:00",
+     "texto": "(P) FISIOLOGíA MOLECULAR DE PLANTAS",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA MOLECULAR DE PLANTAS",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-05-09",
+     "ini": "15:30",
+     "fin": "17:00",
+     "texto": "(P) FISIOLOGíA MOLECULAR DE PLANTAS",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA MOLECULAR DE PLANTAS",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-05-10",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) BIOTECNOLOGíA AGROALIMENTARíA",
+     "tipo": "",
+     "asignatura": "(P) BIOTECNOLOGíA AGROALIMENTARíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-05-11",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) BIOTECNOLOGíA AGROALIMENTARíA",
+     "tipo": "",
+     "asignatura": "(P) BIOTECNOLOGíA AGROALIMENTARíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-05-12",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) BIOTECNOLOGíA AGROALIMENTARíA",
+     "tipo": "",
+     "asignatura": "(P) BIOTECNOLOGíA AGROALIMENTARíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-05-16",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) FISIOLOGíA MOLECULAR DE PLANTAS",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA MOLECULAR DE PLANTAS",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-05-16",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) FISIOLOGíA MOLECULAR DE PLANTAS",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA MOLECULAR DE PLANTAS",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-06-29",
+     "ini": "08:00",
+     "fin": "15:00",
+     "texto": "Examen final de prácticas (Visu) de Botánica (2º Biología)",
+     "tipo": "",
+     "asignatura": "Examen final de prácticas (Visu) de Botánica (2º Biología)",
+     "grupo": ""
+    }
+   ]
+  }
+ ]
+}

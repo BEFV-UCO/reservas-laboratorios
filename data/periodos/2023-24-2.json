@@ -1,0 +1,1906 @@
+{
+ "id": "2023-24-2",
+ "curso": "2023-24",
+ "n": 2,
+ "desde": "2024-01-29",
+ "hasta": "2024-08-04",
+ "generado": "2026-11-26T11:24",
+ "laboratorios": [
+  {
+   "codigo": "0108LBO",
+   "nombre": "Laboratorio de Botánica",
+   "festivos": [
+    {
+     "fecha": "2024-01-29",
+     "nombre": "Por traslado de Santo Tomás de Aquino"
+    },
+    {
+     "fecha": "2024-02-28",
+     "nombre": "Día de Andalucía"
+    },
+    {
+     "fecha": "2024-03-22",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2024-03-23",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2024-03-25",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2024-03-26",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2024-03-27",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2024-03-28",
+     "nombre": "Jueves Santo"
+    },
+    {
+     "fecha": "2024-03-29",
+     "nombre": "Viernes Santo"
+    },
+    {
+     "fecha": "2024-03-30",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2024-05-01",
+     "nombre": "Fiesta del Trabajo"
+    },
+    {
+     "fecha": "2024-05-23",
+     "nombre": "Feria de la Salud"
+    },
+    {
+     "fecha": "2024-05-24",
+     "nombre": "Feria de la Salud"
+    }
+   ],
+   "reservas": [
+    {
+     "fecha": "2024-02-05",
+     "ini": "10:00",
+     "fin": "12:00",
+     "texto": "Examen MICOLOGÍA",
+     "tipo": "",
+     "asignatura": "Examen MICOLOGÍA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-02-05",
+     "ini": "12:30",
+     "fin": "14:00",
+     "texto": "Examen BIOLOGÍA ANIMAL Y VEGETAL",
+     "tipo": "",
+     "asignatura": "Examen BIOLOGÍA ANIMAL Y VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-02-13",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 5 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "5 (GM)"
+    },
+    {
+     "fecha": "2024-02-14",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 3 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "3 (GM)"
+    },
+    {
+     "fecha": "2024-02-14",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2024-02-15",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "6 (GM)"
+    },
+    {
+     "fecha": "2024-02-15",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2024-02-16",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 4 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "4 (GM)"
+    },
+    {
+     "fecha": "2024-02-20",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-02-21",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-02-22",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-02-22",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-02-23",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-02-23",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-02-26",
+     "ini": "16:00",
+     "fin": "18:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Bases botánicas para la gestión del medioambiente",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2024-02-29",
+     "ini": "12:00",
+     "fin": "14:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE. Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Bases botánicas para la gestión del medioambiente",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2024-02-29",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE. Grupo : 3 (GM)",
+     "tipo": "P",
+     "asignatura": "Bases botánicas para la gestión del medioambiente",
+     "grupo": "3 (GM)"
+    },
+    {
+     "fecha": "2024-03-05",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-03-06",
+     "ini": "09:00",
+     "fin": "11:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Bases botánicas para la gestión del medioambiente",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2024-03-06",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-03-06",
+     "ini": "16:00",
+     "fin": "18:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE. Grupo : 3 (GM)",
+     "tipo": "P",
+     "asignatura": "Bases botánicas para la gestión del medioambiente",
+     "grupo": "3 (GM)"
+    },
+    {
+     "fecha": "2024-03-07",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-03-07",
+     "ini": "12:00",
+     "fin": "14:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE. Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Bases botánicas para la gestión del medioambiente",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2024-03-07",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-03-08",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-03-08",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-03-12",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-03-13",
+     "ini": "09:00",
+     "fin": "11:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Bases botánicas para la gestión del medioambiente",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2024-03-13",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-03-13",
+     "ini": "16:00",
+     "fin": "18:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE. Grupo : 3 (GM)",
+     "tipo": "P",
+     "asignatura": "Bases botánicas para la gestión del medioambiente",
+     "grupo": "3 (GM)"
+    },
+    {
+     "fecha": "2024-03-14",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-03-14",
+     "ini": "12:00",
+     "fin": "14:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE. Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Bases botánicas para la gestión del medioambiente",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2024-03-14",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-03-15",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-03-15",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-03-18",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-03-18",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-03-19",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-03-19",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA . Grupo : 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "6 (GM)"
+    },
+    {
+     "fecha": "2024-03-20",
+     "ini": "09:00",
+     "fin": "11:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Bases botánicas para la gestión del medioambiente",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2024-03-20",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-03-20",
+     "ini": "16:00",
+     "fin": "18:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE. Grupo : 3 (GM)",
+     "tipo": "P",
+     "asignatura": "Bases botánicas para la gestión del medioambiente",
+     "grupo": "3 (GM)"
+    },
+    {
+     "fecha": "2024-03-21",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-03-21",
+     "ini": "12:00",
+     "fin": "14:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE. Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Bases botánicas para la gestión del medioambiente",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2024-03-21",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-04-02",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-04-03",
+     "ini": "09:00",
+     "fin": "11:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Bases botánicas para la gestión del medioambiente",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2024-04-03",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-04-03",
+     "ini": "16:00",
+     "fin": "18:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE. Grupo : 3 (GM)",
+     "tipo": "P",
+     "asignatura": "Bases botánicas para la gestión del medioambiente",
+     "grupo": "3 (GM)"
+    },
+    {
+     "fecha": "2024-04-04",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-04-04",
+     "ini": "12:00",
+     "fin": "14:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE. Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Bases botánicas para la gestión del medioambiente",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2024-04-04",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-04-05",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-04-05",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-04-09",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-04-10",
+     "ini": "09:00",
+     "fin": "11:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Bases botánicas para la gestión del medioambiente",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2024-04-10",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-04-10",
+     "ini": "16:00",
+     "fin": "18:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE. Grupo : 3 (GM)",
+     "tipo": "P",
+     "asignatura": "Bases botánicas para la gestión del medioambiente",
+     "grupo": "3 (GM)"
+    },
+    {
+     "fecha": "2024-04-11",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-04-11",
+     "ini": "12:00",
+     "fin": "14:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE. Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Bases botánicas para la gestión del medioambiente",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2024-04-11",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-04-12",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-04-12",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-04-16",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-04-17",
+     "ini": "09:00",
+     "fin": "11:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Bases botánicas para la gestión del medioambiente",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2024-04-17",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-04-17",
+     "ini": "16:00",
+     "fin": "18:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE. Grupo : 3 (GM)",
+     "tipo": "P",
+     "asignatura": "Bases botánicas para la gestión del medioambiente",
+     "grupo": "3 (GM)"
+    },
+    {
+     "fecha": "2024-04-18",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-04-18",
+     "ini": "12:00",
+     "fin": "14:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE. Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Bases botánicas para la gestión del medioambiente",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2024-04-18",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-04-19",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-04-19",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-04-23",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-04-24",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-04-24",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA . Grupo : 3 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "3 (GM)"
+    },
+    {
+     "fecha": "2024-04-25",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-04-25",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2024-04-26",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "tipo": "",
+     "asignatura": "BOTÁNICA . Grupos : 1 y 2 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-05-08",
+     "ini": "09:00",
+     "fin": "11:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Bases botánicas para la gestión del medioambiente",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2024-05-08",
+     "ini": "16:00",
+     "fin": "18:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE. Grupo : 3 (GM)",
+     "tipo": "P",
+     "asignatura": "Bases botánicas para la gestión del medioambiente",
+     "grupo": "3 (GM)"
+    },
+    {
+     "fecha": "2024-05-09",
+     "ini": "12:00",
+     "fin": "14:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE. Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Bases botánicas para la gestión del medioambiente",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2024-05-15",
+     "ini": "09:00",
+     "fin": "11:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Bases botánicas para la gestión del medioambiente",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2024-05-15",
+     "ini": "16:00",
+     "fin": "18:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE. Grupo : 3 (GM)",
+     "tipo": "P",
+     "asignatura": "Bases botánicas para la gestión del medioambiente",
+     "grupo": "3 (GM)"
+    },
+    {
+     "fecha": "2024-05-16",
+     "ini": "12:00",
+     "fin": "14:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE. Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Bases botánicas para la gestión del medioambiente",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2024-05-20",
+     "ini": "16:00",
+     "fin": "20:00",
+     "texto": "Examen BOTÁNICA",
+     "tipo": "",
+     "asignatura": "Examen BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-06-04",
+     "ini": "08:00",
+     "fin": "14:00",
+     "texto": "Examen BOTÁNICA",
+     "tipo": "",
+     "asignatura": "Examen BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-06-11",
+     "ini": "11:30",
+     "fin": "13:30",
+     "texto": "Examen BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "Examen BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-07-18",
+     "ini": "08:00",
+     "fin": "15:00",
+     "texto": "Examen BOTÁNICA",
+     "tipo": "",
+     "asignatura": "Examen BOTÁNICA",
+     "grupo": ""
+    }
+   ]
+  },
+  {
+   "codigo": "0108LCO",
+   "nombre": "Laboratorio de Botánica 2",
+   "festivos": [
+    {
+     "fecha": "2024-01-29",
+     "nombre": "Por traslado de Santo Tomás de Aquino"
+    },
+    {
+     "fecha": "2024-02-28",
+     "nombre": "Día de Andalucía"
+    },
+    {
+     "fecha": "2024-03-22",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2024-03-23",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2024-03-25",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2024-03-26",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2024-03-27",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2024-03-28",
+     "nombre": "Jueves Santo"
+    },
+    {
+     "fecha": "2024-03-29",
+     "nombre": "Viernes Santo"
+    },
+    {
+     "fecha": "2024-03-30",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2024-05-01",
+     "nombre": "Fiesta del Trabajo"
+    },
+    {
+     "fecha": "2024-05-23",
+     "nombre": "Feria de la Salud"
+    },
+    {
+     "fecha": "2024-05-24",
+     "nombre": "Feria de la Salud"
+    }
+   ],
+   "reservas": [
+    {
+     "fecha": "2024-04-23",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) BIOTECNOLOGíA AGROALIMENTARíA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Biotecnología agroalimentaría",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2024-04-30",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) BIOTECNOLOGíA AGROALIMENTARíA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Biotecnología agroalimentaría",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2024-05-08",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) BIOTECNOLOGíA AGROALIMENTARíA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Biotecnología agroalimentaría",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2024-05-10",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) BIOTECNOLOGíA AGROALIMENTARíA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Biotecnología agroalimentaría",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2024-05-20",
+     "ini": "16:00",
+     "fin": "20:00",
+     "texto": "Examen BOTÁNICA",
+     "tipo": "",
+     "asignatura": "Examen BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-06-04",
+     "ini": "08:00",
+     "fin": "14:00",
+     "texto": "Examen BOTÁNICA",
+     "tipo": "",
+     "asignatura": "Examen BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-06-11",
+     "ini": "11:30",
+     "fin": "13:30",
+     "texto": "Examen BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "Examen BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-07-18",
+     "ini": "12:00",
+     "fin": "14:30",
+     "texto": "Examen BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "Examen BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    }
+   ]
+  },
+  {
+   "codigo": "0108LEC",
+   "nombre": "Laboratorio de Ecología",
+   "festivos": [
+    {
+     "fecha": "2024-01-29",
+     "nombre": "Por traslado de Santo Tomás de Aquino"
+    },
+    {
+     "fecha": "2024-02-28",
+     "nombre": "Día de Andalucía"
+    },
+    {
+     "fecha": "2024-03-22",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2024-03-23",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2024-03-25",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2024-03-26",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2024-03-27",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2024-03-28",
+     "nombre": "Jueves Santo"
+    },
+    {
+     "fecha": "2024-03-29",
+     "nombre": "Viernes Santo"
+    },
+    {
+     "fecha": "2024-03-30",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2024-05-01",
+     "nombre": "Fiesta del Trabajo"
+    },
+    {
+     "fecha": "2024-05-23",
+     "nombre": "Feria de la Salud"
+    },
+    {
+     "fecha": "2024-05-24",
+     "nombre": "Feria de la Salud"
+    }
+   ],
+   "reservas": [
+    {
+     "fecha": "2024-02-15",
+     "ini": "09:00",
+     "fin": "14:00",
+     "texto": "Jovenes con investigadores. Reserva D. Moisés Martínez Bracero",
+     "tipo": "",
+     "asignatura": "Jovenes con investigadores. Reserva D. Moisés Martínez Bracero",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-02-22",
+     "ini": "09:00",
+     "fin": "14:00",
+     "texto": "Jovenes con investigadores. Reserva D. Moisés Martínez Bracero",
+     "tipo": "",
+     "asignatura": "Jovenes con investigadores. Reserva D. Moisés Martínez Bracero",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-02-29",
+     "ini": "09:00",
+     "fin": "14:00",
+     "texto": "Jovenes con investigadores. Reserva D. Moisés Martínez Bracero",
+     "tipo": "",
+     "asignatura": "Jovenes con investigadores. Reserva D. Moisés Martínez Bracero",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-03-07",
+     "ini": "09:00",
+     "fin": "14:00",
+     "texto": "Jovenes con investigadores. Reserva D. Moisés Martínez Bracero",
+     "tipo": "",
+     "asignatura": "Jovenes con investigadores. Reserva D. Moisés Martínez Bracero",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-03-14",
+     "ini": "09:00",
+     "fin": "14:00",
+     "texto": "Jovenes con investigadores. Reserva D. Moisés Martínez Bracero",
+     "tipo": "",
+     "asignatura": "Jovenes con investigadores. Reserva D. Moisés Martínez Bracero",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-04-01",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "(P) ECOLOGíA II . Grupo : 5 (GM)",
+     "tipo": "P",
+     "asignatura": "Ecología II",
+     "grupo": "5 (GM)"
+    },
+    {
+     "fecha": "2024-04-02",
+     "ini": "08:00",
+     "fin": "10:30",
+     "texto": "(P) ECOLOGíA II . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Ecología II",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2024-04-03",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "(P) ECOLOGíA II . Grupo : 4 (GM)",
+     "tipo": "P",
+     "asignatura": "Ecología II",
+     "grupo": "4 (GM)"
+    },
+    {
+     "fecha": "2024-04-03",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) ECOLOGíA II . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Ecología II",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2024-04-04",
+     "ini": "08:00",
+     "fin": "10:30",
+     "texto": "(P) ECOLOGíA II . Grupo : 3 (GM)",
+     "tipo": "P",
+     "asignatura": "Ecología II",
+     "grupo": "3 (GM)"
+    },
+    {
+     "fecha": "2024-04-05",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "(P) ECOLOGíA II . Grupo : 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Ecología II",
+     "grupo": "6 (GM)"
+    },
+    {
+     "fecha": "2024-04-08",
+     "ini": "08:00",
+     "fin": "09:30",
+     "texto": "ECOLOGíA APLICADA . Grupo : 1 (GG)",
+     "tipo": "",
+     "asignatura": "ECOLOGíA APLICADA . Grupo : 1 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-04-08",
+     "ini": "11:30",
+     "fin": "13:30",
+     "texto": "(P) ECOLOGíA APLICADA",
+     "tipo": "",
+     "asignatura": "(P) ECOLOGíA APLICADA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-04-08",
+     "ini": "16:00",
+     "fin": "18:00",
+     "texto": "(P) ECOLOGíA APLICADA",
+     "tipo": "",
+     "asignatura": "(P) ECOLOGíA APLICADA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-05-20",
+     "ini": "16:00",
+     "fin": "20:00",
+     "texto": "Examen BOTÁNICA",
+     "tipo": "",
+     "asignatura": "Examen BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-06-04",
+     "ini": "08:00",
+     "fin": "14:00",
+     "texto": "Examen BOTÁNICA",
+     "tipo": "",
+     "asignatura": "Examen BOTÁNICA",
+     "grupo": ""
+    }
+   ]
+  },
+  {
+   "codigo": "0108LFV",
+   "nombre": "Laboratorio de Fisiología Vegetal",
+   "festivos": [
+    {
+     "fecha": "2024-01-29",
+     "nombre": "Por traslado de Santo Tomás de Aquino"
+    },
+    {
+     "fecha": "2024-02-28",
+     "nombre": "Día de Andalucía"
+    },
+    {
+     "fecha": "2024-03-22",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2024-03-23",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2024-03-25",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2024-03-26",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2024-03-27",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2024-03-28",
+     "nombre": "Jueves Santo"
+    },
+    {
+     "fecha": "2024-03-29",
+     "nombre": "Viernes Santo"
+    },
+    {
+     "fecha": "2024-03-30",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2024-05-01",
+     "nombre": "Fiesta del Trabajo"
+    },
+    {
+     "fecha": "2024-05-23",
+     "nombre": "Feria de la Salud"
+    },
+    {
+     "fecha": "2024-05-24",
+     "nombre": "Feria de la Salud"
+    }
+   ],
+   "reservas": [
+    {
+     "fecha": "2024-02-13",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 4 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "4 (GM)"
+    },
+    {
+     "fecha": "2024-02-13",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "6 (GM)"
+    },
+    {
+     "fecha": "2024-02-14",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2024-02-14",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 5 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "5 (GM)"
+    },
+    {
+     "fecha": "2024-02-15",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 3 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "3 (GM)"
+    },
+    {
+     "fecha": "2024-02-16",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2024-02-20",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 4 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "4 (GM)"
+    },
+    {
+     "fecha": "2024-02-20",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "6 (GM)"
+    },
+    {
+     "fecha": "2024-02-21",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2024-02-21",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 5 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "5 (GM)"
+    },
+    {
+     "fecha": "2024-02-22",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 3 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "3 (GM)"
+    },
+    {
+     "fecha": "2024-02-23",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2024-02-27",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 4 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "4 (GM)"
+    },
+    {
+     "fecha": "2024-02-27",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "6 (GM)"
+    },
+    {
+     "fecha": "2024-02-29",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2024-02-29",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 3 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "3 (GM)"
+    },
+    {
+     "fecha": "2024-03-01",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2024-03-01",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 5 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "5 (GM)"
+    },
+    {
+     "fecha": "2024-03-04",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "6 (GM)"
+    },
+    {
+     "fecha": "2024-03-05",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 4 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "4 (GM)"
+    },
+    {
+     "fecha": "2024-03-06",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2024-03-06",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 5 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "5 (GM)"
+    },
+    {
+     "fecha": "2024-03-07",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 3 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "3 (GM)"
+    },
+    {
+     "fecha": "2024-03-08",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, II",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2024-03-11",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2024-03-11",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupo : 3 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "3 (GM)"
+    },
+    {
+     "fecha": "2024-03-12",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-03-12",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-03-13",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-03-14",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-03-15",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-03-18",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-03-18",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-03-19",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupo : 5 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "5 (GM)"
+    },
+    {
+     "fecha": "2024-03-19",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupo : 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "6 (GM)"
+    },
+    {
+     "fecha": "2024-03-20",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2024-03-21",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupo : 4 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "4 (GM)"
+    },
+    {
+     "fecha": "2024-04-01",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupos : 1, 2 y 4 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "1, 2 y 4 (GM)"
+    },
+    {
+     "fecha": "2024-04-01",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-04-02",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupos : 5 y 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "5 y 6 (GM)"
+    },
+    {
+     "fecha": "2024-04-03",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupos : 1, 2 y 4 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "1, 2 y 4 (GM)"
+    },
+    {
+     "fecha": "2024-04-04",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupos : 5 y 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "5 y 6 (GM)"
+    },
+    {
+     "fecha": "2024-04-05",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupos : 1, 2 y 4 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "1, 2 y 4 (GM)"
+    },
+    {
+     "fecha": "2024-04-09",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) FISIOLOGíA MOLECULAR DE PLANTAS (DC) . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología molecular de plantas (dc)",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2024-04-09",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) BASES MOLECULARES DEL ESTRÉS EN PLANTAS",
+     "tipo": "",
+     "asignatura": "(P) BASES MOLECULARES DEL ESTRÉS EN PLANTAS",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-04-10",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA MOLECULAR DE PLANTAS (DC) . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología molecular de plantas (dc)",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2024-04-11",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) ECOFISIOLOGíA VEGETAL. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Ecofisiología vegetal",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2024-04-11",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA MOLECULAR DE PLANTAS (DC) . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología molecular de plantas (dc)",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2024-04-12",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA MOLECULAR DE PLANTAS (DC) . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología molecular de plantas (dc)",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2024-04-16",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) FISIOLOGíA MOLECULAR DE PLANTAS (DC) . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología molecular de plantas (dc)",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2024-04-16",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) BASES MOLECULARES DEL ESTRÉS EN PLANTAS",
+     "tipo": "",
+     "asignatura": "(P) BASES MOLECULARES DEL ESTRÉS EN PLANTAS",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-04-17",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA MOLECULAR DE PLANTAS (DC) . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología molecular de plantas (dc)",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2024-04-18",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) ECOFISIOLOGíA VEGETAL. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Ecofisiología vegetal",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2024-04-18",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA MOLECULAR DE PLANTAS (DC) . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología molecular de plantas (dc)",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2024-04-19",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA MOLECULAR DE PLANTAS (DC) . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología molecular de plantas (dc)",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2024-04-22",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) BIOTECNOLOGíA AGROALIMENTARíA . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Biotecnología agroalimentaría",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2024-04-23",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) BASES MOLECULARES DEL ESTRÉS EN PLANTAS",
+     "tipo": "",
+     "asignatura": "(P) BASES MOLECULARES DEL ESTRÉS EN PLANTAS",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-04-24",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) BIOTECNOLOGíA AGROALIMENTARíA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Biotecnología agroalimentaría",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2024-04-30",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) BASES MOLECULARES DEL ESTRÉS EN PLANTAS",
+     "tipo": "",
+     "asignatura": "(P) BASES MOLECULARES DEL ESTRÉS EN PLANTAS",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-05-03",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) BIOTECNOLOGíA AGROALIMENTARíA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Biotecnología agroalimentaría",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2024-05-03",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) BIOTECNOLOGíA AGROALIMENTARíA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Biotecnología agroalimentaría",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2024-05-07",
+     "ini": "09:30",
+     "fin": "11:00",
+     "texto": "(P) FISIOLOGíA MOLECULAR DE PLANTAS (DC) . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología molecular de plantas (dc)",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2024-05-07",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) BIOTECNOLOGíA AGROALIMENTARíA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Biotecnología agroalimentaría",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2024-05-08",
+     "ini": "11:30",
+     "fin": "13:00",
+     "texto": "(P) FISIOLOGíA MOLECULAR DE PLANTAS (DC) . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología molecular de plantas (dc)",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2024-05-09",
+     "ini": "16:00",
+     "fin": "17:30",
+     "texto": "(P) FISIOLOGíA MOLECULAR DE PLANTAS (DC) . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología molecular de plantas (dc)",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2024-05-10",
+     "ini": "11:30",
+     "fin": "13:00",
+     "texto": "(P) FISIOLOGíA MOLECULAR DE PLANTAS (DC) . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología molecular de plantas (dc)",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2024-05-14",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) FISIOLOGíA MOLECULAR DE PLANTAS (DC) . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología molecular de plantas (dc)",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2024-05-15",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA MOLECULAR DE PLANTAS (DC) . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología molecular de plantas (dc)",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2024-05-16",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA MOLECULAR DE PLANTAS (DC) . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología molecular de plantas (dc)",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2024-05-17",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA MOLECULAR DE PLANTAS (DC) . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología molecular de plantas (dc)",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2024-05-20",
+     "ini": "16:00",
+     "fin": "20:00",
+     "texto": "Examen BOTÁNICA",
+     "tipo": "",
+     "asignatura": "Examen BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-06-04",
+     "ini": "08:00",
+     "fin": "14:00",
+     "texto": "Examen BOTÁNICA",
+     "tipo": "",
+     "asignatura": "Examen BOTÁNICA",
+     "grupo": ""
+    }
+   ]
+  }
+ ]
+}

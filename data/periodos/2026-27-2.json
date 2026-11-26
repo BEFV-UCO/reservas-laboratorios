@@ -1,0 +1,262 @@
+{
+ "id": "2026-27-2",
+ "curso": "2026-27",
+ "n": 2,
+ "desde": "2027-02-01",
+ "hasta": "2027-08-01",
+ "generado": "2026-11-26T11:24",
+ "laboratorios": [
+  {
+   "codigo": "0108LBO",
+   "nombre": "Laboratorio de Botánica",
+   "festivos": [
+    {
+     "fecha": "2027-03-01",
+     "nombre": "Por traslado del Día de Andalucia"
+    },
+    {
+     "fecha": "2027-03-19",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2027-03-20",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2027-03-21",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2027-03-22",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2027-03-23",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2027-03-24",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2027-03-25",
+     "nombre": "Jueves Santo"
+    },
+    {
+     "fecha": "2027-03-26",
+     "nombre": "Viernes Santo"
+    },
+    {
+     "fecha": "2027-03-27",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2027-03-28",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2027-05-01",
+     "nombre": "Fiesta del Trabajo"
+    },
+    {
+     "fecha": "2027-05-27",
+     "nombre": "Feria Ntra. Sra. Salud"
+    },
+    {
+     "fecha": "2027-05-28",
+     "nombre": "Ntra. Sra. de la Salud"
+    }
+   ],
+   "reservas": []
+  },
+  {
+   "codigo": "0108LCO",
+   "nombre": "Laboratorio de Botánica 2",
+   "festivos": [
+    {
+     "fecha": "2027-03-01",
+     "nombre": "Por traslado del Día de Andalucia"
+    },
+    {
+     "fecha": "2027-03-19",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2027-03-20",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2027-03-21",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2027-03-22",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2027-03-23",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2027-03-24",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2027-03-25",
+     "nombre": "Jueves Santo"
+    },
+    {
+     "fecha": "2027-03-26",
+     "nombre": "Viernes Santo"
+    },
+    {
+     "fecha": "2027-03-27",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2027-03-28",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2027-05-01",
+     "nombre": "Fiesta del Trabajo"
+    },
+    {
+     "fecha": "2027-05-27",
+     "nombre": "Feria Ntra. Sra. Salud"
+    },
+    {
+     "fecha": "2027-05-28",
+     "nombre": "Ntra. Sra. de la Salud"
+    }
+   ],
+   "reservas": []
+  },
+  {
+   "codigo": "0108LEC",
+   "nombre": "Laboratorio de Ecología",
+   "festivos": [
+    {
+     "fecha": "2027-03-01",
+     "nombre": "Por traslado del Día de Andalucia"
+    },
+    {
+     "fecha": "2027-03-19",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2027-03-20",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2027-03-21",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2027-03-22",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2027-03-23",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2027-03-24",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2027-03-25",
+     "nombre": "Jueves Santo"
+    },
+    {
+     "fecha": "2027-03-26",
+     "nombre": "Viernes Santo"
+    },
+    {
+     "fecha": "2027-03-27",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2027-03-28",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2027-05-01",
+     "nombre": "Fiesta del Trabajo"
+    },
+    {
+     "fecha": "2027-05-27",
+     "nombre": "Feria Ntra. Sra. Salud"
+    },
+    {
+     "fecha": "2027-05-28",
+     "nombre": "Ntra. Sra. de la Salud"
+    }
+   ],
+   "reservas": []
+  },
+  {
+   "codigo": "0108LFV",
+   "nombre": "Laboratorio de Fisiología Vegetal",
+   "festivos": [
+    {
+     "fecha": "2027-03-01",
+     "nombre": "Por traslado del Día de Andalucia"
+    },
+    {
+     "fecha": "2027-03-19",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2027-03-20",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2027-03-21",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2027-03-22",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2027-03-23",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2027-03-24",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2027-03-25",
+     "nombre": "Jueves Santo"
+    },
+    {
+     "fecha": "2027-03-26",
+     "nombre": "Viernes Santo"
+    },
+    {
+     "fecha": "2027-03-27",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2027-03-28",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2027-05-01",
+     "nombre": "Fiesta del Trabajo"
+    },
+    {
+     "fecha": "2027-05-27",
+     "nombre": "Feria Ntra. Sra. Salud"
+    },
+    {
+     "fecha": "2027-05-28",
+     "nombre": "Ntra. Sra. de la Salud"
+    }
+   ],
+   "reservas": []
+  }
+ ]
+}

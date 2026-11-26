@@ -1,0 +1,1568 @@
+{
+ "id": "2023-24-1",
+ "curso": "2023-24",
+ "n": 1,
+ "desde": "2023-08-28",
+ "hasta": "2024-02-04",
+ "generado": "2026-11-26T11:24",
+ "laboratorios": [
+  {
+   "codigo": "0108LBO",
+   "nombre": "Laboratorio de Botánica",
+   "festivos": [
+    {
+     "fecha": "2023-09-08",
+     "nombre": "Fuensanta (Córdoba) y Remedios (Belmez)"
+    },
+    {
+     "fecha": "2023-09-29",
+     "nombre": "Apertura oficial del curso 2023/24"
+    },
+    {
+     "fecha": "2023-10-12",
+     "nombre": "Fiesta Nacional de España"
+    },
+    {
+     "fecha": "2023-10-24",
+     "nombre": "San Rafael"
+    },
+    {
+     "fecha": "2023-11-01",
+     "nombre": "Día de todos los Santos"
+    },
+    {
+     "fecha": "2023-12-06",
+     "nombre": "Día de la Constitución Española"
+    },
+    {
+     "fecha": "2023-12-08",
+     "nombre": "Inmaculada Concepción"
+    },
+    {
+     "fecha": "2023-12-23",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-12-24",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-12-25",
+     "nombre": "Natividad del Señor"
+    },
+    {
+     "fecha": "2023-12-26",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-12-27",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-12-28",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-12-29",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-12-30",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-12-31",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2024-01-01",
+     "nombre": "Año Nuevo"
+    },
+    {
+     "fecha": "2024-01-02",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2024-01-03",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2024-01-04",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2024-01-05",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2024-01-06",
+     "nombre": "Epifanía del Señor"
+    },
+    {
+     "fecha": "2024-01-07",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2024-01-29",
+     "nombre": "Por traslado de Santo Tomás de Aquino"
+    }
+   ],
+   "reservas": [
+    {
+     "fecha": "2023-10-02",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-10-03",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-10-03",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-10-04",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2023-10-06",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "(P) BOTÁNICA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2023-10-06",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2023-10-16",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-10-17",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-10-17",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-10-18",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) MICOLOGíA",
+     "tipo": "",
+     "asignatura": "(P) MICOLOGíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-10-18",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2023-10-19",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) MICOLOGíA",
+     "tipo": "",
+     "asignatura": "(P) MICOLOGíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-10-20",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "(P) BOTÁNICA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2023-10-20",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2023-10-25",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) MICOLOGíA",
+     "tipo": "",
+     "asignatura": "(P) MICOLOGíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-10-26",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) MICOLOGíA",
+     "tipo": "",
+     "asignatura": "(P) MICOLOGíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-11-07",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-11-07",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-11-08",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) MICOLOGíA",
+     "tipo": "",
+     "asignatura": "(P) MICOLOGíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-11-08",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2023-11-09",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) MICOLOGíA",
+     "tipo": "",
+     "asignatura": "(P) MICOLOGíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-11-09",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-11-10",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "(P) BOTÁNICA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2023-11-10",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2023-11-13",
+     "ini": "11:30",
+     "fin": "13:30",
+     "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Biología animal y vegetal",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-11-15",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) MICOLOGíA",
+     "tipo": "",
+     "asignatura": "(P) MICOLOGíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-11-16",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) MICOLOGíA",
+     "tipo": "",
+     "asignatura": "(P) MICOLOGíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-11-16",
+     "ini": "16:00",
+     "fin": "18:00",
+     "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Biología animal y vegetal",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-11-20",
+     "ini": "11:30",
+     "fin": "13:30",
+     "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Biología animal y vegetal",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-11-20",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-11-21",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-11-21",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-11-22",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) MICOLOGíA",
+     "tipo": "",
+     "asignatura": "(P) MICOLOGíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-11-22",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2023-11-23",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) MICOLOGíA",
+     "tipo": "",
+     "asignatura": "(P) MICOLOGíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-11-23",
+     "ini": "16:00",
+     "fin": "18:00",
+     "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Biología animal y vegetal",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-11-24",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "(P) BOTÁNICA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2023-11-24",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2023-11-28",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-11-28",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-11-29",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) MICOLOGíA",
+     "tipo": "",
+     "asignatura": "(P) MICOLOGíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-11-29",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2023-11-30",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) MICOLOGíA",
+     "tipo": "",
+     "asignatura": "(P) MICOLOGíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-11-30",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-12-01",
+     "ini": "09:00",
+     "fin": "11:00",
+     "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Biología animal y vegetal",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2023-12-01",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "(P) BOTÁNICA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2023-12-01",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2023-12-04",
+     "ini": "11:30",
+     "fin": "13:30",
+     "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Biología animal y vegetal",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-12-07",
+     "ini": "16:00",
+     "fin": "18:00",
+     "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Biología animal y vegetal",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-12-11",
+     "ini": "11:30",
+     "fin": "13:30",
+     "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Biología animal y vegetal",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-12-13",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) MICOLOGíA",
+     "tipo": "",
+     "asignatura": "(P) MICOLOGíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-12-14",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) MICOLOGíA",
+     "tipo": "",
+     "asignatura": "(P) MICOLOGíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-12-14",
+     "ini": "16:00",
+     "fin": "18:00",
+     "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Biología animal y vegetal",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-12-18",
+     "ini": "11:30",
+     "fin": "13:30",
+     "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Biología animal y vegetal",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-12-18",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-12-19",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-12-19",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-12-20",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2023-12-21",
+     "ini": "16:00",
+     "fin": "18:00",
+     "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Biología animal y vegetal",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-12-22",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "(P) BOTÁNICA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2023-12-22",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2024-01-11",
+     "ini": "09:00",
+     "fin": "14:00",
+     "texto": "Proyecto Jóvenes con Investigadores",
+     "tipo": "",
+     "asignatura": "Proyecto Jóvenes con Investigadores",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-01-15",
+     "ini": "10:00",
+     "fin": "12:30",
+     "texto": "Examen MICOLOGÍA",
+     "tipo": "",
+     "asignatura": "Examen MICOLOGÍA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2024-01-15",
+     "ini": "12:30",
+     "fin": "15:30",
+     "texto": "Examen BIOLOGÍA ANIMAL Y VEGETAL",
+     "tipo": "",
+     "asignatura": "Examen BIOLOGÍA ANIMAL Y VEGETAL",
+     "grupo": ""
+    }
+   ]
+  },
+  {
+   "codigo": "0108LCO",
+   "nombre": "Laboratorio de Botánica 2",
+   "festivos": [
+    {
+     "fecha": "2023-09-08",
+     "nombre": "Fuensanta (Córdoba) y Remedios (Belmez)"
+    },
+    {
+     "fecha": "2023-09-29",
+     "nombre": "Apertura oficial del curso 2023/24"
+    },
+    {
+     "fecha": "2023-10-12",
+     "nombre": "Fiesta Nacional de España"
+    },
+    {
+     "fecha": "2023-10-24",
+     "nombre": "San Rafael"
+    },
+    {
+     "fecha": "2023-11-01",
+     "nombre": "Día de todos los Santos"
+    },
+    {
+     "fecha": "2023-12-06",
+     "nombre": "Día de la Constitución Española"
+    },
+    {
+     "fecha": "2023-12-08",
+     "nombre": "Inmaculada Concepción"
+    },
+    {
+     "fecha": "2023-12-23",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-12-24",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-12-25",
+     "nombre": "Natividad del Señor"
+    },
+    {
+     "fecha": "2023-12-26",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-12-27",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-12-28",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-12-29",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-12-30",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-12-31",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2024-01-01",
+     "nombre": "Año Nuevo"
+    },
+    {
+     "fecha": "2024-01-02",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2024-01-03",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2024-01-04",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2024-01-05",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2024-01-06",
+     "nombre": "Epifanía del Señor"
+    },
+    {
+     "fecha": "2024-01-07",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2024-01-29",
+     "nombre": "Por traslado de Santo Tomás de Aquino"
+    }
+   ],
+   "reservas": []
+  },
+  {
+   "codigo": "0108LEC",
+   "nombre": "Laboratorio de Ecología",
+   "festivos": [
+    {
+     "fecha": "2023-09-08",
+     "nombre": "Fuensanta (Córdoba) y Remedios (Belmez)"
+    },
+    {
+     "fecha": "2023-09-29",
+     "nombre": "Apertura oficial del curso 2023/24"
+    },
+    {
+     "fecha": "2023-10-12",
+     "nombre": "Fiesta Nacional de España"
+    },
+    {
+     "fecha": "2023-10-24",
+     "nombre": "San Rafael"
+    },
+    {
+     "fecha": "2023-11-01",
+     "nombre": "Día de todos los Santos"
+    },
+    {
+     "fecha": "2023-12-06",
+     "nombre": "Día de la Constitución Española"
+    },
+    {
+     "fecha": "2023-12-08",
+     "nombre": "Inmaculada Concepción"
+    },
+    {
+     "fecha": "2023-12-23",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-12-24",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-12-25",
+     "nombre": "Natividad del Señor"
+    },
+    {
+     "fecha": "2023-12-26",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-12-27",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-12-28",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-12-29",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-12-30",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-12-31",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2024-01-01",
+     "nombre": "Año Nuevo"
+    },
+    {
+     "fecha": "2024-01-02",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2024-01-03",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2024-01-04",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2024-01-05",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2024-01-06",
+     "nombre": "Epifanía del Señor"
+    },
+    {
+     "fecha": "2024-01-07",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2024-01-29",
+     "nombre": "Por traslado de Santo Tomás de Aquino"
+    }
+   ],
+   "reservas": [
+    {
+     "fecha": "2023-10-02",
+     "ini": "16:00",
+     "fin": "18:00",
+     "texto": "(P) CONSERVACIÓN DE LA NATURALEZA:RESTAURACIÓN Y REHABILITACIÓN AMBIENTAL. PAISAJISMO",
+     "tipo": "",
+     "asignatura": "(P) CONSERVACIÓN DE LA NATURALEZA:RESTAURACIÓN Y REHABILITACIÓN AMBIENTAL. PAISAJISMO",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-10-04",
+     "ini": "09:30",
+     "fin": "11:30",
+     "texto": "(P) CONSERVACIÓN DE LA NATURALEZA:RESTAURACIÓN Y REHABILITACIÓN AMBIENTAL. PAISAJISMO. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Conservación de la naturaleza:restauración y rehabilitación ambiental. paisajismo",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-10-09",
+     "ini": "16:00",
+     "fin": "18:00",
+     "texto": "(P) CONSERVACIÓN DE LA NATURALEZA:RESTAURACIÓN Y REHABILITACIÓN AMBIENTAL. PAISAJISMO. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Conservación de la naturaleza:restauración y rehabilitación ambiental. paisajismo",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-10-11",
+     "ini": "09:30",
+     "fin": "11:30",
+     "texto": "(P) CONSERVACIÓN DE LA NATURALEZA:RESTAURACIÓN Y REHABILITACIÓN AMBIENTAL. PAISAJISMO. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Conservación de la naturaleza:restauración y rehabilitación ambiental. paisajismo",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-10-23",
+     "ini": "16:00",
+     "fin": "18:00",
+     "texto": "(P) CONSERVACIÓN DE LA NATURALEZA:RESTAURACIÓN Y REHABILITACIÓN AMBIENTAL. PAISAJISMO. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Conservación de la naturaleza:restauración y rehabilitación ambiental. paisajismo",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-10-25",
+     "ini": "09:30",
+     "fin": "11:30",
+     "texto": "(P) CONSERVACIÓN DE LA NATURALEZA:RESTAURACIÓN Y REHABILITACIÓN AMBIENTAL. PAISAJISMO. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Conservación de la naturaleza:restauración y rehabilitación ambiental. paisajismo",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-10-26",
+     "ini": "16:00",
+     "fin": "18:00",
+     "texto": "CONSERVACIÓN DE LA NATURALEZA:RESTAURACIÓN Y REHABILITACIÓN AMBIENTAL. PAISAJISMO. Grupo : 1 (GG)",
+     "tipo": "",
+     "asignatura": "CONSERVACIÓN DE LA NATURALEZA:RESTAURACIÓN Y REHABILITACIÓN AMBIENTAL. PAISAJISMO. Grupo : 1 (GG)",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-10-30",
+     "ini": "16:00",
+     "fin": "18:00",
+     "texto": "(P) CONSERVACIÓN DE LA NATURALEZA:RESTAURACIÓN Y REHABILITACIÓN AMBIENTAL. PAISAJISMO. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Conservación de la naturaleza:restauración y rehabilitación ambiental. paisajismo",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-11-02",
+     "ini": "09:30",
+     "fin": "11:30",
+     "texto": "(P) CONSERVACIÓN DE LA NATURALEZA:RESTAURACIÓN Y REHABILITACIÓN AMBIENTAL. PAISAJISMO. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Conservación de la naturaleza:restauración y rehabilitación ambiental. paisajismo",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-11-06",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) CONSERVACIÓN DE LA NATURALEZA:RESTAURACIÓN Y REHABILITACIÓN AMBIENTAL. PAISAJISMO. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Conservación de la naturaleza:restauración y rehabilitación ambiental. paisajismo",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-11-08",
+     "ini": "09:30",
+     "fin": "11:30",
+     "texto": "(P) CONSERVACIÓN DE LA NATURALEZA:RESTAURACIÓN Y REHABILITACIÓN AMBIENTAL. PAISAJISMO. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Conservación de la naturaleza:restauración y rehabilitación ambiental. paisajismo",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-11-13",
+     "ini": "16:00",
+     "fin": "18:00",
+     "texto": "(P) CONSERVACIÓN DE LA NATURALEZA:RESTAURACIÓN Y REHABILITACIÓN AMBIENTAL. PAISAJISMO. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Conservación de la naturaleza:restauración y rehabilitación ambiental. paisajismo",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-11-15",
+     "ini": "09:30",
+     "fin": "11:30",
+     "texto": "(P) CONSERVACIÓN DE LA NATURALEZA:RESTAURACIÓN Y REHABILITACIÓN AMBIENTAL. PAISAJISMO. Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Conservación de la naturaleza:restauración y rehabilitación ambiental. paisajismo",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-11-29",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2023-11-29",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2023-11-30",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2023-12-01",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2023-12-05",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupos : 1, 2, 3, 4, 5, 6 y 7 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "1, 2, 3, 4, 5, 6 y 7 (GM)"
+    },
+    {
+     "fecha": "2023-12-05",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupos : 1, 2, 3, 4, 5, 6 y 7 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "1, 2, 3, 4, 5, 6 y 7 (GM)"
+    },
+    {
+     "fecha": "2023-12-11",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-12-11",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupo : 3 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "3 (GM)"
+    },
+    {
+     "fecha": "2023-12-12",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupos : 1, 2, 3, 4, 5, 6 y 7 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "1, 2, 3, 4, 5, 6 y 7 (GM)"
+    },
+    {
+     "fecha": "2023-12-12",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupos : 1, 2, 3, 4, 5, 6 y 7 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "1, 2, 3, 4, 5, 6 y 7 (GM)"
+    },
+    {
+     "fecha": "2023-12-13",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupos : 1, 2, 3, 4, 5, 6 y 7 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "1, 2, 3, 4, 5, 6 y 7 (GM)"
+    },
+    {
+     "fecha": "2023-12-13",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupos : 1, 2, 3, 4, 5, 6 y 7 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "1, 2, 3, 4, 5, 6 y 7 (GM)"
+    },
+    {
+     "fecha": "2023-12-14",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupos : 1, 2, 3, 4, 5, 6 y 7 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "1, 2, 3, 4, 5, 6 y 7 (GM)"
+    },
+    {
+     "fecha": "2023-12-15",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupos : 1, 2, 3, 4, 5, 6 y 7 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "1, 2, 3, 4, 5, 6 y 7 (GM)"
+    },
+    {
+     "fecha": "2023-12-15",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupo : 4 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "4 (GM)"
+    },
+    {
+     "fecha": "2023-12-18",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupo : 4 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "4 (GM)"
+    },
+    {
+     "fecha": "2023-12-19",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupos : 1, 2, 3, 4, 5, 6 y 7 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "1, 2, 3, 4, 5, 6 y 7 (GM)"
+    },
+    {
+     "fecha": "2023-12-19",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupos : 1, 2, 3, 4, 5, 6 y 7 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "1, 2, 3, 4, 5, 6 y 7 (GM)"
+    },
+    {
+     "fecha": "2023-12-20",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupos : 1, 2, 3, 4, 5, 6 y 7 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "1, 2, 3, 4, 5, 6 y 7 (GM)"
+    },
+    {
+     "fecha": "2023-12-20",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupos : 1, 2, 3, 4, 5, 6 y 7 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "1, 2, 3, 4, 5, 6 y 7 (GM)"
+    },
+    {
+     "fecha": "2023-12-21",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupos : 1, 2, 3, 4, 5, 6 y 7 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "1, 2, 3, 4, 5, 6 y 7 (GM)"
+    },
+    {
+     "fecha": "2023-12-22",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupos : 1, 2, 3, 4, 5, 6 y 7 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "1, 2, 3, 4, 5, 6 y 7 (GM)"
+    }
+   ]
+  },
+  {
+   "codigo": "0108LFV",
+   "nombre": "Laboratorio de Fisiología Vegetal",
+   "festivos": [
+    {
+     "fecha": "2023-09-08",
+     "nombre": "Fuensanta (Córdoba) y Remedios (Belmez)"
+    },
+    {
+     "fecha": "2023-09-29",
+     "nombre": "Apertura oficial del curso 2023/24"
+    },
+    {
+     "fecha": "2023-10-12",
+     "nombre": "Fiesta Nacional de España"
+    },
+    {
+     "fecha": "2023-10-24",
+     "nombre": "San Rafael"
+    },
+    {
+     "fecha": "2023-11-01",
+     "nombre": "Día de todos los Santos"
+    },
+    {
+     "fecha": "2023-12-06",
+     "nombre": "Día de la Constitución Española"
+    },
+    {
+     "fecha": "2023-12-08",
+     "nombre": "Inmaculada Concepción"
+    },
+    {
+     "fecha": "2023-12-23",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-12-24",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-12-25",
+     "nombre": "Natividad del Señor"
+    },
+    {
+     "fecha": "2023-12-26",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-12-27",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-12-28",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-12-29",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-12-30",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-12-31",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2024-01-01",
+     "nombre": "Año Nuevo"
+    },
+    {
+     "fecha": "2024-01-02",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2024-01-03",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2024-01-04",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2024-01-05",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2024-01-06",
+     "nombre": "Epifanía del Señor"
+    },
+    {
+     "fecha": "2024-01-07",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2024-01-29",
+     "nombre": "Por traslado de Santo Tomás de Aquino"
+    }
+   ],
+   "reservas": [
+    {
+     "fecha": "2023-09-19",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2023-09-19",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2023-09-20",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2023-09-20",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2023-09-21",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2023-09-22",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2023-10-02",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL AMBIENTAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL AMBIENTAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-10-04",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL AMBIENTAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL AMBIENTAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-10-16",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-10-16",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-10-17",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-10-17",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-10-19",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2023-10-19",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2023-10-23",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL AMBIENTAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL AMBIENTAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-10-25",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL AMBIENTAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL AMBIENTAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2023-10-26",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) FISIOLOGíA VEGETAL AMBIENTAL . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal ambiental",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2023-10-30",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2023-10-30",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2023-10-31",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2023-10-31",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2023-11-02",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2023-11-02",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2023-11-21",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+    },
+    {
+     "fecha": "2023-11-21",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+    },
+    {
+     "fecha": "2023-11-23",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+    },
+    {
+     "fecha": "2023-11-23",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+    },
+    {
+     "fecha": "2023-12-11",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupo : 7 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "7 (GM)"
+    }
+   ]
+  }
+ ]
+}

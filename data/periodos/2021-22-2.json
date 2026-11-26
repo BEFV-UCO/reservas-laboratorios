@@ -1,0 +1,2106 @@
+{
+ "id": "2021-22-2",
+ "curso": "2021-22",
+ "n": 2,
+ "desde": "2022-01-31",
+ "hasta": "2022-07-31",
+ "generado": "2026-11-26T11:24",
+ "laboratorios": [
+  {
+   "codigo": "0108LBO",
+   "nombre": "Laboratorio de Botánica",
+   "festivos": [
+    {
+     "fecha": "2022-02-28",
+     "nombre": "Día de Andalucía"
+    },
+    {
+     "fecha": "2022-04-08",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2022-04-09",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2022-04-11",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2022-04-12",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2022-04-13",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2022-04-14",
+     "nombre": "Jueves Santo"
+    },
+    {
+     "fecha": "2022-04-15",
+     "nombre": "Viernes Santo"
+    },
+    {
+     "fecha": "2022-04-16",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2022-05-02",
+     "nombre": "Fiesta del Trabajo (traslado)"
+    },
+    {
+     "fecha": "2022-05-26",
+     "nombre": "Feria Ntra. Sra. de la Salud (Córdoba)"
+    },
+    {
+     "fecha": "2022-05-27",
+     "nombre": "Feria Ntra. Sra. de la Salud (Córdoba)"
+    }
+   ],
+   "reservas": [
+    {
+     "fecha": "2022-02-14",
+     "ini": "09:00",
+     "fin": "11:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-02-14",
+     "ini": "11:30",
+     "fin": "13:30",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-02-15",
+     "ini": "12:00",
+     "fin": "15:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-02-15",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-02-16",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-02-16",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-02-17",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-02-17",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-02-21",
+     "ini": "09:00",
+     "fin": "11:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-02-21",
+     "ini": "11:30",
+     "fin": "13:30",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-02-22",
+     "ini": "12:00",
+     "fin": "15:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-02-22",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-02-23",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-02-23",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-02-24",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-02-24",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-07",
+     "ini": "17:00",
+     "fin": "19:30",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-08",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-08",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-08",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-10",
+     "ini": "09:00",
+     "fin": "11:30",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-10",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-14",
+     "ini": "09:00",
+     "fin": "11:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-14",
+     "ini": "11:30",
+     "fin": "13:30",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-14",
+     "ini": "17:00",
+     "fin": "19:30",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-15",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-15",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-15",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-17",
+     "ini": "09:00",
+     "fin": "11:30",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-17",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-21",
+     "ini": "17:00",
+     "fin": "19:30",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-22",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-22",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-22",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-24",
+     "ini": "09:00",
+     "fin": "11:30",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-24",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-28",
+     "ini": "09:00",
+     "fin": "11:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-28",
+     "ini": "11:30",
+     "fin": "13:30",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-28",
+     "ini": "17:00",
+     "fin": "19:30",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-29",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-29",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-29",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-31",
+     "ini": "09:00",
+     "fin": "11:30",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-31",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-04",
+     "ini": "09:00",
+     "fin": "11:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-04",
+     "ini": "11:30",
+     "fin": "13:30",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-04",
+     "ini": "17:00",
+     "fin": "19:30",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-05",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-05",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-05",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-07",
+     "ini": "09:00",
+     "fin": "11:30",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-07",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-18",
+     "ini": "09:00",
+     "fin": "11:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-18",
+     "ini": "11:30",
+     "fin": "13:30",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-18",
+     "ini": "17:00",
+     "fin": "19:30",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-19",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-19",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-19",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-21",
+     "ini": "09:00",
+     "fin": "11:30",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-21",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-25",
+     "ini": "09:00",
+     "fin": "11:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-25",
+     "ini": "11:30",
+     "fin": "13:30",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-25",
+     "ini": "17:00",
+     "fin": "19:30",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-26",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-26",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-26",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-28",
+     "ini": "09:00",
+     "fin": "11:30",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-28",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-05-09",
+     "ini": "09:00",
+     "fin": "11:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-05-09",
+     "ini": "11:30",
+     "fin": "13:30",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-05-16",
+     "ini": "09:00",
+     "fin": "11:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-05-16",
+     "ini": "11:30",
+     "fin": "13:30",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-05-16",
+     "ini": "17:00",
+     "fin": "19:30",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-05-17",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-05-17",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-05-17",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-05-19",
+     "ini": "09:00",
+     "fin": "11:30",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-05-19",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) BOTÁNICA",
+     "tipo": "",
+     "asignatura": "(P) BOTÁNICA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-05-23",
+     "ini": "09:00",
+     "fin": "11:00",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-05-23",
+     "ini": "11:30",
+     "fin": "13:30",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-06-16",
+     "ini": "11:30",
+     "fin": "13:30",
+     "texto": "Examen BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "Examen BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    }
+   ]
+  },
+  {
+   "codigo": "0108LCO",
+   "nombre": "Laboratorio de Botánica 2",
+   "festivos": [
+    {
+     "fecha": "2022-02-28",
+     "nombre": "Día de Andalucía"
+    },
+    {
+     "fecha": "2022-04-08",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2022-04-09",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2022-04-11",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2022-04-12",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2022-04-13",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2022-04-14",
+     "nombre": "Jueves Santo"
+    },
+    {
+     "fecha": "2022-04-15",
+     "nombre": "Viernes Santo"
+    },
+    {
+     "fecha": "2022-04-16",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2022-05-02",
+     "nombre": "Fiesta del Trabajo (traslado)"
+    },
+    {
+     "fecha": "2022-05-26",
+     "nombre": "Feria Ntra. Sra. de la Salud (Córdoba)"
+    },
+    {
+     "fecha": "2022-05-27",
+     "nombre": "Feria Ntra. Sra. de la Salud (Córdoba)"
+    }
+   ],
+   "reservas": [
+    {
+     "fecha": "2022-02-14",
+     "ini": "14:30",
+     "fin": "16:30",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-02-21",
+     "ini": "14:30",
+     "fin": "16:30",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-14",
+     "ini": "14:30",
+     "fin": "16:30",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-28",
+     "ini": "14:30",
+     "fin": "16:30",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-04",
+     "ini": "14:30",
+     "fin": "16:30",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-18",
+     "ini": "14:30",
+     "fin": "16:30",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-25",
+     "ini": "14:30",
+     "fin": "16:30",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-05-09",
+     "ini": "14:30",
+     "fin": "16:30",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-05-16",
+     "ini": "14:30",
+     "fin": "16:30",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-05-23",
+     "ini": "14:30",
+     "fin": "16:30",
+     "texto": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "tipo": "",
+     "asignatura": "(P) BASES BOTÁNICAS PARA LA GESTIÓN DEL MEDIOAMBIENTE",
+     "grupo": ""
+    }
+   ]
+  },
+  {
+   "codigo": "0108LEC",
+   "nombre": "Laboratorio de Ecología",
+   "festivos": [
+    {
+     "fecha": "2022-02-28",
+     "nombre": "Día de Andalucía"
+    },
+    {
+     "fecha": "2022-04-08",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2022-04-09",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2022-04-11",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2022-04-12",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2022-04-13",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2022-04-14",
+     "nombre": "Jueves Santo"
+    },
+    {
+     "fecha": "2022-04-15",
+     "nombre": "Viernes Santo"
+    },
+    {
+     "fecha": "2022-04-16",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2022-05-02",
+     "nombre": "Fiesta del Trabajo (traslado)"
+    },
+    {
+     "fecha": "2022-05-26",
+     "nombre": "Feria Ntra. Sra. de la Salud (Córdoba)"
+    },
+    {
+     "fecha": "2022-05-27",
+     "nombre": "Feria Ntra. Sra. de la Salud (Córdoba)"
+    }
+   ],
+   "reservas": [
+    {
+     "fecha": "2022-02-14",
+     "ini": "16:30",
+     "fin": "19:30",
+     "texto": "ok por gestión de espacios",
+     "tipo": "",
+     "asignatura": "ok por gestión de espacios",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-02-15",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "ok por gestión de espacios",
+     "tipo": "",
+     "asignatura": "ok por gestión de espacios",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-02-15",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "ok por gestión de espacios",
+     "tipo": "",
+     "asignatura": "ok por gestión de espacios",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-02-16",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "ok por gestión de espacios",
+     "tipo": "",
+     "asignatura": "ok por gestión de espacios",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-02-17",
+     "ini": "11:00",
+     "fin": "14:00",
+     "texto": "ok por gestión de espacios",
+     "tipo": "",
+     "asignatura": "ok por gestión de espacios",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-02-17",
+     "ini": "17:00",
+     "fin": "20:00",
+     "texto": "ok por gestión de espacios",
+     "tipo": "",
+     "asignatura": "ok por gestión de espacios",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-02-21",
+     "ini": "16:30",
+     "fin": "19:30",
+     "texto": "ok por gestión de espacios",
+     "tipo": "",
+     "asignatura": "ok por gestión de espacios",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-02-22",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "ok por gestión de espacios",
+     "tipo": "",
+     "asignatura": "ok por gestión de espacios",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-02-22",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "ok por gestión de espacios",
+     "tipo": "",
+     "asignatura": "ok por gestión de espacios",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-02-23",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "ok por gestión de espacios",
+     "tipo": "",
+     "asignatura": "ok por gestión de espacios",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-02-24",
+     "ini": "11:00",
+     "fin": "14:00",
+     "texto": "ok por gestión de espacios",
+     "tipo": "",
+     "asignatura": "ok por gestión de espacios",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-02-24",
+     "ini": "17:00",
+     "fin": "20:00",
+     "texto": "ok por gestión de espacios",
+     "tipo": "",
+     "asignatura": "ok por gestión de espacios",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-01",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "ok por gestión de espacios",
+     "tipo": "",
+     "asignatura": "ok por gestión de espacios",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-01",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "ok por gestión de espacios",
+     "tipo": "",
+     "asignatura": "ok por gestión de espacios",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-02",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "ok por gestión de espacios",
+     "tipo": "",
+     "asignatura": "ok por gestión de espacios",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-03",
+     "ini": "11:00",
+     "fin": "14:00",
+     "texto": "ok por gestión de espacios",
+     "tipo": "",
+     "asignatura": "ok por gestión de espacios",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-03",
+     "ini": "17:00",
+     "fin": "20:00",
+     "texto": "ok por gestión de espacios",
+     "tipo": "",
+     "asignatura": "ok por gestión de espacios",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-04",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "ok por gestión de espacios",
+     "tipo": "",
+     "asignatura": "ok por gestión de espacios",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-07",
+     "ini": "16:30",
+     "fin": "19:30",
+     "texto": "ok por gestión de espacios",
+     "tipo": "",
+     "asignatura": "ok por gestión de espacios",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-08",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "ok por gestión de espacios",
+     "tipo": "",
+     "asignatura": "ok por gestión de espacios",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-08",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "ok por gestión de espacios",
+     "tipo": "",
+     "asignatura": "ok por gestión de espacios",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-09",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "ok por gestión de espacios",
+     "tipo": "",
+     "asignatura": "ok por gestión de espacios",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-10",
+     "ini": "11:00",
+     "fin": "14:00",
+     "texto": "ok por gestión de espacios",
+     "tipo": "",
+     "asignatura": "ok por gestión de espacios",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-10",
+     "ini": "17:00",
+     "fin": "20:00",
+     "texto": "ok por gestión de espacios",
+     "tipo": "",
+     "asignatura": "ok por gestión de espacios",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-21",
+     "ini": "10:00",
+     "fin": "12:30",
+     "texto": "(P) ECOLOGíA II . Grupo : 1 (GG)",
+     "tipo": "P",
+     "asignatura": "Ecología II",
+     "grupo": "1 (GG)"
+    },
+    {
+     "fecha": "2022-03-22",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) ECOLOGíA II . Grupo : 1 (GG)",
+     "tipo": "P",
+     "asignatura": "Ecología II",
+     "grupo": "1 (GG)"
+    },
+    {
+     "fecha": "2022-03-23",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) ECOLOGíA II . Grupo : 2 (GG)",
+     "tipo": "P",
+     "asignatura": "Ecología II",
+     "grupo": "2 (GG)"
+    },
+    {
+     "fecha": "2022-03-23",
+     "ini": "11:30",
+     "fin": "14:00",
+     "texto": "(P) ECOLOGíA II . Grupo : 2 (GG)",
+     "tipo": "P",
+     "asignatura": "Ecología II",
+     "grupo": "2 (GG)"
+    },
+    {
+     "fecha": "2022-03-24",
+     "ini": "16:00",
+     "fin": "18:30",
+     "texto": "(P) ECOLOGíA II . Grupo : 1 (GG)",
+     "tipo": "P",
+     "asignatura": "Ecología II",
+     "grupo": "1 (GG)"
+    },
+    {
+     "fecha": "2022-03-25",
+     "ini": "10:00",
+     "fin": "12:30",
+     "texto": "(P) ECOLOGíA II . Grupo : 2 (GG)",
+     "tipo": "P",
+     "asignatura": "Ecología II",
+     "grupo": "2 (GG)"
+    },
+    {
+     "fecha": "2022-03-28",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "Realización de prácticas de Fisiología Molecular de Plantas (Grado de Bioquímica). Se reserva este laboratorio por ser contiguo al de Fisiología Vegetal para aumentar la distancia entre alumnos.",
+     "tipo": "",
+     "asignatura": "Realización de prácticas de Fisiología Molecular de Plantas (Grado de Bioquímica). Se reserva este laboratorio por ser contiguo al de Fisiología Vegetal para aumentar la distancia entre alumnos.",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-28",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "Realización de prácticas de Fisiología Molecular de Plantas (Grado de Bioquímica). Se reserva este laboratorio por ser contiguo al de Fisiología Vegetal para aumentar la distancia entre alumnos.",
+     "tipo": "",
+     "asignatura": "Realización de prácticas de Fisiología Molecular de Plantas (Grado de Bioquímica). Se reserva este laboratorio por ser contiguo al de Fisiología Vegetal para aumentar la distancia entre alumnos.",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-29",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "Realización de prácticas de Fisiología Molecular de Plantas (Grado de Bioquímica). Se reserva este laboratorio por ser contiguo al de Fisiología Vegetal para aumentar la distancia entre alumnos.",
+     "tipo": "",
+     "asignatura": "Realización de prácticas de Fisiología Molecular de Plantas (Grado de Bioquímica). Se reserva este laboratorio por ser contiguo al de Fisiología Vegetal para aumentar la distancia entre alumnos.",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-30",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "Realización de prácticas de Fisiología Molecular de Plantas (Grado de Bioquímica). Se reserva este laboratorio por ser contiguo al de Fisiología Vegetal para aumentar la distancia entre alumnos.",
+     "tipo": "",
+     "asignatura": "Realización de prácticas de Fisiología Molecular de Plantas (Grado de Bioquímica). Se reserva este laboratorio por ser contiguo al de Fisiología Vegetal para aumentar la distancia entre alumnos.",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-30",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "Realización de prácticas de Fisiología Molecular de Plantas (Grado de Bioquímica). Se reserva este laboratorio por ser contiguo al de Fisiología Vegetal para aumentar la distancia entre alumnos.",
+     "tipo": "",
+     "asignatura": "Realización de prácticas de Fisiología Molecular de Plantas (Grado de Bioquímica). Se reserva este laboratorio por ser contiguo al de Fisiología Vegetal para aumentar la distancia entre alumnos.",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-31",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "Realización de prácticas de Fisiología Molecular de Plantas (Grado de Bioquímica). Se reserva este laboratorio por ser contiguo al de Fisiología Vegetal para aumentar la distancia entre alumnos.",
+     "tipo": "",
+     "asignatura": "Realización de prácticas de Fisiología Molecular de Plantas (Grado de Bioquímica). Se reserva este laboratorio por ser contiguo al de Fisiología Vegetal para aumentar la distancia entre alumnos.",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-18",
+     "ini": "10:00",
+     "fin": "13:00",
+     "texto": "(P) ECOLOGíA II",
+     "tipo": "",
+     "asignatura": "(P) ECOLOGíA II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-19",
+     "ini": "10:30",
+     "fin": "13:30",
+     "texto": "Realización de prácticas de Fisiología Molecular de Plantas (Grado de Bioquímica). Se reserva este laboratorio por ser contiguo al de Fisiología Vegetal para aumentar la distancia entre alumnos.",
+     "tipo": "",
+     "asignatura": "Realización de prácticas de Fisiología Molecular de Plantas (Grado de Bioquímica). Se reserva este laboratorio por ser contiguo al de Fisiología Vegetal para aumentar la distancia entre alumnos.",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-19",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) ECOLOGíA II",
+     "tipo": "",
+     "asignatura": "(P) ECOLOGíA II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-20",
+     "ini": "08:30",
+     "fin": "11:30",
+     "texto": "(P) ECOLOGíA II",
+     "tipo": "",
+     "asignatura": "(P) ECOLOGíA II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-20",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) ECOLOGíA II",
+     "tipo": "",
+     "asignatura": "(P) ECOLOGíA II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-21",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) ECOLOGíA II",
+     "tipo": "",
+     "asignatura": "(P) ECOLOGíA II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-05-09",
+     "ini": "10:00",
+     "fin": "13:00",
+     "texto": "(P) ECOLOGíA II",
+     "tipo": "",
+     "asignatura": "(P) ECOLOGíA II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-05-10",
+     "ini": "08:30",
+     "fin": "11:30",
+     "texto": "(P) ECOLOGíA APLICADA",
+     "tipo": "",
+     "asignatura": "(P) ECOLOGíA APLICADA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-05-10",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) ECOLOGíA APLICADA",
+     "tipo": "",
+     "asignatura": "(P) ECOLOGíA APLICADA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-05-10",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) ECOLOGíA II",
+     "tipo": "",
+     "asignatura": "(P) ECOLOGíA II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-05-11",
+     "ini": "08:30",
+     "fin": "11:30",
+     "texto": "(P) ECOLOGíA II",
+     "tipo": "",
+     "asignatura": "(P) ECOLOGíA II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-05-11",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) ECOLOGíA II",
+     "tipo": "",
+     "asignatura": "(P) ECOLOGíA II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-05-12",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) ECOLOGíA II",
+     "tipo": "",
+     "asignatura": "(P) ECOLOGíA II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-05-13",
+     "ini": "10:00",
+     "fin": "13:00",
+     "texto": "(P) ECOLOGíA II",
+     "tipo": "",
+     "asignatura": "(P) ECOLOGíA II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-05-17",
+     "ini": "10:30",
+     "fin": "13:30",
+     "texto": "Realización de prácticas de Fisiología Molecular de Plantas (Grado de Bioquímica). Se reserva este laboratorio por ser contiguo al de Fisiología Vegetal para aumentar la distancia entre alumnos.",
+     "tipo": "",
+     "asignatura": "Realización de prácticas de Fisiología Molecular de Plantas (Grado de Bioquímica). Se reserva este laboratorio por ser contiguo al de Fisiología Vegetal para aumentar la distancia entre alumnos.",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-05-19",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "Realización de prácticas de Fisiología Molecular de Plantas (Grado de Bioquímica). Se reserva este laboratorio por ser contiguo al de Fisiología Vegetal para aumentar la distancia entre alumnos.",
+     "tipo": "",
+     "asignatura": "Realización de prácticas de Fisiología Molecular de Plantas (Grado de Bioquímica). Se reserva este laboratorio por ser contiguo al de Fisiología Vegetal para aumentar la distancia entre alumnos.",
+     "grupo": ""
+    }
+   ]
+  },
+  {
+   "codigo": "0108LFV",
+   "nombre": "Laboratorio de Fisiología Vegetal",
+   "festivos": [
+    {
+     "fecha": "2022-02-28",
+     "nombre": "Día de Andalucía"
+    },
+    {
+     "fecha": "2022-04-08",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2022-04-09",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2022-04-11",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2022-04-12",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2022-04-13",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2022-04-14",
+     "nombre": "Jueves Santo"
+    },
+    {
+     "fecha": "2022-04-15",
+     "nombre": "Viernes Santo"
+    },
+    {
+     "fecha": "2022-04-16",
+     "nombre": "Semana Santa"
+    },
+    {
+     "fecha": "2022-05-02",
+     "nombre": "Fiesta del Trabajo (traslado)"
+    },
+    {
+     "fecha": "2022-05-26",
+     "nombre": "Feria Ntra. Sra. de la Salud (Córdoba)"
+    },
+    {
+     "fecha": "2022-05-27",
+     "nombre": "Feria Ntra. Sra. de la Salud (Córdoba)"
+    }
+   ],
+   "reservas": [
+    {
+     "fecha": "2022-02-14",
+     "ini": "16:30",
+     "fin": "19:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-02-15",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-02-15",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-02-16",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-02-17",
+     "ini": "11:00",
+     "fin": "14:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-02-17",
+     "ini": "17:00",
+     "fin": "20:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-02-21",
+     "ini": "16:30",
+     "fin": "19:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-02-22",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-02-22",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-02-23",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-02-24",
+     "ini": "11:00",
+     "fin": "14:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-02-24",
+     "ini": "17:00",
+     "fin": "20:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-01",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-01",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-02",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-03",
+     "ini": "11:00",
+     "fin": "14:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-03",
+     "ini": "17:00",
+     "fin": "20:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-04",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-07",
+     "ini": "16:30",
+     "fin": "19:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-08",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-08",
+     "ini": "11:00",
+     "fin": "14:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-09",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-09",
+     "ini": "11:00",
+     "fin": "14:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-10",
+     "ini": "09:30",
+     "fin": "12:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, II",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-14",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-14",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-15",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-16",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-16",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-17",
+     "ini": "12:00",
+     "fin": "15:00",
+     "texto": "(P) BASES MOLECULARES DEL ESTRÉS EN PLANTAS",
+     "tipo": "",
+     "asignatura": "(P) BASES MOLECULARES DEL ESTRÉS EN PLANTAS",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-17",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-21",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-21",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-22",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-23",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-23",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-24",
+     "ini": "12:00",
+     "fin": "15:00",
+     "texto": "(P) BASES MOLECULARES DEL ESTRÉS EN PLANTAS",
+     "tipo": "",
+     "asignatura": "(P) BASES MOLECULARES DEL ESTRÉS EN PLANTAS",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-24",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-28",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-28",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-29",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-30",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-30",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-31",
+     "ini": "12:00",
+     "fin": "15:00",
+     "texto": "(P) BASES MOLECULARES DEL ESTRÉS EN PLANTAS",
+     "tipo": "",
+     "asignatura": "(P) BASES MOLECULARES DEL ESTRÉS EN PLANTAS",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-03-31",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-07",
+     "ini": "08:30",
+     "fin": "11:30",
+     "texto": "(P) ECOFISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) ECOFISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-07",
+     "ini": "12:00",
+     "fin": "15:00",
+     "texto": "(P) BASES MOLECULARES DEL ESTRÉS EN PLANTAS",
+     "tipo": "",
+     "asignatura": "(P) BASES MOLECULARES DEL ESTRÉS EN PLANTAS",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-19",
+     "ini": "10:30",
+     "fin": "13:30",
+     "texto": "(P) FISIOLOGíA MOLECULAR DE PLANTAS",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA MOLECULAR DE PLANTAS",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-21",
+     "ini": "08:30",
+     "fin": "11:30",
+     "texto": "(P) ECOFISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) ECOFISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-21",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA MOLECULAR DE PLANTAS",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA MOLECULAR DE PLANTAS",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-26",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) BIOTECNOLOGíA AGROALIMENTARíA",
+     "tipo": "",
+     "asignatura": "(P) BIOTECNOLOGíA AGROALIMENTARíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-26",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) BIOTECNOLOGíA AGROALIMENTARíA",
+     "tipo": "",
+     "asignatura": "(P) BIOTECNOLOGíA AGROALIMENTARíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-04-28",
+     "ini": "09:00",
+     "fin": "12:00",
+     "texto": "(P) BIOTECNOLOGíA AGROALIMENTARíA",
+     "tipo": "",
+     "asignatura": "(P) BIOTECNOLOGíA AGROALIMENTARíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-05-03",
+     "ini": "12:00",
+     "fin": "13:30",
+     "texto": "(P) FISIOLOGíA MOLECULAR DE PLANTAS",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA MOLECULAR DE PLANTAS",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-05-03",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) BIOTECNOLOGíA AGROALIMENTARíA",
+     "tipo": "",
+     "asignatura": "(P) BIOTECNOLOGíA AGROALIMENTARíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-05-04",
+     "ini": "11:00",
+     "fin": "14:00",
+     "texto": "(P) BIOTECNOLOGíA AGROALIMENTARíA",
+     "tipo": "",
+     "asignatura": "(P) BIOTECNOLOGíA AGROALIMENTARíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-05-05",
+     "ini": "09:00",
+     "fin": "12:00",
+     "texto": "(P) BIOTECNOLOGíA AGROALIMENTARíA",
+     "tipo": "",
+     "asignatura": "(P) BIOTECNOLOGíA AGROALIMENTARíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-05-05",
+     "ini": "16:00",
+     "fin": "17:30",
+     "texto": "(P) FISIOLOGíA MOLECULAR DE PLANTAS",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA MOLECULAR DE PLANTAS",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-05-10",
+     "ini": "10:30",
+     "fin": "13:30",
+     "texto": "(P) FISIOLOGíA MOLECULAR DE PLANTAS",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA MOLECULAR DE PLANTAS",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-05-10",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) BIOTECNOLOGíA AGROALIMENTARíA",
+     "tipo": "",
+     "asignatura": "(P) BIOTECNOLOGíA AGROALIMENTARíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-05-11",
+     "ini": "11:00",
+     "fin": "14:00",
+     "texto": "(P) BIOTECNOLOGíA AGROALIMENTARíA",
+     "tipo": "",
+     "asignatura": "(P) BIOTECNOLOGíA AGROALIMENTARíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-05-12",
+     "ini": "09:00",
+     "fin": "12:00",
+     "texto": "(P) BIOTECNOLOGíA AGROALIMENTARíA",
+     "tipo": "",
+     "asignatura": "(P) BIOTECNOLOGíA AGROALIMENTARíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-05-12",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA MOLECULAR DE PLANTAS",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA MOLECULAR DE PLANTAS",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-05-17",
+     "ini": "10:30",
+     "fin": "13:30",
+     "texto": "(P) FISIOLOGíA MOLECULAR DE PLANTAS",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA MOLECULAR DE PLANTAS",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-05-19",
+     "ini": "16:00",
+     "fin": "19:00",
+     "texto": "(P) FISIOLOGíA MOLECULAR DE PLANTAS",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA MOLECULAR DE PLANTAS",
+     "grupo": ""
+    }
+   ]
+  }
+ ]
+}

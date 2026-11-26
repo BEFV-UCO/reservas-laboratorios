@@ -1,0 +1,1435 @@
+{
+ "id": "2022-23-1",
+ "curso": "2022-23",
+ "n": 1,
+ "desde": "2022-08-29",
+ "hasta": "2023-02-05",
+ "generado": "2026-11-26T11:24",
+ "laboratorios": [
+  {
+   "codigo": "0108LBO",
+   "nombre": "Laboratorio de Botánica",
+   "festivos": [
+    {
+     "fecha": "2022-09-08",
+     "nombre": "Ntra. Sra. de la Fuensanta (Córdoba)"
+    },
+    {
+     "fecha": "2022-09-30",
+     "nombre": "Apertura de curso"
+    },
+    {
+     "fecha": "2022-10-12",
+     "nombre": "Fiesta Nacional de España"
+    },
+    {
+     "fecha": "2022-10-24",
+     "nombre": "San Rafael"
+    },
+    {
+     "fecha": "2022-11-01",
+     "nombre": "Día de Todos los Santos"
+    },
+    {
+     "fecha": "2022-12-06",
+     "nombre": "Día de la Constitución Española"
+    },
+    {
+     "fecha": "2022-12-08",
+     "nombre": "Inmaculada Concepción"
+    },
+    {
+     "fecha": "2022-12-23",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2022-12-26",
+     "nombre": "Traslado de la Natividad del Señor"
+    },
+    {
+     "fecha": "2022-12-27",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2022-12-28",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2022-12-29",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2022-12-30",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-01-02",
+     "nombre": "Traslado de Año Nuevo"
+    },
+    {
+     "fecha": "2023-01-03",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-01-04",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-01-05",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-01-06",
+     "nombre": "Epifanía del Señor"
+    },
+    {
+     "fecha": "2023-01-27",
+     "nombre": "Traslado de Santo Tomás de Aquino"
+    }
+   ],
+   "reservas": [
+    {
+     "fecha": "2022-09-19",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2022-09-20",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2022-09-20",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2022-09-21",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2022-09-22",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-09-22",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2022-09-26",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2022-09-27",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2022-09-27",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2022-09-28",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2022-09-29",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2022-09-29",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2022-10-03",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-10-04",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-10-04",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-10-05",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-10-06",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2022-10-06",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-10-17",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-10-18",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-10-18",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-10-19",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-10-20",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2022-10-20",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-10-26",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) MICOLOGíA",
+     "tipo": "",
+     "asignatura": "(P) MICOLOGíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-10-28",
+     "ini": "10:30",
+     "fin": "13:30",
+     "texto": "(P) MICOLOGíA",
+     "tipo": "",
+     "asignatura": "(P) MICOLOGíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-11-02",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) MICOLOGíA",
+     "tipo": "",
+     "asignatura": "(P) MICOLOGíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-11-04",
+     "ini": "10:30",
+     "fin": "13:30",
+     "texto": "(P) MICOLOGíA",
+     "tipo": "",
+     "asignatura": "(P) MICOLOGíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-11-07",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-11-08",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-11-08",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-11-09",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) MICOLOGíA",
+     "tipo": "",
+     "asignatura": "(P) MICOLOGíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-11-09",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-11-10",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2022-11-10",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-11-11",
+     "ini": "10:30",
+     "fin": "13:30",
+     "texto": "(P) MICOLOGíA",
+     "tipo": "",
+     "asignatura": "(P) MICOLOGíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-11-16",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) MICOLOGíA",
+     "tipo": "",
+     "asignatura": "(P) MICOLOGíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-11-18",
+     "ini": "10:30",
+     "fin": "13:30",
+     "texto": "(P) MICOLOGíA",
+     "tipo": "",
+     "asignatura": "(P) MICOLOGíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-11-21",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-11-22",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-11-22",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-11-23",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) MICOLOGíA",
+     "tipo": "",
+     "asignatura": "(P) MICOLOGíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-11-23",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-11-24",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2022-11-24",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-11-25",
+     "ini": "10:30",
+     "fin": "13:30",
+     "texto": "(P) MICOLOGíA",
+     "tipo": "",
+     "asignatura": "(P) MICOLOGíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-11-28",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-11-29",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-11-29",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-11-30",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) MICOLOGíA",
+     "tipo": "",
+     "asignatura": "(P) MICOLOGíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-11-30",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-12-01",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2022-12-01",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-12-02",
+     "ini": "10:30",
+     "fin": "13:30",
+     "texto": "(P) MICOLOGíA",
+     "tipo": "",
+     "asignatura": "(P) MICOLOGíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-12-14",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) MICOLOGíA",
+     "tipo": "",
+     "asignatura": "(P) MICOLOGíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-12-16",
+     "ini": "10:30",
+     "fin": "13:30",
+     "texto": "(P) MICOLOGíA",
+     "tipo": "",
+     "asignatura": "(P) MICOLOGíA",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-12-19",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-12-20",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-12-20",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-12-21",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-12-22",
+     "ini": "08:30",
+     "fin": "11:00",
+     "texto": "(P) BOTÁNICA . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2022-12-22",
+     "ini": "15:30",
+     "fin": "18:00",
+     "texto": "(P) BOTÁNICA . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Botánica",
+     "grupo": "1 y 2 (GM)"
+    }
+   ]
+  },
+  {
+   "codigo": "0108LCO",
+   "nombre": "Laboratorio de Botánica 2",
+   "festivos": [
+    {
+     "fecha": "2022-09-08",
+     "nombre": "Ntra. Sra. de la Fuensanta (Córdoba)"
+    },
+    {
+     "fecha": "2022-09-30",
+     "nombre": "Apertura de curso"
+    },
+    {
+     "fecha": "2022-10-12",
+     "nombre": "Fiesta Nacional de España"
+    },
+    {
+     "fecha": "2022-10-24",
+     "nombre": "San Rafael"
+    },
+    {
+     "fecha": "2022-11-01",
+     "nombre": "Día de Todos los Santos"
+    },
+    {
+     "fecha": "2022-12-06",
+     "nombre": "Día de la Constitución Española"
+    },
+    {
+     "fecha": "2022-12-08",
+     "nombre": "Inmaculada Concepción"
+    },
+    {
+     "fecha": "2022-12-23",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2022-12-26",
+     "nombre": "Traslado de la Natividad del Señor"
+    },
+    {
+     "fecha": "2022-12-27",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2022-12-28",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2022-12-29",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2022-12-30",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-01-02",
+     "nombre": "Traslado de Año Nuevo"
+    },
+    {
+     "fecha": "2023-01-03",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-01-04",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-01-05",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-01-06",
+     "nombre": "Epifanía del Señor"
+    },
+    {
+     "fecha": "2023-01-27",
+     "nombre": "Traslado de Santo Tomás de Aquino"
+    }
+   ],
+   "reservas": [
+    {
+     "fecha": "2022-09-12",
+     "ini": "10:00",
+     "fin": "11:00",
+     "texto": "Examen MICOLOGÍA",
+     "tipo": "",
+     "asignatura": "Examen MICOLOGÍA",
+     "grupo": ""
+    }
+   ]
+  },
+  {
+   "codigo": "0108LEC",
+   "nombre": "Laboratorio de Ecología",
+   "festivos": [
+    {
+     "fecha": "2022-09-08",
+     "nombre": "Ntra. Sra. de la Fuensanta (Córdoba)"
+    },
+    {
+     "fecha": "2022-09-30",
+     "nombre": "Apertura de curso"
+    },
+    {
+     "fecha": "2022-10-12",
+     "nombre": "Fiesta Nacional de España"
+    },
+    {
+     "fecha": "2022-10-24",
+     "nombre": "San Rafael"
+    },
+    {
+     "fecha": "2022-11-01",
+     "nombre": "Día de Todos los Santos"
+    },
+    {
+     "fecha": "2022-12-06",
+     "nombre": "Día de la Constitución Española"
+    },
+    {
+     "fecha": "2022-12-08",
+     "nombre": "Inmaculada Concepción"
+    },
+    {
+     "fecha": "2022-12-23",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2022-12-26",
+     "nombre": "Traslado de la Natividad del Señor"
+    },
+    {
+     "fecha": "2022-12-27",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2022-12-28",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2022-12-29",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2022-12-30",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-01-02",
+     "nombre": "Traslado de Año Nuevo"
+    },
+    {
+     "fecha": "2023-01-03",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-01-04",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-01-05",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-01-06",
+     "nombre": "Epifanía del Señor"
+    },
+    {
+     "fecha": "2023-01-27",
+     "nombre": "Traslado de Santo Tomás de Aquino"
+    }
+   ],
+   "reservas": [
+    {
+     "fecha": "2022-09-16",
+     "ini": "08:00",
+     "fin": "14:00",
+     "texto": "(P) CONSERVACIÓN DE LA NATURALEZA:RESTAURACIÓN Y REHABILITACIÓN AMBIENTAL. PAISAJISMO. Grupo : 1 (GG)",
+     "tipo": "P",
+     "asignatura": "Conservación de la naturaleza:restauración y rehabilitación ambiental. paisajismo",
+     "grupo": "1 (GG)"
+    },
+    {
+     "fecha": "2022-09-23",
+     "ini": "08:00",
+     "fin": "14:00",
+     "texto": "(P) CONSERVACIÓN DE LA NATURALEZA:RESTAURACIÓN Y REHABILITACIÓN AMBIENTAL. PAISAJISMO. Grupo : 1 (GG)",
+     "tipo": "P",
+     "asignatura": "Conservación de la naturaleza:restauración y rehabilitación ambiental. paisajismo",
+     "grupo": "1 (GG)"
+    },
+    {
+     "fecha": "2022-11-21",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-11-22",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-11-23",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-11-23",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-11-24",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-11-25",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-12-12",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-12-13",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-12-14",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-12-14",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-12-15",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-12-16",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-12-16",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-12-19",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-12-20",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-12-21",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-12-21",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-12-22",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I",
+     "grupo": ""
+    }
+   ]
+  },
+  {
+   "codigo": "0108LFV",
+   "nombre": "Laboratorio de Fisiología Vegetal",
+   "festivos": [
+    {
+     "fecha": "2022-09-08",
+     "nombre": "Ntra. Sra. de la Fuensanta (Córdoba)"
+    },
+    {
+     "fecha": "2022-09-30",
+     "nombre": "Apertura de curso"
+    },
+    {
+     "fecha": "2022-10-12",
+     "nombre": "Fiesta Nacional de España"
+    },
+    {
+     "fecha": "2022-10-24",
+     "nombre": "San Rafael"
+    },
+    {
+     "fecha": "2022-11-01",
+     "nombre": "Día de Todos los Santos"
+    },
+    {
+     "fecha": "2022-12-06",
+     "nombre": "Día de la Constitución Española"
+    },
+    {
+     "fecha": "2022-12-08",
+     "nombre": "Inmaculada Concepción"
+    },
+    {
+     "fecha": "2022-12-23",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2022-12-26",
+     "nombre": "Traslado de la Natividad del Señor"
+    },
+    {
+     "fecha": "2022-12-27",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2022-12-28",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2022-12-29",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2022-12-30",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-01-02",
+     "nombre": "Traslado de Año Nuevo"
+    },
+    {
+     "fecha": "2023-01-03",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-01-04",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-01-05",
+     "nombre": "Navidad"
+    },
+    {
+     "fecha": "2023-01-06",
+     "nombre": "Epifanía del Señor"
+    },
+    {
+     "fecha": "2023-01-27",
+     "nombre": "Traslado de Santo Tomás de Aquino"
+    }
+   ],
+   "reservas": [
+    {
+     "fecha": "2022-09-12",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-09-13",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-09-14",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-09-14",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-09-15",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-09-16",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-09-28",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) FISIOLOGíA VEGETAL AMBIENTAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL AMBIENTAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-09-29",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) FISIOLOGíA VEGETAL AMBIENTAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL AMBIENTAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-10-03",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-10-04",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-10-04",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2022-10-05",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-10-06",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-10-07",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-10-17",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2022-10-18",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2022-10-18",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2022-10-19",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2022-10-19",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) FISIOLOGíA VEGETAL AMBIENTAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL AMBIENTAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-10-20",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2022-10-20",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) FISIOLOGíA VEGETAL AMBIENTAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL AMBIENTAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-10-21",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2022-10-25",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2022-10-25",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2022-10-27",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2022-10-28",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupo : 1 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "1 (GM)"
+    },
+    {
+     "fecha": "2022-10-28",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupo : 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "2 (GM)"
+    },
+    {
+     "fecha": "2022-10-31",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL",
+     "tipo": "",
+     "asignatura": "(P) FISIOLOGíA VEGETAL",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-11-15",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-11-15",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-11-16",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-11-17",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-11-18",
+     "ini": "11:30",
+     "fin": "14:30",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-11-18",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) FISIOLOGíA VEGETAL . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Fisiología vegetal",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-11-21",
+     "ini": "08:00",
+     "fin": "21:00",
+     "texto": "UAT. LABORES MANTENIMIENTO",
+     "tipo": "",
+     "asignatura": "UAT. LABORES MANTENIMIENTO",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-11-22",
+     "ini": "08:00",
+     "fin": "21:00",
+     "texto": "UAT. LABORES MANTENIMIENTO",
+     "tipo": "",
+     "asignatura": "UAT. LABORES MANTENIMIENTO",
+     "grupo": ""
+    },
+    {
+     "fecha": "2022-11-28",
+     "ini": "15:30",
+     "fin": "18:30",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I . Grupos : 1 y 2 (GM)",
+     "tipo": "P",
+     "asignatura": "Principios instrumentales y metodológicos en biología de organismos y sistemas, I",
+     "grupo": "1 y 2 (GM)"
+    },
+    {
+     "fecha": "2022-12-16",
+     "ini": "08:00",
+     "fin": "11:00",
+     "texto": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I",
+     "tipo": "",
+     "asignatura": "(P) PRINCIPIOS INSTRUMENTALES Y METODOLÓGICOS EN BIOLOGíA DE ORGANISMOS Y SISTEMAS, I",
+     "grupo": ""
+    }
+   ]
+  }
+ ]
+}
