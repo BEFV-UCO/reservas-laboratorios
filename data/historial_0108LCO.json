@@ -1,0 +1,169 @@
+{
+ "consultado": "2026-11-26T10:01",
+ "desde": "2026-09-07",
+ "hasta": "2027-01-31",
+ "reservas": [
+  {
+   "fecha": "2026-10-01",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 7 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "7 (GM)"
+  },
+  {
+   "fecha": "2026-10-07",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) MICOLOGíA . Grupo : 3 (GM)",
+   "tipo": "P",
+   "asignatura": "Micología",
+   "grupo": "3 (GM)"
+  },
+  {
+   "fecha": "2026-10-08",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 7 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "7 (GM)"
+  },
+  {
+   "fecha": "2026-10-14",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) MICOLOGíA . Grupo : 3 (GM)",
+   "tipo": "P",
+   "asignatura": "Micología",
+   "grupo": "3 (GM)"
+  },
+  {
+   "fecha": "2026-10-22",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 7 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "7 (GM)"
+  },
+  {
+   "fecha": "2026-10-28",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) MICOLOGíA . Grupo : 3 (GM)",
+   "tipo": "P",
+   "asignatura": "Micología",
+   "grupo": "3 (GM)"
+  },
+  {
+   "fecha": "2026-10-29",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 7 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "7 (GM)"
+  },
+  {
+   "fecha": "2026-11-04",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) MICOLOGíA . Grupo : 3 (GM)",
+   "tipo": "P",
+   "asignatura": "Micología",
+   "grupo": "3 (GM)"
+  },
+  {
+   "fecha": "2026-11-05",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 3 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "3 (GM)"
+  },
+  {
+   "fecha": "2026-11-06",
+   "ini": "08:00",
+   "fin": "11:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 7 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "7 (GM)"
+  },
+  {
+   "fecha": "2026-11-06",
+   "ini": "11:30",
+   "fin": "14:30",
+   "texto": "(P) BOTÁNICA I. Grupo : 4 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "4 (GM)"
+  },
+  {
+   "fecha": "2026-11-11",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) MICOLOGíA . Grupo : 3 (GM)",
+   "tipo": "P",
+   "asignatura": "Micología",
+   "grupo": "3 (GM)"
+  },
+  {
+   "fecha": "2026-11-18",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) MICOLOGíA . Grupo : 3 (GM)",
+   "tipo": "P",
+   "asignatura": "Micología",
+   "grupo": "3 (GM)"
+  },
+  {
+   "fecha": "2026-11-19",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 7 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "7 (GM)"
+  },
+  {
+   "fecha": "2026-11-24",
+   "ini": "09:30",
+   "fin": "14:00",
+   "texto": "Jovenes con investigadores",
+   "tipo": "",
+   "asignatura": "Jovenes con investigadores",
+   "grupo": ""
+  },
+  {
+   "fecha": "2026-12-02",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) MICOLOGíA . Grupo : 3 (GM)",
+   "tipo": "P",
+   "asignatura": "Micología",
+   "grupo": "3 (GM)"
+  },
+  {
+   "fecha": "2026-12-16",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) MICOLOGíA . Grupo : 3 (GM)",
+   "tipo": "P",
+   "asignatura": "Micología",
+   "grupo": "3 (GM)"
+  },
+  {
+   "fecha": "2026-12-17",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 7 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "7 (GM)"
+  }
+ ]
+}

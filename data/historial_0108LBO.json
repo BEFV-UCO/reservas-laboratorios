@@ -1,0 +1,700 @@
+{
+ "consultado": "2026-11-26T10:01",
+ "desde": "2026-09-07",
+ "hasta": "2027-01-31",
+ "reservas": [
+  {
+   "fecha": "2026-09-28",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 5 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "5 (GM)"
+  },
+  {
+   "fecha": "2026-09-29",
+   "ini": "08:00",
+   "fin": "11:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 2 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "2 (GM)"
+  },
+  {
+   "fecha": "2026-09-29",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 1 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "1 (GM)"
+  },
+  {
+   "fecha": "2026-10-01",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 3 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "3 (GM)"
+  },
+  {
+   "fecha": "2026-10-02",
+   "ini": "08:00",
+   "fin": "11:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 6 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "6 (GM)"
+  },
+  {
+   "fecha": "2026-10-02",
+   "ini": "11:30",
+   "fin": "14:30",
+   "texto": "(P) BOTÁNICA I. Grupo : 4 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "4 (GM)"
+  },
+  {
+   "fecha": "2026-10-06",
+   "ini": "08:00",
+   "fin": "11:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 2 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "2 (GM)"
+  },
+  {
+   "fecha": "2026-10-06",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 1 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "1 (GM)"
+  },
+  {
+   "fecha": "2026-10-07",
+   "ini": "11:30",
+   "fin": "14:30",
+   "texto": "(P) MICOLOGíA . Grupo : 2 (GM)",
+   "tipo": "P",
+   "asignatura": "Micología",
+   "grupo": "2 (GM)"
+  },
+  {
+   "fecha": "2026-10-07",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 5 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "5 (GM)"
+  },
+  {
+   "fecha": "2026-10-08",
+   "ini": "08:00",
+   "fin": "11:00",
+   "texto": "(P) MICOLOGíA . Grupo : 1 (GM)",
+   "tipo": "P",
+   "asignatura": "Micología",
+   "grupo": "1 (GM)"
+  },
+  {
+   "fecha": "2026-10-08",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 3 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "3 (GM)"
+  },
+  {
+   "fecha": "2026-10-09",
+   "ini": "08:00",
+   "fin": "11:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 6 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "6 (GM)"
+  },
+  {
+   "fecha": "2026-10-09",
+   "ini": "11:30",
+   "fin": "14:30",
+   "texto": "(P) BOTÁNICA I. Grupo : 4 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "4 (GM)"
+  },
+  {
+   "fecha": "2026-10-14",
+   "ini": "11:30",
+   "fin": "14:30",
+   "texto": "(P) MICOLOGíA . Grupo : 2 (GM)",
+   "tipo": "P",
+   "asignatura": "Micología",
+   "grupo": "2 (GM)"
+  },
+  {
+   "fecha": "2026-10-14",
+   "ini": "15:30",
+   "fin": "18:30",
+   "texto": "(P) PLANTAS COMO BIOFACTORíAS. Grupo : 1 (GM)",
+   "tipo": "P",
+   "asignatura": "Plantas como biofactorías",
+   "grupo": "1 (GM)"
+  },
+  {
+   "fecha": "2026-10-15",
+   "ini": "08:00",
+   "fin": "11:00",
+   "texto": "(P) MICOLOGíA . Grupo : 1 (GM)",
+   "tipo": "P",
+   "asignatura": "Micología",
+   "grupo": "1 (GM)"
+  },
+  {
+   "fecha": "2026-10-19",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 5 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "5 (GM)"
+  },
+  {
+   "fecha": "2026-10-20",
+   "ini": "08:00",
+   "fin": "11:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 2 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "2 (GM)"
+  },
+  {
+   "fecha": "2026-10-20",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 1 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "1 (GM)"
+  },
+  {
+   "fecha": "2026-10-22",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 3 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "3 (GM)"
+  },
+  {
+   "fecha": "2026-10-23",
+   "ini": "08:00",
+   "fin": "11:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 6 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "6 (GM)"
+  },
+  {
+   "fecha": "2026-10-23",
+   "ini": "11:30",
+   "fin": "14:30",
+   "texto": "(P) BOTÁNICA I. Grupo : 4 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "4 (GM)"
+  },
+  {
+   "fecha": "2026-10-27",
+   "ini": "08:00",
+   "fin": "11:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 2 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "2 (GM)"
+  },
+  {
+   "fecha": "2026-10-27",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 1 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "1 (GM)"
+  },
+  {
+   "fecha": "2026-10-28",
+   "ini": "11:30",
+   "fin": "14:30",
+   "texto": "(P) MICOLOGíA . Grupo : 2 (GM)",
+   "tipo": "P",
+   "asignatura": "Micología",
+   "grupo": "2 (GM)"
+  },
+  {
+   "fecha": "2026-10-28",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 5 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "5 (GM)"
+  },
+  {
+   "fecha": "2026-10-29",
+   "ini": "08:00",
+   "fin": "11:00",
+   "texto": "(P) MICOLOGíA . Grupo : 1 (GM)",
+   "tipo": "P",
+   "asignatura": "Micología",
+   "grupo": "1 (GM)"
+  },
+  {
+   "fecha": "2026-10-29",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 3 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "3 (GM)"
+  },
+  {
+   "fecha": "2026-10-30",
+   "ini": "08:00",
+   "fin": "11:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 6 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "6 (GM)"
+  },
+  {
+   "fecha": "2026-10-30",
+   "ini": "11:30",
+   "fin": "14:30",
+   "texto": "(P) BOTÁNICA I. Grupo : 4 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "4 (GM)"
+  },
+  {
+   "fecha": "2026-11-03",
+   "ini": "08:00",
+   "fin": "11:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 2 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "2 (GM)"
+  },
+  {
+   "fecha": "2026-11-03",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 1 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "1 (GM)"
+  },
+  {
+   "fecha": "2026-11-04",
+   "ini": "11:30",
+   "fin": "14:30",
+   "texto": "(P) MICOLOGíA . Grupo : 2 (GM)",
+   "tipo": "P",
+   "asignatura": "Micología",
+   "grupo": "2 (GM)"
+  },
+  {
+   "fecha": "2026-11-04",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 5 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "5 (GM)"
+  },
+  {
+   "fecha": "2026-11-05",
+   "ini": "08:00",
+   "fin": "11:00",
+   "texto": "(P) MICOLOGíA . Grupo : 1 (GM)",
+   "tipo": "P",
+   "asignatura": "Micología",
+   "grupo": "1 (GM)"
+  },
+  {
+   "fecha": "2026-11-05",
+   "ini": "15:30",
+   "fin": "17:30",
+   "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 3 (GP)",
+   "tipo": "P",
+   "asignatura": "Biología animal y vegetal",
+   "grupo": "3 (GP)"
+  },
+  {
+   "fecha": "2026-11-05",
+   "ini": "17:30",
+   "fin": "19:30",
+   "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 4 (GP)",
+   "tipo": "P",
+   "asignatura": "Biología animal y vegetal",
+   "grupo": "4 (GP)"
+  },
+  {
+   "fecha": "2026-11-06",
+   "ini": "08:00",
+   "fin": "11:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 6 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "6 (GM)"
+  },
+  {
+   "fecha": "2026-11-06",
+   "ini": "11:30",
+   "fin": "13:30",
+   "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 1 (GP)",
+   "tipo": "P",
+   "asignatura": "Biología animal y vegetal",
+   "grupo": "1 (GP)"
+  },
+  {
+   "fecha": "2026-11-06",
+   "ini": "13:30",
+   "fin": "15:30",
+   "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 2 (GP)",
+   "tipo": "P",
+   "asignatura": "Biología animal y vegetal",
+   "grupo": "2 (GP)"
+  },
+  {
+   "fecha": "2026-11-09",
+   "ini": "11:30",
+   "fin": "13:30",
+   "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 1 (GP)",
+   "tipo": "P",
+   "asignatura": "Biología animal y vegetal",
+   "grupo": "1 (GP)"
+  },
+  {
+   "fecha": "2026-11-09",
+   "ini": "13:30",
+   "fin": "15:30",
+   "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 2 (GP)",
+   "tipo": "P",
+   "asignatura": "Biología animal y vegetal",
+   "grupo": "2 (GP)"
+  },
+  {
+   "fecha": "2026-11-11",
+   "ini": "11:30",
+   "fin": "14:30",
+   "texto": "(P) MICOLOGíA . Grupo : 2 (GM)",
+   "tipo": "P",
+   "asignatura": "Micología",
+   "grupo": "2 (GM)"
+  },
+  {
+   "fecha": "2026-11-12",
+   "ini": "08:00",
+   "fin": "11:00",
+   "texto": "(P) MICOLOGíA . Grupo : 1 (GM)",
+   "tipo": "P",
+   "asignatura": "Micología",
+   "grupo": "1 (GM)"
+  },
+  {
+   "fecha": "2026-11-12",
+   "ini": "15:30",
+   "fin": "17:30",
+   "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 3 (GP)",
+   "tipo": "P",
+   "asignatura": "Biología animal y vegetal",
+   "grupo": "3 (GP)"
+  },
+  {
+   "fecha": "2026-11-12",
+   "ini": "17:30",
+   "fin": "19:30",
+   "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 4 (GP)",
+   "tipo": "P",
+   "asignatura": "Biología animal y vegetal",
+   "grupo": "4 (GP)"
+  },
+  {
+   "fecha": "2026-11-17",
+   "ini": "08:00",
+   "fin": "11:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 2 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "2 (GM)"
+  },
+  {
+   "fecha": "2026-11-17",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 1 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "1 (GM)"
+  },
+  {
+   "fecha": "2026-11-18",
+   "ini": "11:30",
+   "fin": "14:30",
+   "texto": "(P) MICOLOGíA . Grupo : 2 (GM)",
+   "tipo": "P",
+   "asignatura": "Micología",
+   "grupo": "2 (GM)"
+  },
+  {
+   "fecha": "2026-11-18",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 5 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "5 (GM)"
+  },
+  {
+   "fecha": "2026-11-19",
+   "ini": "08:00",
+   "fin": "11:00",
+   "texto": "(P) MICOLOGíA . Grupo : 1 (GM)",
+   "tipo": "P",
+   "asignatura": "Micología",
+   "grupo": "1 (GM)"
+  },
+  {
+   "fecha": "2026-11-19",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 3 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "3 (GM)"
+  },
+  {
+   "fecha": "2026-11-20",
+   "ini": "08:00",
+   "fin": "11:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 6 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "6 (GM)"
+  },
+  {
+   "fecha": "2026-11-20",
+   "ini": "11:30",
+   "fin": "14:30",
+   "texto": "(P) BOTÁNICA I. Grupo : 4 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "4 (GM)"
+  },
+  {
+   "fecha": "2026-11-23",
+   "ini": "11:30",
+   "fin": "13:30",
+   "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 1 (GP)",
+   "tipo": "P",
+   "asignatura": "Biología animal y vegetal",
+   "grupo": "1 (GP)"
+  },
+  {
+   "fecha": "2026-11-23",
+   "ini": "13:30",
+   "fin": "15:30",
+   "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 2 (GP)",
+   "tipo": "P",
+   "asignatura": "Biología animal y vegetal",
+   "grupo": "2 (GP)"
+  },
+  {
+   "fecha": "2026-11-26",
+   "ini": "15:30",
+   "fin": "17:30",
+   "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 3 (GP)",
+   "tipo": "P",
+   "asignatura": "Biología animal y vegetal",
+   "grupo": "3 (GP)"
+  },
+  {
+   "fecha": "2026-11-26",
+   "ini": "17:30",
+   "fin": "19:30",
+   "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 4 (GP)",
+   "tipo": "P",
+   "asignatura": "Biología animal y vegetal",
+   "grupo": "4 (GP)"
+  },
+  {
+   "fecha": "2026-11-30",
+   "ini": "11:30",
+   "fin": "13:30",
+   "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 1 (GP)",
+   "tipo": "P",
+   "asignatura": "Biología animal y vegetal",
+   "grupo": "1 (GP)"
+  },
+  {
+   "fecha": "2026-11-30",
+   "ini": "13:30",
+   "fin": "15:30",
+   "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 2 (GP)",
+   "tipo": "P",
+   "asignatura": "Biología animal y vegetal",
+   "grupo": "2 (GP)"
+  },
+  {
+   "fecha": "2026-12-02",
+   "ini": "11:30",
+   "fin": "14:30",
+   "texto": "(P) MICOLOGíA . Grupo : 2 (GM)",
+   "tipo": "P",
+   "asignatura": "Micología",
+   "grupo": "2 (GM)"
+  },
+  {
+   "fecha": "2026-12-03",
+   "ini": "08:00",
+   "fin": "11:00",
+   "texto": "(P) MICOLOGíA . Grupo : 1 (GM)",
+   "tipo": "P",
+   "asignatura": "Micología",
+   "grupo": "1 (GM)"
+  },
+  {
+   "fecha": "2026-12-03",
+   "ini": "15:30",
+   "fin": "17:30",
+   "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 3 (GP)",
+   "tipo": "P",
+   "asignatura": "Biología animal y vegetal",
+   "grupo": "3 (GP)"
+  },
+  {
+   "fecha": "2026-12-03",
+   "ini": "17:30",
+   "fin": "19:30",
+   "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 4 (GP)",
+   "tipo": "P",
+   "asignatura": "Biología animal y vegetal",
+   "grupo": "4 (GP)"
+  },
+  {
+   "fecha": "2026-12-10",
+   "ini": "15:30",
+   "fin": "17:30",
+   "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 3 (GP)",
+   "tipo": "P",
+   "asignatura": "Biología animal y vegetal",
+   "grupo": "3 (GP)"
+  },
+  {
+   "fecha": "2026-12-10",
+   "ini": "17:30",
+   "fin": "19:30",
+   "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 4 (GP)",
+   "tipo": "P",
+   "asignatura": "Biología animal y vegetal",
+   "grupo": "4 (GP)"
+  },
+  {
+   "fecha": "2026-12-11",
+   "ini": "11:30",
+   "fin": "13:30",
+   "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 1 (GP)",
+   "tipo": "P",
+   "asignatura": "Biología animal y vegetal",
+   "grupo": "1 (GP)"
+  },
+  {
+   "fecha": "2026-12-11",
+   "ini": "13:30",
+   "fin": "15:30",
+   "texto": "(P) BIOLOGíA ANIMAL Y VEGETAL. Grupo : 2 (GP)",
+   "tipo": "P",
+   "asignatura": "Biología animal y vegetal",
+   "grupo": "2 (GP)"
+  },
+  {
+   "fecha": "2026-12-15",
+   "ini": "08:00",
+   "fin": "11:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 2 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "2 (GM)"
+  },
+  {
+   "fecha": "2026-12-15",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 1 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "1 (GM)"
+  },
+  {
+   "fecha": "2026-12-16",
+   "ini": "11:30",
+   "fin": "14:30",
+   "texto": "(P) MICOLOGíA . Grupo : 2 (GM)",
+   "tipo": "P",
+   "asignatura": "Micología",
+   "grupo": "2 (GM)"
+  },
+  {
+   "fecha": "2026-12-16",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 5 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "5 (GM)"
+  },
+  {
+   "fecha": "2026-12-17",
+   "ini": "08:00",
+   "fin": "11:00",
+   "texto": "(P) MICOLOGíA . Grupo : 1 (GM)",
+   "tipo": "P",
+   "asignatura": "Micología",
+   "grupo": "1 (GM)"
+  },
+  {
+   "fecha": "2026-12-17",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 3 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "3 (GM)"
+  },
+  {
+   "fecha": "2026-12-18",
+   "ini": "08:00",
+   "fin": "11:00",
+   "texto": "(P) BOTÁNICA I. Grupo : 6 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "6 (GM)"
+  },
+  {
+   "fecha": "2026-12-18",
+   "ini": "11:30",
+   "fin": "14:30",
+   "texto": "(P) BOTÁNICA I. Grupo : 4 (GM)",
+   "tipo": "P",
+   "asignatura": "Botánica I",
+   "grupo": "4 (GM)"
+  }
+ ]
+}

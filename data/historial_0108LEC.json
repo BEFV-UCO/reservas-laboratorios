@@ -1,0 +1,205 @@
+{
+ "consultado": "2026-11-26T10:01",
+ "desde": "2026-09-07",
+ "hasta": "2027-01-31",
+ "reservas": [
+  {
+   "fecha": "2026-09-15",
+   "ini": "10:00",
+   "fin": "11:00",
+   "texto": "(P) ECOLOGíA I . Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+   "tipo": "P",
+   "asignatura": "Ecología I",
+   "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+  },
+  {
+   "fecha": "2026-09-15",
+   "ini": "16:00",
+   "fin": "17:00",
+   "texto": "(P) ECOLOGíA I . Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+   "tipo": "P",
+   "asignatura": "Ecología I",
+   "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+  },
+  {
+   "fecha": "2026-09-16",
+   "ini": "11:30",
+   "fin": "12:30",
+   "texto": "(P) ECOLOGíA I . Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+   "tipo": "P",
+   "asignatura": "Ecología I",
+   "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+  },
+  {
+   "fecha": "2026-09-16",
+   "ini": "16:00",
+   "fin": "17:00",
+   "texto": "(P) ECOLOGíA I . Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+   "tipo": "P",
+   "asignatura": "Ecología I",
+   "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+  },
+  {
+   "fecha": "2026-09-17",
+   "ini": "10:00",
+   "fin": "11:00",
+   "texto": "(P) ECOLOGíA I . Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+   "tipo": "P",
+   "asignatura": "Ecología I",
+   "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+  },
+  {
+   "fecha": "2026-09-18",
+   "ini": "10:00",
+   "fin": "11:00",
+   "texto": "(P) ECOLOGíA I . Grupo : 2 (GM)",
+   "tipo": "P",
+   "asignatura": "Ecología I",
+   "grupo": "2 (GM)"
+  },
+  {
+   "fecha": "2026-09-23",
+   "ini": "15:30",
+   "fin": "17:30",
+   "texto": "(P) GEOLOGíA Y CLIMATOLOGíA . Grupo : 7 (GP)",
+   "tipo": "P",
+   "asignatura": "Geología y climatología",
+   "grupo": "7 (GP)"
+  },
+  {
+   "fecha": "2026-09-23",
+   "ini": "17:30",
+   "fin": "19:30",
+   "texto": "(P) GEOLOGíA Y CLIMATOLOGíA . Grupo : 2 (GP)",
+   "tipo": "P",
+   "asignatura": "Geología y climatología",
+   "grupo": "2 (GP)"
+  },
+  {
+   "fecha": "2026-10-06",
+   "ini": "12:30",
+   "fin": "14:30",
+   "texto": "(P) GEOLOGíA Y CLIMATOLOGíA . Grupo : 1 (GP)",
+   "tipo": "P",
+   "asignatura": "Geología y climatología",
+   "grupo": "1 (GP)"
+  },
+  {
+   "fecha": "2026-10-06",
+   "ini": "15:30",
+   "fin": "17:30",
+   "texto": "(P) GEOLOGíA Y CLIMATOLOGíA . Grupo : 2 (GP)",
+   "tipo": "P",
+   "asignatura": "Geología y climatología",
+   "grupo": "2 (GP)"
+  },
+  {
+   "fecha": "2026-11-16",
+   "ini": "16:00",
+   "fin": "18:30",
+   "texto": "(P) ECOLOGíA I . Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+   "tipo": "P",
+   "asignatura": "Ecología I",
+   "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+  },
+  {
+   "fecha": "2026-11-17",
+   "ini": "08:30",
+   "fin": "11:00",
+   "texto": "(P) ECOLOGíA I . Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+   "tipo": "P",
+   "asignatura": "Ecología I",
+   "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+  },
+  {
+   "fecha": "2026-11-17",
+   "ini": "16:00",
+   "fin": "18:30",
+   "texto": "(P) ECOLOGíA I . Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+   "tipo": "P",
+   "asignatura": "Ecología I",
+   "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+  },
+  {
+   "fecha": "2026-11-18",
+   "ini": "11:30",
+   "fin": "14:00",
+   "texto": "(P) ECOLOGíA I . Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+   "tipo": "P",
+   "asignatura": "Ecología I",
+   "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+  },
+  {
+   "fecha": "2026-11-18",
+   "ini": "16:00",
+   "fin": "18:30",
+   "texto": "(P) ECOLOGíA I . Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+   "tipo": "P",
+   "asignatura": "Ecología I",
+   "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+  },
+  {
+   "fecha": "2026-11-19",
+   "ini": "08:30",
+   "fin": "11:00",
+   "texto": "(P) ECOLOGíA I . Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+   "tipo": "P",
+   "asignatura": "Ecología I",
+   "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+  },
+  {
+   "fecha": "2026-11-23",
+   "ini": "11:30",
+   "fin": "14:00",
+   "texto": "(P) ECOLOGíA I . Grupo : 4 (GM)",
+   "tipo": "P",
+   "asignatura": "Ecología I",
+   "grupo": "4 (GM)"
+  },
+  {
+   "fecha": "2026-11-23",
+   "ini": "16:00",
+   "fin": "18:30",
+   "texto": "(P) ECOLOGíA I . Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+   "tipo": "P",
+   "asignatura": "Ecología I",
+   "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+  },
+  {
+   "fecha": "2026-11-24",
+   "ini": "08:30",
+   "fin": "11:00",
+   "texto": "(P) ECOLOGíA I . Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+   "tipo": "P",
+   "asignatura": "Ecología I",
+   "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+  },
+  {
+   "fecha": "2026-11-24",
+   "ini": "16:00",
+   "fin": "18:30",
+   "texto": "(P) ECOLOGíA I . Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+   "tipo": "P",
+   "asignatura": "Ecología I",
+   "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+  },
+  {
+   "fecha": "2026-11-25",
+   "ini": "16:00",
+   "fin": "18:30",
+   "texto": "(P) ECOLOGíA I . Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+   "tipo": "P",
+   "asignatura": "Ecología I",
+   "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+  },
+  {
+   "fecha": "2026-11-26",
+   "ini": "08:30",
+   "fin": "11:00",
+   "texto": "(P) ECOLOGíA I . Grupos : 1, 2, 3, 4, 5 y 6 (GM)",
+   "tipo": "P",
+   "asignatura": "Ecología I",
+   "grupo": "1, 2, 3, 4, 5 y 6 (GM)"
+  }
+ ]
+}

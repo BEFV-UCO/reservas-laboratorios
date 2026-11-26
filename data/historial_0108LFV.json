@@ -1,0 +1,358 @@
+{
+ "consultado": "2026-11-26T10:01",
+ "desde": "2026-09-07",
+ "hasta": "2027-01-31",
+ "reservas": [
+  {
+   "fecha": "2026-09-14",
+   "ini": "11:30",
+   "fin": "14:30",
+   "texto": "(P) FISIOLOGíA VEGETAL AMBIENTAL . Grupo : 2 (GM)",
+   "tipo": "P",
+   "asignatura": "Fisiología vegetal ambiental",
+   "grupo": "2 (GM)"
+  },
+  {
+   "fecha": "2026-09-17",
+   "ini": "08:00",
+   "fin": "11:00",
+   "texto": "(P) FISIOLOGíA VEGETAL AMBIENTAL . Grupo : 1 (GM)",
+   "tipo": "P",
+   "asignatura": "Fisiología vegetal ambiental",
+   "grupo": "1 (GM)"
+  },
+  {
+   "fecha": "2026-09-22",
+   "ini": "15:30",
+   "fin": "18:30",
+   "texto": "(P) PLANTAS COMO BIOFACTORíAS. Grupo : 1 (GM)",
+   "tipo": "P",
+   "asignatura": "Plantas como biofactorías",
+   "grupo": "1 (GM)"
+  },
+  {
+   "fecha": "2026-10-01",
+   "ini": "15:30",
+   "fin": "18:30",
+   "texto": "(P) PLANTAS COMO BIOFACTORíAS. Grupo : 1 (GM)",
+   "tipo": "P",
+   "asignatura": "Plantas como biofactorías",
+   "grupo": "1 (GM)"
+  },
+  {
+   "fecha": "2026-10-05",
+   "ini": "11:30",
+   "fin": "14:30",
+   "texto": "(P) FISIOLOGíA VEGETAL I. Grupo : 3 (GM)",
+   "tipo": "P",
+   "asignatura": "Fisiología vegetal I",
+   "grupo": "3 (GM)"
+  },
+  {
+   "fecha": "2026-10-05",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) FISIOLOGíA VEGETAL I. Grupo : 5 (GM)",
+   "tipo": "P",
+   "asignatura": "Fisiología vegetal I",
+   "grupo": "5 (GM)"
+  },
+  {
+   "fecha": "2026-10-06",
+   "ini": "08:00",
+   "fin": "11:00",
+   "texto": "(P) FISIOLOGíA VEGETAL I. Grupo : 2 (GM)",
+   "tipo": "P",
+   "asignatura": "Fisiología vegetal I",
+   "grupo": "2 (GM)"
+  },
+  {
+   "fecha": "2026-10-06",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) FISIOLOGíA VEGETAL I. Grupo : 4 (GM)",
+   "tipo": "P",
+   "asignatura": "Fisiología vegetal I",
+   "grupo": "4 (GM)"
+  },
+  {
+   "fecha": "2026-10-07",
+   "ini": "11:30",
+   "fin": "14:30",
+   "texto": "(P) FISIOLOGíA VEGETAL I. Grupo : 1 (GM)",
+   "tipo": "P",
+   "asignatura": "Fisiología vegetal I",
+   "grupo": "1 (GM)"
+  },
+  {
+   "fecha": "2026-10-07",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) FISIOLOGíA VEGETAL I. Grupo : 6 (GM)",
+   "tipo": "P",
+   "asignatura": "Fisiología vegetal I",
+   "grupo": "6 (GM)"
+  },
+  {
+   "fecha": "2026-10-08",
+   "ini": "08:00",
+   "fin": "11:00",
+   "texto": "(P) FISIOLOGíA VEGETAL AMBIENTAL . Grupo : 1 (GM)",
+   "tipo": "P",
+   "asignatura": "Fisiología vegetal ambiental",
+   "grupo": "1 (GM)"
+  },
+  {
+   "fecha": "2026-10-09",
+   "ini": "11:30",
+   "fin": "14:30",
+   "texto": "(P) FISIOLOGíA VEGETAL AMBIENTAL . Grupo : 2 (GM)",
+   "tipo": "P",
+   "asignatura": "Fisiología vegetal ambiental",
+   "grupo": "2 (GM)"
+  },
+  {
+   "fecha": "2026-10-13",
+   "ini": "08:00",
+   "fin": "11:00",
+   "texto": "(P) FISIOLOGíA VEGETAL I. Grupo : 2 (GM)",
+   "tipo": "P",
+   "asignatura": "Fisiología vegetal I",
+   "grupo": "2 (GM)"
+  },
+  {
+   "fecha": "2026-10-13",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) FISIOLOGíA VEGETAL I. Grupo : 4 (GM)",
+   "tipo": "P",
+   "asignatura": "Fisiología vegetal I",
+   "grupo": "4 (GM)"
+  },
+  {
+   "fecha": "2026-10-14",
+   "ini": "11:30",
+   "fin": "14:30",
+   "texto": "(P) FISIOLOGíA VEGETAL I. Grupo : 1 (GM)",
+   "tipo": "P",
+   "asignatura": "Fisiología vegetal I",
+   "grupo": "1 (GM)"
+  },
+  {
+   "fecha": "2026-10-14",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) FISIOLOGíA VEGETAL I. Grupo : 6 (GM)",
+   "tipo": "P",
+   "asignatura": "Fisiología vegetal I",
+   "grupo": "6 (GM)"
+  },
+  {
+   "fecha": "2026-10-16",
+   "ini": "11:30",
+   "fin": "14:30",
+   "texto": "(P) FISIOLOGíA VEGETAL I. Grupo : 3 (GM)",
+   "tipo": "P",
+   "asignatura": "Fisiología vegetal I",
+   "grupo": "3 (GM)"
+  },
+  {
+   "fecha": "2026-10-16",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) FISIOLOGíA VEGETAL I. Grupo : 5 (GM)",
+   "tipo": "P",
+   "asignatura": "Fisiología vegetal I",
+   "grupo": "5 (GM)"
+  },
+  {
+   "fecha": "2026-10-19",
+   "ini": "11:30",
+   "fin": "14:30",
+   "texto": "(P) FISIOLOGíA VEGETAL I. Grupo : 3 (GM)",
+   "tipo": "P",
+   "asignatura": "Fisiología vegetal I",
+   "grupo": "3 (GM)"
+  },
+  {
+   "fecha": "2026-10-19",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) FISIOLOGíA VEGETAL I. Grupo : 5 (GM)",
+   "tipo": "P",
+   "asignatura": "Fisiología vegetal I",
+   "grupo": "5 (GM)"
+  },
+  {
+   "fecha": "2026-10-20",
+   "ini": "08:00",
+   "fin": "11:00",
+   "texto": "(P) FISIOLOGíA VEGETAL I. Grupo : 2 (GM)",
+   "tipo": "P",
+   "asignatura": "Fisiología vegetal I",
+   "grupo": "2 (GM)"
+  },
+  {
+   "fecha": "2026-10-20",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) FISIOLOGíA VEGETAL I. Grupo : 4 (GM)",
+   "tipo": "P",
+   "asignatura": "Fisiología vegetal I",
+   "grupo": "4 (GM)"
+  },
+  {
+   "fecha": "2026-10-21",
+   "ini": "11:30",
+   "fin": "14:30",
+   "texto": "(P) FISIOLOGíA VEGETAL I. Grupo : 1 (GM)",
+   "tipo": "P",
+   "asignatura": "Fisiología vegetal I",
+   "grupo": "1 (GM)"
+  },
+  {
+   "fecha": "2026-10-21",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) FISIOLOGíA VEGETAL I. Grupo : 6 (GM)",
+   "tipo": "P",
+   "asignatura": "Fisiología vegetal I",
+   "grupo": "6 (GM)"
+  },
+  {
+   "fecha": "2026-11-04",
+   "ini": "16:00",
+   "fin": "18:00",
+   "texto": "(P) CULTIVOS CELULARES. Grupo : 1 (GM)",
+   "tipo": "P",
+   "asignatura": "Cultivos celulares",
+   "grupo": "1 (GM)"
+  },
+  {
+   "fecha": "2026-11-05",
+   "ini": "08:00",
+   "fin": "11:00",
+   "texto": "(P) CULTIVOS CELULARES. Grupo : 2 (GM)",
+   "tipo": "P",
+   "asignatura": "Cultivos celulares",
+   "grupo": "2 (GM)"
+  },
+  {
+   "fecha": "2026-11-06",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) CULTIVOS CELULARES. Grupo : 1 (GM)",
+   "tipo": "P",
+   "asignatura": "Cultivos celulares",
+   "grupo": "1 (GM)"
+  },
+  {
+   "fecha": "2026-11-10",
+   "ini": "08:00",
+   "fin": "11:00",
+   "texto": "(P) FISIOLOGíA VEGETAL I. Grupo : 2 (GM)",
+   "tipo": "P",
+   "asignatura": "Fisiología vegetal I",
+   "grupo": "2 (GM)"
+  },
+  {
+   "fecha": "2026-11-10",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) FISIOLOGíA VEGETAL I. Grupos : 4, 5 y 6 (GM)",
+   "tipo": "P",
+   "asignatura": "Fisiología vegetal I",
+   "grupo": "4, 5 y 6 (GM)"
+  },
+  {
+   "fecha": "2026-11-11",
+   "ini": "11:30",
+   "fin": "14:30",
+   "texto": "(P) FISIOLOGíA VEGETAL I. Grupo : 1 (GM)",
+   "tipo": "P",
+   "asignatura": "Fisiología vegetal I",
+   "grupo": "1 (GM)"
+  },
+  {
+   "fecha": "2026-11-11",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) FISIOLOGíA VEGETAL I. Grupos : 4, 5 y 6 (GM)",
+   "tipo": "P",
+   "asignatura": "Fisiología vegetal I",
+   "grupo": "4, 5 y 6 (GM)"
+  },
+  {
+   "fecha": "2026-11-12",
+   "ini": "08:00",
+   "fin": "11:00",
+   "texto": "(P) CULTIVOS CELULARES. Grupo : 1 (GM)",
+   "tipo": "P",
+   "asignatura": "Cultivos celulares",
+   "grupo": "1 (GM)"
+  },
+  {
+   "fecha": "2026-11-12",
+   "ini": "16:00",
+   "fin": "19:00",
+   "texto": "(P) CULTIVOS CELULARES. Grupo : 1 (GM)",
+   "tipo": "P",
+   "asignatura": "Cultivos celulares",
+   "grupo": "1 (GM)"
+  },
+  {
+   "fecha": "2026-11-18",
+   "ini": "08:00",
+   "fin": "11:00",
+   "texto": "(P) CULTIVOS CELULARES. Grupo : 1 (GM)",
+   "tipo": "P",
+   "asignatura": "Cultivos celulares",
+   "grupo": "1 (GM)"
+  },
+  {
+   "fecha": "2026-11-19",
+   "ini": "08:00",
+   "fin": "11:00",
+   "texto": "(P) CULTIVOS CELULARES. Grupo : 2 (GM)",
+   "tipo": "P",
+   "asignatura": "Cultivos celulares",
+   "grupo": "2 (GM)"
+  },
+  {
+   "fecha": "2026-11-20",
+   "ini": "11:30",
+   "fin": "14:30",
+   "texto": "(P) CULTIVOS CELULARES. Grupo : 1 (GM)",
+   "tipo": "P",
+   "asignatura": "Cultivos celulares",
+   "grupo": "1 (GM)"
+  },
+  {
+   "fecha": "2026-11-24",
+   "ini": "09:30",
+   "fin": "14:00",
+   "texto": "Actividad adscrita al programa Jóvenes con Investigadores.",
+   "tipo": "",
+   "asignatura": "Actividad adscrita al programa Jóvenes con Investigadores.",
+   "grupo": ""
+  },
+  {
+   "fecha": "2026-11-25",
+   "ini": "11:30",
+   "fin": "14:30",
+   "texto": "(P) CULTIVOS CELULARES. Grupo : 1 (GM)",
+   "tipo": "P",
+   "asignatura": "Cultivos celulares",
+   "grupo": "1 (GM)"
+  },
+  {
+   "fecha": "2026-11-26",
+   "ini": "08:00",
+   "fin": "11:00",
+   "texto": "(P) CULTIVOS CELULARES. Grupo : 2 (GM)",
+   "tipo": "P",
+   "asignatura": "Cultivos celulares",
+   "grupo": "2 (GM)"
+  }
+ ]
+}
