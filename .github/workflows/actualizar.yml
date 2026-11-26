@@ -49,6 +49,8 @@ jobs:
 
       - name: Consultar SRA y generar la web
         if: steps.hora.outputs.seguir == 'si'
+        env:
+          TZ: Europe/Madrid
         run: python generar_web.py
 
       - name: Guardar el historial (para detectar cambios mañana)
