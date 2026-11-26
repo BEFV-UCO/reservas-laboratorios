@@ -466,7 +466,7 @@ def ejecutar(codigos, labs, desde, hasta, progreso=None, logo=None, servidor=Fal
 
 PUERTO_PREFERIDO = 8765
 FIRMA = "reservas-sra-dpto-botanica"
-VERSION = "2026-11-26.5"
+VERSION = "2026-11-26.6"
 INACTIVIDAD_MAX_S = 180  # se cierra solo si no hay ninguna pestaña abierta durante 3 minutos
 
 

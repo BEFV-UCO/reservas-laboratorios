@@ -8,7 +8,7 @@ pública de ocupación. Se actualiza **cada noche a las 23:59** (hora de Córdob
 
 - Vista semanal y lista de todo el cuatrimestre, por laboratorio.
 - Desplegables de **curso académico** y **cuatrimestre** para consultar otros periodos
-  (desde el curso 2021-22). Por defecto se muestra el cuatrimestre en curso.
+  (el curso actual y los 5 anteriores). Por defecto se muestra el cuatrimestre en curso.
 - Cambios detectados en los últimos 7 días (reservas nuevas y anuladas).
 - Impresión de la semana o de todo el periodo (una semana por página).
 - Calendarios para suscribirse desde Outlook (botón «Suscribirse al calendario»):
@@ -23,8 +23,8 @@ pública de ocupación. Se actualiza **cada noche a las 23:59** (hora de Córdob
 - **1.er cuatrimestre:** de septiembre a enero. **2.º cuatrimestre:** de febrero a julio.
   Agosto no pertenece a ninguno: en agosto se muestra el 1.er cuatrimestre del curso que empieza.
 - Cada periodo se muestra en semanas completas (de lunes a domingo).
-- Cada noche se consultan el cuatrimestre en curso y el siguiente. Los cuatrimestres pasados se
-  descargan una sola vez y quedan guardados en `data/periodos/`.
+- Cada noche se consulta solo el curso actual (sus dos cuatrimestres). Los 5 cursos anteriores se
+  descargan una sola vez y quedan guardados en `data/periodos/`; no se vuelven a consultar.
 - Los calendarios `.ics` incluyen el cuatrimestre anterior, el actual y el siguiente.
 
 ## Mantenimiento

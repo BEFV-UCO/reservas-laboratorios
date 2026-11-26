@@ -5,9 +5,9 @@ Genera la web pública de reservas de laboratorios (GitHub Pages) y los calendar
 Cuatrimestres automáticos: 1.º de septiembre a enero, 2.º de febrero a julio (agosto sin asignar).
 
 Cada noche:
-- Consulta en SRA el cuatrimestre en curso y el siguiente (en agosto: el 1.º del curso que empieza
-  y el 2.º), compara con la noche anterior y anota los cambios en data/cambios.json.
-- Los cuatrimestres pasados se consultan una sola vez (desde CURSO_INICIAL) y quedan guardados
+- Consulta en SRA los dos cuatrimestres del curso actual (en agosto, los del curso que empieza),
+  compara con la noche anterior y anota los cambios en data/cambios.json.
+- Los cursos pasados (los CURSOS_ATRAS anteriores) se consultan una sola vez y quedan guardados
   en data/periodos/, porque ya no cambian.
 - Escribe en sitio/: index.html (cuatrimestre en curso), datos/<periodo>.json (todos los
   cuatrimestres, para los desplegables) y calendarios/<código>.ics (+ todos.ics).
@@ -27,8 +27,8 @@ import reservas_sra as R  # noqa: E402
 DATOS = RAIZ / "data"
 PERIODOS_DIR = DATOS / "periodos"
 SITIO = RAIZ / "sitio"
-CURSO_INICIAL = "2021-22"     # primer curso que se ofrece en los desplegables
-MAX_ANTIGUOS_POR_NOCHE = 12   # cuatrimestres pasados que se descargan como mucho en una ejecución
+CURSOS_ATRAS = 5              # cursos anteriores al actual que se ofrecen en los desplegables
+CONSULTAS_SIMULTANEAS_ANTIGUOS = 6  # solo para la descarga única de cursos pasados
 DIAS_CAMBIOS = 7
 DIAS_REGISTRO = 60
 TZ = "Europe/Madrid"
@@ -208,22 +208,22 @@ def main():
     registro = leer_registro()
 
     actual = R.cuatrimestre_por_defecto(hoy)
-    siguiente = R.cuatrimestre_siguiente(*actual)
-    vivos = [actual, siguiente]
+    curso_actual = actual[0]
+    vivos = [(curso_actual, 1), (curso_actual, 2)]   # se refrescan cada noche
+    primer_curso = R.anio_inicio(curso_actual) - CURSOS_ATRAS
 
-    # Cuatrimestres pasados que faltan (se descargan una sola vez)
-    pasados, p = [], R.cuatrimestre_anterior(*actual)
-    while R.anio_inicio(p[0]) >= R.anio_inicio(CURSO_INICIAL):
-        pasados.append(p)
-        p = R.cuatrimestre_anterior(*p)
-    faltan = [p for p in pasados if not (PERIODOS_DIR / f"{pid(*p)}.json").exists()][:MAX_ANTIGUOS_POR_NOCHE]
+    # Cursos pasados que faltan: se descargan una sola vez y no se vuelven a consultar
+    faltan = [(R.curso_de(a), n) for a in range(primer_curso, R.anio_inicio(curso_actual)) for n in (1, 2)
+              if not (PERIODOS_DIR / f"{R.curso_de(a)}-{n}.json").exists()]
 
     print(f"Laboratorios: {', '.join(labs)}")
-    print(f"Cuatrimestre en curso: {pid(*actual)} · siguiente: {pid(*siguiente)} · pasados por descargar: {len(faltan)}")
+    print(f"Curso actual: {curso_actual} (en curso: {pid(*actual)}) · cuatrimestres pasados por descargar: {len(faltan)}")
     for curso, n in vivos:
         consultar_periodo(curso, n, labs, ahora, True, registro, hoy)
-    for curso, n in faltan:
-        consultar_periodo(curso, n, labs, ahora, False, registro, hoy)
+    if faltan:
+        R.CONSULTAS_SIMULTANEAS = CONSULTAS_SIMULTANEAS_ANTIGUOS
+        for curso, n in faltan:
+            consultar_periodo(curso, n, labs, ahora, False, registro, hoy)
 
     limite = (hoy - dt.timedelta(days=DIAS_REGISTRO)).isoformat()
     registro = [e for e in registro if e["detectado"] >= limite]
@@ -235,7 +235,7 @@ def main():
     instantaneas = {}
     for f in sorted(PERIODOS_DIR.glob("*.json")):
         inst = json.loads(f.read_text(encoding="utf-8"))
-        if R.anio_inicio(inst["curso"]) >= R.anio_inicio(CURSO_INICIAL):
+        if R.anio_inicio(inst["curso"]) >= primer_curso:
             instantaneas[inst["id"]] = inst
     id_vivos = {pid(*v) for v in vivos}
     periodos = [{"id": i, "curso": inst["curso"], "n": inst["n"], "nombre": R.NOMBRES_CUATRI[inst["n"]],
@@ -255,8 +255,8 @@ def main():
                             "<title>Reservas de laboratorios · Dpto. Botánica, Ecología y Fisiología Vegetal · UCO</title>")
     (SITIO / "index.html").write_text(pagina, encoding="utf-8")
 
-    # Calendarios: cuatrimestre anterior, en curso y siguiente
-    en_cal = [pid(*R.cuatrimestre_anterior(*actual)), pid(*actual), pid(*siguiente)]
+    # Calendarios: cuatrimestre anterior, en curso y siguiente (si están guardados)
+    en_cal = [pid(*R.cuatrimestre_anterior(*actual)), pid(*actual), pid(*R.cuatrimestre_siguiente(*actual))]
     todos = []
     for c, nombre in labs.items():
         ev = [(c, nombre, r) for i in en_cal if i in instantaneas
