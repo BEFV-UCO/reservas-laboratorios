@@ -224,8 +224,10 @@ function panelIcs(){
   const fila = (txt, u) => '<div class="fila"><b style="min-width:210px">' + esc(txt) + '</b><input readonly value="' + esc(u) + '" onclick="this.select()">' +
     '<button onclick="navigator.clipboard.writeText(\'' + u + '\').then(()=>{this.textContent=\'✓ Copiado\'})">Copiar enlace</button></div>';
   p.innerHTML = fila(lab().nombre, url(lab().codigo)) + (DATOS.ics.todos ? fila('Todos los laboratorios', url('todos')) : '') +
-    '<ol><li>Copie el enlace del calendario que quiera.</li><li>En Outlook: <b>Agregar calendario → Suscribirse desde la web</b> (o «Desde Internet») y pegue el enlace.</li>' +
-    '<li>El calendario se actualiza solo. Outlook puede tardar unas horas en reflejar los cambios; esta página siempre tiene los datos más recientes.</li></ol>';
+    '<ol><li>Copie el enlace del calendario que quiera.</li>' +
+    '<li><b>Outlook:</b> Agregar calendario → <b>Suscribirse desde la web</b> (o «Desde Internet») y pegue el enlace.</li>' +
+    '<li><b>Thunderbird:</b> en la pestaña Calendario, <b>Nuevo calendario… → En la red</b>; pegue el enlace en «Ubicación», marque que no requiere credenciales, pulse <b>Buscar calendarios</b> y después <b>Suscribirse</b>.</li>' +
+    '<li>El calendario se actualiza solo. Outlook y Thunderbird pueden tardar unas horas en reflejar los cambios; esta página siempre tiene los datos más recientes.</li></ol>';
 }
 
 // Selección de curso académico y cuatrimestre (versión web)
