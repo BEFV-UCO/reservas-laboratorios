@@ -234,13 +234,16 @@ def leer_semana(pagina: str):
 # Consulta a SRA
 # ---------------------------------------------------------------------------
 
-def descargar_semana(codigo: str, dia: dt.date, intentos: int = 3) -> str:
+def descargar_semana(codigo: str, dia: dt.date, intentos: int = 4) -> str:
     datos = urllib.parse.urlencode({
         "tCentro": CENTRO, "tEdificio": EDIFICIO, "tAula": codigo,
         "calendarDate1": dia.isoformat(), "submit": "Enviar",
     }).encode("ascii")
     ultimo_error = None
-    for _ in range(intentos):
+    for intento in range(intentos):
+        if intento:
+            import time
+            time.sleep(3 * intento)  # espera creciente antes de reintentar
         try:
             req = urllib.request.Request(URL_CONSULTA, data=datos, headers={
                 "Content-Type": "application/x-www-form-urlencoded",

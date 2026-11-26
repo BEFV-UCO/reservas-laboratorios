@@ -164,7 +164,18 @@ def consultar_periodo(curso, n, labs, ahora, comparar, registro, hoy):
     desde, hasta = semanas_completas(curso, n)
     codigos = list(labs)
     print(f"  {pid(curso, n)}: consultando SRA del {desde} al {hasta}", flush=True)
-    res = R.consultar(codigos, desde, hasta, lambda h, t: None)
+    try:
+        res = R.consultar(codigos, desde, hasta, lambda h, t: None)
+    except Exception as e:
+        print(f"    SRA no respondió ({e}); se reintenta en 60 s", flush=True)
+        import time
+        time.sleep(60)
+        try:
+            res = R.consultar(codigos, desde, hasta, lambda h, t: None)
+        except Exception as e2:
+            # Se conservan los datos anteriores de este cuatrimestre; la web se publica igualmente
+            print(f"::warning::No se pudo actualizar {pid(curso, n)}: {e2}. Se mantienen los datos anteriores.", flush=True)
+            return None
     instantanea = {"id": pid(curso, n), "curso": curso, "n": n, "desde": desde.isoformat(), "hasta": hasta.isoformat(),
                    "generado": ahora.replace(tzinfo=None).isoformat(timespec="minutes"), "laboratorios": []}
     for c in codigos:
@@ -250,6 +261,9 @@ def main():
         if i == pid(*actual):
             pagina_por_defecto = dict(d, periodos=periodos, ics=ics)
 
+    if pagina_por_defecto is None:  # (solo si el cuatrimestre en curso nunca se pudo descargar)
+        ultimo = max(instantaneas)
+        pagina_por_defecto = dict(datos_pagina(instantaneas[ultimo], labs, False, registro, hoy), periodos=periodos, ics=ics)
     pagina = R.generar_pagina(pagina_por_defecto, R.logo_data_uri(), servidor=False)
     pagina = pagina.replace("<title>Reservas de laboratorios · SRA</title>",
                             "<title>Reservas de laboratorios · Dpto. Botánica, Ecología y Fisiología Vegetal · UCO</title>")
